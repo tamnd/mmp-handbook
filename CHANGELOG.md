@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume P3, Chapter 9, Cartier divisors, line bundles and Q-Cartier divisors: Cartier divisors and the isomorphism CaCl = Pic, the comparison with Weil divisors on normal and locally factorial schemes, Pic of projective space and of the cones xy = z^n, the Q-Cartier condition, the index and the local class groups, Q-factoriality, and the pullback of Cartier and Q-Cartier divisors with the ramification formula on curves.
 - Volume 3, Chapter 5, toric contractions and flips: extremal rays with their sign sets and the contraction by the domain fan of a supporting divisor, circuits with their two triangulations, faces and multiplicities, the type of a contraction from the signs of the relation with $\frac12(1,1)$ and $\frac13(1,1)$ as circuit cones, and the toric flip by exchange of triangulations, proved projective and unique, with the Atiyah flop, the Francia flip and the flip in the $(1, 2, 3)$ weighted blow-up of $\mathbb{P}^3$.
 
 ## v0.0.4 - 2026-11-26
