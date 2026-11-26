@@ -1,0 +1,9 @@
+# Blow-ups
+
+Blowing up replaces a closed subscheme by the space of directions normal to it. The result maps properly and birationally to the original scheme, it changes nothing away from the centre, and over the centre it inserts a Cartier divisor, the exceptional divisor. The blow-up is the universal way to make an ideal sheaf invertible, and every construction with blow-ups follows from this universal property.
+
+Section 11.1 defines the blow-up as the relative Proj of the Rees algebra, computes its affine charts, and proves the first properties: properness, the invertibility of the pulled back ideal, the isomorphism away from the centre, and the blow-up of a coordinate subspace of affine space. Section 11.2 proves the universal property, derives the functoriality of blow-ups and the closed immersion of strict transforms, and resolves the node, the cusp and the quadric cone. Section 11.3 studies the blow-up of a point of the plane: its class group, the pullback of plane curves, and the multiplicity of a curve at a point. Section 11.4 studies the Hirzebruch surfaces $F_n$, computes their class groups, proves that the negative section does not move, and identifies the blow-up of the plane at a point with $F_1$ and the blow-up of the quadric cone with an open subset of $F_2$.
+
+In the minimal model program blow-ups give resolutions of singularities and log resolutions, on which discrepancies are computed. The divisorial contractions of the program are, in the simplest case, blow-downs: for smooth surfaces the program contracts $(-1)$-curves, and $\operatorname{Bl}_p \mathbb{P}^2 \to \mathbb{P}^2$ is the model. The Hirzebruch surfaces are the first Mori fibre spaces after $\mathbb{P}^2$, and the elementary transformations between them are the first Sarkisov links.
+
+The chapter follows Vakil, Chapter 22, Hartshorne, Sections II.7, I.4 and V.2 to V.3, and Görtz-Wedhorn, Chapter 13. It uses Chapters 3 to 10.
