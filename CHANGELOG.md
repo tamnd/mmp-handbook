@@ -22,6 +22,7 @@ Each release has a section. The newest release is first.
 - Volume 3, Chapters 1 to 3: cones and fans, toric varieties from fans, toric divisors and the canonical divisor.
 - Volume P1, Chapters 3 and 4: Noetherian and Artinian rings (chain conditions, the Hilbert basis theorem, Noetherian spaces, length and Artinian rings), and integral extensions (integral closure, going up and going down, normal domains, Noether normalization and the Jacobson property).
 - Volume P1, Chapter 5: dimension theory (Krull dimension and height, Krull's principal ideal and height theorems, Hilbert-Samuel functions and the dimension theorem, the dimension of affine domains and of fibres).
+- Volume P1, Chapter 6: completion (inverse limits, adic completion and the Krull intersection theorem, completion of Noetherian rings and its flatness, Hensel's lemma and the Cohen structure theorem).
 
 ## v0.0.1 - 2026-11-26
 
