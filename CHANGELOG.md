@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume P2, Chapter 3, derived functors: complexes and the long exact sequence, resolutions and derived functors, delta functors and acyclic resolutions, Ext and Tor.
 - Volume P2, categories, homological algebra and sheaves: the volume file, the books Wei94, Mac98, Gro57 and Fre64, and Chapters 1 and 2 (categories, functors and the Yoneda lemma; abelian categories).
 
 ## v0.0.2 - 2026-11-26
