@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume P2, Chapter 5, sheaves on spaces: presheaves, sheaves and stalks, sheafification, the abelian category of sheaves with exactness on stalks and enough injectives, direct and inverse images, extension by zero, sheaves on a base and gluing.
 - Volume 4, Chapters 1 to 3: discrepancies, the classes of pairs, surface singularities, with the books Rei87, Kol13, Kol97, Rei80, Mum61, Art66, DuV34, Bri68, Sza94 and Che55.
 - Volume P2, Chapter 4, spectral sequences: filtered complexes, edge maps and the five-term sequence, double complexes, Cartan-Eilenberg resolutions and hypercohomology, the Grothendieck and Leray spectral sequences.
 - Volume P2, Chapter 3, derived functors: complexes and the long exact sequence, resolutions and derived functors, delta functors and acyclic resolutions, Ext and Tor.
