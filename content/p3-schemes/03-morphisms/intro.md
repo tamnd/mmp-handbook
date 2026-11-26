@@ -1,0 +1,9 @@
+# Morphisms
+
+The minimal model program is relative. Its objects are morphisms $f \colon X \to Z$, its contractions are morphisms, and its statements are made over a base. This chapter gives the language for morphisms of schemes: schemes over a base, closed subschemes, fibre products, fibres and base change, and the finiteness conditions that every morphism of the program satisfies.
+
+Section 3.1 treats morphisms and schemes over a base $S$, shows that a morphism is locally a ring map, and proves the affineness criterion: a scheme is affine if global functions $f_1, \dots, f_r$ that generate the unit ideal cut it into affine pieces. Section 3.2 defines closed immersions and closed subschemes, proves that the closed subschemes of $\operatorname{Spec} A$ are the schemes $\operatorname{Spec} A/I$, and constructs the reduced induced structure on a closed set. Section 3.3 constructs fibre products. The fibre product of affine schemes is $\operatorname{Spec}$ of the tensor product, and the general case is glued from it. Section 3.4 defines the fibre of a morphism over a point, proves that its space is the preimage of the point, and defines morphisms that are quasi-compact, of finite type, affine and finite, with their stability under composition and base change.
+
+A family of schemes in the program is a morphism $f \colon X \to T$, and its members are the fibres $X_t$. The fibres can be non-reduced, reducible or of different dimensions, and the scheme structure of the fibre records the degeneration. The family $xy = t$, with smooth fibres degenerating to two crossing lines, and the family $y^2 = t$, where two points come together into a double point, are the first examples, and they come back in Chapter 13 on flatness.
+
+The chapter follows Vakil, Chapters 7, 8, 9 and 10, and Hartshorne, Sections II.3 and II.4, with Görtz-Wedhorn, Chapters 3 and 4. It uses Chapters 1 and 2 and the tensor product of P1 Ch. 1.
