@@ -42,7 +42,7 @@ Node: MMWK2DDDPC · Lean: `MinimalModel.ACCMld`
 
 Node: MMFKZ7VB29 · Lean: `MinimalModel.LSCMld`
 
-Both conjectures are open in dimension 4 and higher. The ACC conjecture is known for surfaces (Alexeev), and the lower semicontinuity is known in dimension at most 3 (Ambro).
+The ACC conjecture is known for surfaces (Alexeev) and is open in dimension 3 and higher. The lower semicontinuity is known in dimension at most 3 (Ambro) and is open in dimension 4 and higher.
 
 **Theorem 1.1.23 (Shokurov's reduction).** If the ACC conjecture and the lower semicontinuity conjecture hold in dimension $n$, then the termination conjecture holds in dimension $n$.
 
@@ -58,7 +58,7 @@ Discrepancies go up under flips. Let $X \dashrightarrow X^+$ be a flip over $Z$,
 
 For terminal 3-folds Shokurov turned this into a count. The *difficulty* of $X$ is the number of exceptional divisors $E$ over $X$ with $a(E, X, 0) < 1$. It is finite for a terminal 3-fold, because $X$ has isolated singularities and only finitely many divisors over them have small discrepancy. The monotonicity shows that a flip does not raise the difficulty, and the flipped curve $C^+$ makes it drop. At a general point of $C^+$ the 3-fold $X^+$ is smooth, so the blow-up of $C^+$ there gives a divisor $E$ with $a(E, X^+, 0) = 1$. Its centre on $X$ is in the flipping locus, so $a(E, X, 0) < 1$: the divisor $E$ counts for $X$ and not for $X^+$. So a sequence of flips has at most as many steps as the difficulty of $X_0$ (KMM87). Kawamata extended the argument to klt 3-fold pairs in 1992, and the lc case of dimension 3 also holds (Volume 10). In dimension 4 the same kind of count works for terminal pairs (KMM87) and canonical pairs (Fuj04), and Moraga proved termination for 4-fold flips of pairs with $K + \Delta$ pseudo-effective (Mor25).
 
-In dimension 4 and higher the count fails. The set of divisors with small discrepancy is no longer finite in a usable way, and the discrepancies can approach a limit without reaching it. Shokurov's reduction replaces the count by a well-ordered invariant built from minimal log discrepancies. The ACC conjecture stops an infinite increasing sequence of these invariants, and the lower semicontinuity lets the invariant be read off at points of the flipping locus. Both conjectures are open in dimension 4 and higher, so the reduction does not settle termination there.
+In dimension 4 and higher the count fails. The set of divisors with small discrepancy is no longer finite in a usable way, and the discrepancies can approach a limit without reaching it. Shokurov's reduction replaces the count by a well-ordered invariant built from minimal log discrepancies. The ACC conjecture stops an infinite increasing sequence of these invariants, and the lower semicontinuity lets the invariant be read off at points of the flipping locus. The ACC conjecture is open from dimension 3 and the lower semicontinuity from dimension 4, so the reduction does not settle termination in dimension 4 and higher.
 
 ### Examples
 
