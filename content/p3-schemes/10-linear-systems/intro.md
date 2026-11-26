@@ -1,0 +1,9 @@
+# Linear systems
+
+A line bundle with global sections gives a map to projective space. The sections form a vector space, the zero loci of the sections form a family of divisors, and the points where all sections vanish are the base points. Away from the base points, a choice of basis gives coordinates, and the map sends a point to the values of the sections there. Every morphism to projective space arises in this way, and every rational map from a normal variety arises from a linear system of Weil divisors.
+
+Section 10.1 defines linear systems, the base locus and the fixed part, identifies the complete linear system $|D|$ with a projective space, and computes base loci on the quadric cone. Section 10.2 constructs the morphism of a base point free linear system, describes projections, and proves the criterion for a closed immersion by separation of points and tangent vectors. Section 10.3 proves that the Veronese and Segre maps are closed immersions with explicit equations, and derives that products of projective schemes are projective. Section 10.4 treats ample and very ample divisors, ample $\mathbb{Q}$-divisors, and rational maps, and proves that a rational map from a normal variety to a projective variety is defined outside codimension two.
+
+In the minimal model program a variety is studied through its linear systems $|mD|$ for large $m$. The canonical ring is the ring of the linear systems $|mK_X|$, the contraction of an extremal ray is the morphism of a semiample divisor, and the base locus of $|mK_X|$ decides whether the canonical model is a morphism. Flips and flops are birational maps, defined only outside codimension two, and Weil divisors move along them because of the extension theorem of Section 10.4.
+
+The chapter follows Vakil, Chapters 16 and 17, Hartshorne, Section II.7, and Görtz-Wedhorn, Chapter 13. It uses Chapters 3 to 9.
