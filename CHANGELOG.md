@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- Volume P1, commutative algebra for geometry: the volume file, the books Mat86 and Eis95, and Chapters 1 and 2 (rings, modules and flatness; localization, the prime spectrum and primary decomposition).
+
 ## v0.0.1 - 2026-11-26
 
 ### Added

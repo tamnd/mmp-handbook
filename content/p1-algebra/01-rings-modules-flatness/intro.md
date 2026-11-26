@@ -1,0 +1,11 @@
+# Rings, modules and flatness
+
+In this volume a ring is commutative with an identity element $1$, and a homomorphism of rings sends $1$ to $1$. The zero ring, where $1 = 0$, is allowed. A field is a ring with $1 \neq 0$ in which every nonzero element has an inverse.
+
+This chapter sets up the language of the rest of the volume. Section 1.1 is about ideals: prime and maximal ideals, the nilradical and the Jacobson radical, prime avoidance and the Chinese remainder theorem. Section 1.2 is about modules and exact sequences, and its main result is Nakayama's lemma. Section 1.3 constructs the tensor product and proves that it is right exact. Section 1.4 studies the modules for which the tensor product is also left exact: the flat modules.
+
+Each notion has a meaning for varieties, and the chapter states it at each step. Let $X$ be an affine variety over an algebraically closed field $k$, with coordinate ring $A = k[X]$ as in P0 Ch. 3. A maximal ideal of $A$ is a point of $X$, a prime ideal is an irreducible closed subset, and a nilpotent element is a function that is zero at every point but is not zero. A module over $A$ is the algebraic form of a family of vector spaces over $X$: the fibre at the point $\mathfrak{m}$ is the vector space $M/\mathfrak{m}M$. Nakayama's lemma says that a finitely generated module whose fibre at a point is zero is zero near that point. The tensor product is the algebra of fibre products, and a fibre of a morphism is a tensor product with a residue field. A flat module is a family whose fibres vary without jumps.
+
+The minimal model program uses these notions in every volume. Flat families are the objects of moduli theory in Volume 13, where a family of stable varieties over a base is by definition flat. Nakayama's lemma gives the embedding dimension $\dim_k \mathfrak{m}/\mathfrak{m}^2$ of a singular point, which P1 Ch. 9 uses to define regular local rings and which measures how far a singularity of the program is from a smooth point.
+
+The chapter follows Atiyah-Macdonald, Chapters 1 and 2, closely, with flatness from Matsumura, Chapter 3, and Eisenbud, Chapter 6. It assumes the algebra of a first course: groups, rings, ideals and quotients, fields and vector spaces, and Zorn's lemma.

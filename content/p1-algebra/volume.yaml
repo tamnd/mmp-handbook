@@ -1,0 +1,6 @@
+number: P1
+title: Commutative algebra for geometry
+subtitle: Rings and modules, flatness, localization and the prime spectrum, primary decomposition, chain conditions, integral extensions and Noether normalization, dimension, completion, normal and regular rings, depth, differentials and graded rings, each read as a statement about varieties
+level: prereq
+requires: [P0]
+spine: ["Atiyah and Macdonald, Introduction to commutative algebra (AM69)", "Matsumura, Commutative ring theory (Mat86)", "Eisenbud, Commutative algebra with a view toward algebraic geometry (Eis95)"]
