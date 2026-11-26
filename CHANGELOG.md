@@ -40,6 +40,7 @@ Each release has a section. The newest release is first.
 - Volume P1, Chapter 10: depth, Cohen-Macaulay and Gorenstein rings (regular sequences, Rees's theorem and depth, depth and completion, the Auslander-Buchsbaum formula, Cohen-Macaulay local rings and complete intersections, Cohen-Macaulay as freeness over a regular subring, the type, Artinian Gorenstein rings, Veronese rings and the cone over the twisted cubic).
 - Volume P1, Chapter 11: Serre's criterion and reflexive modules (Serre's conditions R_k and S_k, depth two and the extension of homomorphisms, the algebraic Hartogs property, Serre's criteria for reducedness and normality, normal surfaces are Cohen-Macaulay, normality of hypersurfaces, reflexive modules over normal domains, divisorial ideals and the class group, reflexive powers).
 - Volume P1, Chapter 12: Kähler differentials (derivations and the universal property, the first fundamental and conormal sequences, presentations by the Jacobian matrix, differentials of field extensions and separability, regularity as freeness of the differentials over a perfect field, the canonical module and canonical divisor of a normal affine domain, residue forms).
+- Volume P1, Chapter 13: graded rings (homogeneous ideals and primes, associated primes of graded modules, graded Nakayama, Hilbert series and dimension, graded Noether normalization, graded regular rings are polynomial rings, Proj and its affine charts, Veronese subrings, the projective Nullstellensatz, weighted projective spaces, blow-ups and section rings).
 
 ## v0.0.1 - 2026-11-26
 
