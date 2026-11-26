@@ -1,0 +1,9 @@
+## Problems
+
+Each problem is a computation by hand with the tools of this chapter: charts of blow-ups, residue forms, and the formula $a(E) = \operatorname{ord}_v(\omega) - \sum_i r_i v(h_i)$.
+
+1. (A) Let $C = \{y^2 = x^3\} \subset \mathbb{A}^2$. The minimal log resolution of $(\mathbb{A}^2, C)$ blows up three points and gives curves $E_1$, $E_2$, $E_3$ with the monomial valuations of weights $(1, 1)$, $(1, 2)$ and $(2, 3)$ on $(x, y)$. Show that $a(E_i, \mathbb{A}^2, 0) = 1, 2, 4$, and that $a(E_i, \mathbb{A}^2, tC) = 1 - 2t$, $2 - 3t$, $4 - 6t$. Check the value 2 for $E_2$ by the charts of the two blow-ups.
+2. (A) In Problem 1, take $t = \frac56$. Show that all three discrepancies are at least $-1$, and that the one of $E_3$ is equal to $-1$.
+3. (B) Let $X = \{x^2 + y^2 + z^2 + w^2 = 0\} \subset \mathbb{A}^4$, the ordinary double point of dimension 3. Show that the residue form $\omega = dx \wedge dy \wedge dz / (2w)$ has $K_X = \operatorname{div}_X(\omega) = 0$. Blow up the origin. In the chart $x = u$, $y = uv$, $z = uw'$, $w = us$, show that the strict transform is $1 + v^2 + w'^2 + s^2 = 0$, that it is smooth, and that $\omega = u \, du \wedge dv \wedge dw' / (2s)$. Deduce $a(E, X, 0) = 1$, where $E$ is a smooth quadric surface.
+4. (B) Let $S = \{x^2 + y^3 + z^5 = 0\} \subset \mathbb{A}^3$. Compute $a(E_w, \mathbb{A}^3, cS)$ for the monomial valuations with weights $w = (1, 1, 1)$ and $w = (15, 10, 6)$. For which $c$ is each at least $-1$?
+5. (C) Let $C_k = \{y^2 = x^{2k+1}\} \subset \mathbb{A}^2$ with $k \ge 1$. For a primitive $w = (w_1, w_2)$ of positive integers, show that $a(E_w, \mathbb{A}^2, cC_k) = w_1 + w_2 - 1 - c \min(2w_2, (2k+1)w_1)$. Show that $a(E_w) \ge -1$ for all $w$ if and only if $c \le \frac{2k+3}{4k+2}$, and that the weight $(2, 2k+1)$ gives the bound. For $k = 1$ this is $\frac56$.

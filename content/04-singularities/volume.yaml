@@ -1,0 +1,6 @@
+number: 4
+title: Singularities of pairs
+subtitle: Discrepancies, the classes of pairs, surface singularities, terminal 3-fold singularities, adjunction, thresholds and minimal log discrepancies
+level: core
+requires: [1, 2, 3, P1.8, P1.10, P1.11, P3.9, P3.12, P4.9, P5.8, P7.8, P8.5, P8.9, P8.10, P8.12, P8.13]
+spine: ["Reid, Young person's guide to canonical singularities (Rei87)", "Kollár-Mori, Birational geometry of algebraic varieties, Chapters 2, 4 and 5 (KM98)", "Kollár, Singularities of the minimal model program, Chapters 2 and 3 (Kol13)"]
