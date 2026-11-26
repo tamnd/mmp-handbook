@@ -12,6 +12,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume P3, Chapter 8, Weil divisors: prime divisors and the order of vanishing with the finiteness lemma, Weil divisors and the class group with the divisor sequence, the factoriality criterion, excision and the invariance under products with the affine line, the class groups of projective space, of complements of hypersurfaces, of the cones xy = z^n and of the quadric surfaces, and the sheaves O_X(D) with complete linear systems.
 - Volume P3, Chapter 7, Dimension, smoothness and normalization: dimension and codimension with the transcendence degree theorem and fibre dimensions, the Zariski tangent space and regular schemes, smoothness over a field by the Jacobian criterion with the open smooth locus, and normal schemes with Serre's criterion, the Hartogs property, finite morphisms and the normalization.
 - Volume P3, Chapter 6, Proj, O(n) and P(E): graded rings and Proj, the sheaves O(n) and graded modules, morphisms to projective space, ample and very ample sheaves with Serre's theorem, and relative Proj with the projective bundle P(E) and the Hirzebruch surfaces.
 - Volume 3, Chapter 4, the toric cone theorem: invariant curves and the wall relation with the intersection formula on a simplicial wall, support functions and the combinatorial cone theorem with the generic segment proof, linked to node MM6EHAYFKV, and the cone of curves with the nef criterion, $N_1$ as the space of relations and the weighted blow-up of $\mathbb{P}^3$ with weights $(1, 1, 2)$.
