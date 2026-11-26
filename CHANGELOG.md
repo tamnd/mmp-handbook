@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.4 - 2026-11-26
+
 ### Added
 
 - Volume P3, Chapter 5, Quasi-coherent and coherent sheaves: the sheaf of a module and its adjunction, the equivalence with modules on an affine scheme, the abelian categories of quasi-coherent and coherent sheaves, ideal sheaves, Nakayama's lemma for sheaves, pullback and pushforward, the relative spectrum and total spaces, with 28 exercises.
