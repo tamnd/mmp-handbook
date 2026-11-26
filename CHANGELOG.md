@@ -12,6 +12,7 @@ Each release has a section. The newest release is first.
 
 - Volume P1, commutative algebra for geometry: the volume file, the books Mat86 and Eis95, and Chapters 1 and 2 (rings, modules and flatness; localization, the prime spectrum and primary decomposition).
 - Volume 17, open problems: the first dated report, of 2026-11-26, in seven chapters (termination; abundance and non-vanishing; ACC and LSC for mlds; boundedness; characteristic $p$; foliations and Kähler; how the project tracks the problems).
+- Volume 3, Chapters 1 to 3: cones and fans, toric varieties from fans, toric divisors and the canonical divisor.
 
 ## v0.0.1 - 2026-11-26
 
