@@ -1,0 +1,15 @@
+number: P2
+title: Categories, homological algebra and sheaves
+subtitle: Categories, functors and the Yoneda lemma, abelian categories, derived functors, spectral sequences, sheaves on spaces, sheaves of modules, sheaf and Čech cohomology, and derived categories, each with the place where the minimal model program uses it
+level: prereq
+requires: [P1.1, P1.2, P1.3]
+spine: ["Vakil, The rising sea, Part I (Vak25)", "Weibel, An introduction to homological algebra (Wei94)", "Mac Lane, Categories for the working mathematician (Mac98)"]
+chapters:
+  - "1. Categories, functors and the Yoneda lemma: categories and functors, natural transformations, equivalences, the Yoneda lemma, adjunctions, limits and colimits"
+  - "2. Abelian categories: additive and abelian categories, kernels, cokernels and images, exact sequences, the five lemma and the snake lemma, exact functors, projective and injective objects"
+  - "3. Derived functors: complexes and homology, the long exact sequence, homotopies, resolutions, left and right derived functors, Ext and Tor, delta functors"
+  - "4. Spectral sequences: filtered complexes, double complexes and their two spectral sequences, the Grothendieck spectral sequence, the Leray spectral sequence"
+  - "5. Sheaves on spaces: presheaves and sheaves, stalks, sheafification, exactness, sheaves on a base, pushforward and inverse image"
+  - "6. Sheaves of modules: ringed spaces, sheaves of modules, tensor product and sheaf Hom, pushforward and pullback, locally free sheaves and line bundles"
+  - "7. Sheaf cohomology and Čech cohomology: injective and flasque sheaves, cohomology as a derived functor, Čech cohomology, the comparison on an acyclic cover, higher direct images"
+  - "8. Derived categories: the homotopy category, quasi-isomorphisms and localization, triangles, total derived functors, as much as P4 Ch. 9 needs"
