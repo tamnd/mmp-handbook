@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume P2, Chapter 7, sheaf cohomology: enough injectives for modules, cohomology and higher direct images as derived functors, flasque sheaves and the Godement resolution, Čech cohomology with Leray's theorem and $\check{H}^1 \subseteq H^1$, the cohomology of $\mathcal{O}(n)$ on $\mathbb{P}^1$, torsors and $\operatorname{Pic}(X) \cong H^1(X, \mathcal{O}_X^\times)$, and lifting sections.
 - Volume P2, Chapter 6, sheaves of modules: ringed spaces and the abelian category of modules, tensor product and sheaf Hom, pushforward and pullback with the adjunction, quasi-coherent and locally free sheaves, the Picard group and the projection formula, with the books God58, Ser55 and Stacks.
 - Volume P2, Chapter 5, sheaves on spaces: presheaves, sheaves and stalks, sheafification, the abelian category of sheaves with exactness on stalks and enough injectives, direct and inverse images, extension by zero, sheaves on a base and gluing.
 - Volume 4, Chapters 1 to 3: discrepancies, the classes of pairs, surface singularities, with the books Rei87, Kol13, Kol97, Rei80, Mum61, Art66, DuV34, Bri68, Sza94 and Che55.
