@@ -27,6 +27,7 @@ Each release has a section. The newest release is first.
 - Volume P1, Chapter 5: dimension theory (Krull dimension and height, Krull's principal ideal and height theorems, Hilbert-Samuel functions and the dimension theorem, the dimension of affine domains and of fibres).
 - Volume P1, Chapter 6: completion (inverse limits, adic completion and the Krull intersection theorem, completion of Noetherian rings and its flatness, Hensel's lemma and the Cohen structure theorem).
 - Volume P1, Chapter 7: DVRs, Dedekind domains and valuations (valuation rings and the existence theorem, the characterization of discrete valuation rings and the order of vanishing as a length, unique factorization of ideals and the class group).
+- Volume P1, Chapter 8: normal rings and class groups (Krull's theorem and the algebraic Hartogs theorem, Weil divisors, Nagata's localization sequence and the class group of a polynomial ring, the class groups of the cones xy = z^n and xw = yz, Cartier divisors, the Picard group and Q-factoriality).
 
 ## v0.0.1 - 2026-11-26
 
