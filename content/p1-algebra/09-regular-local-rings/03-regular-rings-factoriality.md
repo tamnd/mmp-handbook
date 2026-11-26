@@ -2,7 +2,7 @@
 title: Regular rings and factoriality
 nodes: []
 sources: [AM69, Mat86, Eis95]
-reads_with: [Mat86:ch8, Eis95:ch17, Eis95:ch19]
+reads_with: [Mat86:ch7, Eis95:ch17, Eis95:ch19]
 requires: [P1.1, P1.2, P1.3, P1.4, P1.5, P1.7, P1.8]
 level: prereq
 kind: theorem
@@ -58,9 +58,9 @@ In that case $\operatorname{gl.dim} A = \operatorname{pd}_A k = \dim A$, and eve
 
 Lean: not in Mathlib.
 
-*Proof of (1) implies (2).* Let $x_1, \dots, x_d$ be a regular system of parameters. By the proposition on quotients by parameters in Section 9.1, it satisfies the hypothesis of the Koszul lemma, so $K(x_1, \dots, x_d)$ resolves $A/\mathfrak{m} = k$, and $\operatorname{pd}_A k \leq d$. For a finitely generated $M$, computing Tor from this resolution gives $\operatorname{Tor}^A_i(M, k) = H_i(M \otimes K(x)) = 0$ for $i > d$, so $\operatorname{pd}_A M \leq d$ by the lemma on minimal resolutions. In $K(x) \otimes k$ the differentials are zero, since the $x_j$ lie in $\mathfrak{m}$, so $\operatorname{Tor}^A_d(k, k) \cong \Lambda^d k^d = k \neq 0$ and $\operatorname{pd}_A k = d$. The global dimension of a Noetherian ring is the supremum of $\operatorname{pd}_A A/I$ over its ideals $I$, by a standard argument with Ext (Matsumura, Chapter 8), so $\operatorname{gl.dim} A = d$. The implication (2) to (3) is clear. $\square$
+*Proof of (1) implies (2).* Let $x_1, \dots, x_d$ be a regular system of parameters. By the proposition on quotients by parameters in Section 9.1, it satisfies the hypothesis of the Koszul lemma, so $K(x_1, \dots, x_d)$ resolves $A/\mathfrak{m} = k$, and $\operatorname{pd}_A k \leq d$. For a finitely generated $M$, computing Tor from this resolution gives $\operatorname{Tor}^A_i(M, k) = H_i(M \otimes K(x)) = 0$ for $i > d$, so $\operatorname{pd}_A M \leq d$ by the lemma on minimal resolutions. In $K(x) \otimes k$ the differentials are zero, since the $x_j$ lie in $\mathfrak{m}$, so $\operatorname{Tor}^A_d(k, k) \cong \Lambda^d k^d = k \neq 0$ and $\operatorname{pd}_A k = d$. The global dimension of a Noetherian ring is the supremum of $\operatorname{pd}_A A/I$ over its ideals $I$, by a standard argument with Ext (Matsumura, Chapter 7), so $\operatorname{gl.dim} A = d$. The implication (2) to (3) is clear. $\square$
 
-*Sketch of (3) implies (1).* Use induction on the embedding dimension. If $\mathfrak{m}$ is an associated prime of $A$, then $sA \cong k$ for some $s \neq 0$, and the last map $F_n \to F_{n-1}$ of a finite minimal resolution of $k$ is injective with image in $\mathfrak{m}F_{n-1}$, while $s$ kills $\mathfrak{m}F_{n-1}$ and not $F_n$. This forces $n = 0$, so $k$ is free and $\mathfrak{m} = 0$. Otherwise prime avoidance (Proposition P1.1.11) gives a nonzerodivisor $x \in \mathfrak{m} \setminus \mathfrak{m}^2$. A lemma of Nagata shows that $\mathfrak{m}/x\mathfrak{m}$ has $k$ as a direct summand over $A/xA$, which gives $\operatorname{pd}_{A/xA} k < \infty$, so $A/xA$ is regular by induction, and $A$ is regular by Exercise 4 of Section 9.1. The details are in Matsumura, Chapter 8, and Eisenbud, Chapter 19. $\square$
+*Sketch of (3) implies (1).* Use induction on the embedding dimension. If $\mathfrak{m}$ is an associated prime of $A$, then $sA \cong k$ for some $s \neq 0$, and the last map $F_n \to F_{n-1}$ of a finite minimal resolution of $k$ is injective with image in $\mathfrak{m}F_{n-1}$, while $s$ kills $\mathfrak{m}F_{n-1}$ and not $F_n$. This forces $n = 0$, so $k$ is free and $\mathfrak{m} = 0$. Otherwise prime avoidance (Proposition P1.1.11) gives a nonzerodivisor $x \in \mathfrak{m} \setminus \mathfrak{m}^2$. A lemma of Nagata shows that $\mathfrak{m}/x\mathfrak{m}$ has $k$ as a direct summand over $A/xA$, which gives $\operatorname{pd}_{A/xA} k < \infty$, so $A/xA$ is regular by induction, and $A$ is regular by Exercise 4 of Section 9.1. The details are in Matsumura, Chapter 7, and Eisenbud, Chapter 19. $\square$
 
 **Corollary P1.9.22 (localization).** If $A$ is a regular local ring and $\mathfrak{p}$ is a prime of $A$, then $A_\mathfrak{p}$ is a regular local ring.
 
@@ -136,4 +136,4 @@ Mathlib defines `IsRegularRing` and proves `IsRegularLocalRing.of_isRegularRing_
 
 ### Notes and history
 
-Whether a localization of a regular local ring is regular was an open question of the 1940s, and Serre answered it in 1956 with the homological characterization, which Auslander and Buchsbaum found independently at the same time. Auslander and Buchsbaum proved in 1959 that regular local rings are factorial. The proof here, with Nagata's criterion and stably free modules, is the one in Matsumura, Chapter 8, a simplification usually credited to Kaplansky. The literature state of every result here is theorem. The section follows Matsumura, Chapter 8, and Eisenbud, Chapters 17 and 19.
+Whether a localization of a regular local ring is regular was an open question of the 1940s, and Serre answered it in 1956 with the homological characterization, which Auslander and Buchsbaum found independently at the same time. Auslander and Buchsbaum proved in 1959 that regular local rings are factorial. The proof here, with Nagata's criterion and stably free modules, is the one in Matsumura, Chapter 7, a simplification usually credited to Kaplansky. The literature state of every result here is theorem. The section follows Matsumura, Chapter 7, and Eisenbud, Chapters 17 and 19.
