@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume P2, Chapter 4, spectral sequences: filtered complexes, edge maps and the five-term sequence, double complexes, Cartan-Eilenberg resolutions and hypercohomology, the Grothendieck and Leray spectral sequences.
 - Volume P2, Chapter 3, derived functors: complexes and the long exact sequence, resolutions and derived functors, delta functors and acyclic resolutions, Ext and Tor.
 - Volume P2, categories, homological algebra and sheaves: the volume file, the books Wei94, Mac98, Gro57 and Fre64, and Chapters 1 and 2 (categories, functors and the Yoneda lemma; abelian categories).
 
