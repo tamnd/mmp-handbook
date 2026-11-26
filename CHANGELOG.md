@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- Volume P2, categories, homological algebra and sheaves: the volume file, the books Wei94, Mac98, Gro57 and Fre64, and Chapters 1 and 2 (categories, functors and the Yoneda lemma; abelian categories).
+
 ## v0.0.2 - 2026-11-26
 
 ### Fixed
