@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Fixed
+
+- Volume 1, Section 1.5: the ACC conjecture for minimal log discrepancies is open from dimension 3, not from dimension 4. The lower semicontinuity is open from dimension 4.
+
 ### Added
 
 - Volume P1, commutative algebra for geometry: the volume file, the books Mat86 and Eis95, and Chapters 1 and 2 (rings, modules and flatness; localization, the prime spectrum and primary decomposition).
