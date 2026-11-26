@@ -1,0 +1,6 @@
+number: 0
+title: How to read this handbook
+subtitle: The minimal model program in outline, the map of the volumes, the notation, and how a section links to Lean and to the map
+level: guide
+requires: [P0.2, P5.12]
+spine: ["Kollár 1987 (Kol87)", "Birkar 2012, Ch. 1 (Bir12)", "Moraga 2024", "Lazić 2024"]

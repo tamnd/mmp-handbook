@@ -1,0 +1,6 @@
+number: P0
+title: Guide and classical varieties
+subtitle: Affine and projective varieties, rational maps, dimension and tangent spaces, plane curves and cubic surfaces, with a first view of the minimal model program
+level: prereq
+requires: []
+spine: ["Reid, Undergraduate algebraic geometry (Rei88)", "Shafarevich, Basic algebraic geometry 1 (Sha13)", "Harris, Algebraic geometry: a first course (Har92)"]

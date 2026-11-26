@@ -1,0 +1,6 @@
+number: 0
+title: Test
+subtitle: A small volume for the tests
+level: guide
+requires: [P0.2, P5.12]
+spine: [Kol87]

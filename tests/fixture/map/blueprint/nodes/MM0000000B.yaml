@@ -1,0 +1,5 @@
+tag: MM0000000B
+kind: conjecture
+title: Abundance
+lean:
+  statement: MinimalModel.Abundance

@@ -1,0 +1,6 @@
+tag: MM0000000A
+kind: theorem
+title: Castelnuovo's contraction theorem
+lean:
+  statement: MinimalModel.Castelnuovo
+  proof: MinimalModel.castelnuovo

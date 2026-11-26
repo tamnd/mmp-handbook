@@ -1,0 +1,6 @@
+number: 1
+title: Divisors, curves and cones
+subtitle: Divisors over a base, the cones of curves and divisors, and an overview of the minimal model program
+level: background
+requires: [P3.8, P3.9, P3.10, P3.11, P3.12, P4.1, P4.2, P4.3, P4.4, P4.5, P4.6, P7.1, P7.2, P7.3, P7.4, P7.5, P7.6, P7.7]
+spine: ["Kollár-Mori 1998, Ch. 1 (KM98)", "Lazarsfeld, Positivity I (Laz04)", "Debarre 2001, Ch. 1 (Deb01)"]

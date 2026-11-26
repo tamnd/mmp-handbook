@@ -1,0 +1,5 @@
+# An overview of the minimal model program
+
+This chapter states the minimal model program and its main theorems and conjectures before the rest of the volume builds the tools. It works over an algebraically closed field $k$ of characteristic 0. Section 1.1 does the program for smooth surfaces, where every step is elementary. Sections 1.2 to 1.4 give the words for higher dimension: pairs and their singularities, the cone of curves and the cone theorem, contractions and flips. Sections 1.5 and 1.6 state what is open: termination of flips, the existence of minimal models, non-vanishing and abundance. Each statement that is a node of the map has a Node line with its Lean name.
+
+The chapter needs divisors and line bundles (P3), cohomology (P4), intersection numbers on surfaces (P5) and the numerical theory of P7. It proves little. Most proofs are sketched in the Proof in words parts, and the full proofs are in Volumes 2 to 10. On the shape first path this chapter is the second stop, after Volume 0, and the next stop is the first chapter of Volume 2.
