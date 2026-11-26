@@ -14,12 +14,12 @@ reviewed_by: []
 | | Volume | Level | Pages | Needs |
 |---|---|---|---|---|
 | 0 | How to read this handbook | guide | 60 | none |
-| 1 | Divisors, curves and cones | background | 320 | the P volumes |
+| 1 | Divisors, curves and cones | background | 220 | the P volumes |
 | 2 | The MMP for surfaces | core | 380 | 1 |
 | 3 | The toric MMP | core | 300 | 1, 2 |
 | 4 | Singularities of pairs | core | 420 | 1, 2, 3 |
-| 5 | Vanishing theorems and multiplier ideals | core | 340 | 1, 4 |
-| 6 | Rational curves and bend-and-break | core | 300 | 1, 2 |
+| 5 | Vanishing theorems and multiplier ideals | core | 210 | 1, 4 |
+| 6 | Rational curves and bend-and-break | core | 200 | 1, 2 |
 | 7 | Cone and contraction theorems | core | 360 | 4, 5, 6 |
 | 8 | Flips, flops and the 3-fold MMP | core | 460 | 3, 4, 7 |
 | 9 | BCHM: existence of minimal models | advanced | 440 | 5, 7, 8 |
