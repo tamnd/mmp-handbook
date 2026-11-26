@@ -1,0 +1,6 @@
+number: 17
+title: Open problems
+subtitle: "A dated report of 2026-11-26: the open problems of the minimal model program, the claims of 2025 and 2026, and the routes of the project that attack them"
+level: research
+requires: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
+spine: ["Birkar, ICM 2018", "Xu-Zhuang 2026", "The records of tamnd/mmp on 2026-11-26: the blueprint, the claim records, the audit record and specs 01, 03, 04 and 06"]
