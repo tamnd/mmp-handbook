@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.3 - 2026-11-26
+
 ### Added
 
 - Volume P2, Chapter 7, sheaf cohomology: enough injectives for modules, cohomology and higher direct images as derived functors, flasque sheaves and the Godement resolution, Čech cohomology with Leray's theorem and $\check{H}^1 \subseteq H^1$, the cohomology of $\mathcal{O}(n)$ on $\mathbb{P}^1$, torsors and $\operatorname{Pic}(X) \cong H^1(X, \mathcal{O}_X^\times)$, and lifting sections.
