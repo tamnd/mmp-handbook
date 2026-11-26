@@ -20,6 +20,7 @@ Each release has a section. The newest release is first.
 - Volume 17, open problems: the first dated report, of 2026-11-26, in seven chapters (termination; abundance and non-vanishing; ACC and LSC for mlds; boundedness; characteristic $p$; foliations and Kähler; how the project tracks the problems).
 - Volume 3, Chapters 1 to 3: cones and fans, toric varieties from fans, toric divisors and the canonical divisor.
 - Volume P1, Chapters 3 and 4: Noetherian and Artinian rings (chain conditions, the Hilbert basis theorem, Noetherian spaces, length and Artinian rings), and integral extensions (integral closure, going up and going down, normal domains, Noether normalization and the Jacobson property).
+- Volume P1, Chapter 5: dimension theory (Krull dimension and height, Krull's principal ideal and height theorems, Hilbert-Samuel functions and the dimension theorem, the dimension of affine domains and of fibres).
 
 ## v0.0.1 - 2026-11-26
 
