@@ -1,0 +1,6 @@
+number: 3
+title: The toric MMP
+subtitle: Cones and fans, toric varieties and their divisors, the toric cone theorem, toric contractions and flips, termination, the secondary fan and variation of GIT
+level: core
+requires: [1, 2, P7.4, P8.6, P8.7, P8.8]
+spine: ["Cox-Little-Schenck, Toric varieties, Chapters 3, 4, 6 and 15 (CLS11)", "Fujino-Sato, Introduction to the toric Mori theory (FS04)", "Reid, Decomposition of toric morphisms (Rei83)"]
