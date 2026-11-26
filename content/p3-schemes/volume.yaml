@@ -1,0 +1,20 @@
+number: P3
+title: Schemes, divisors and line bundles
+subtitle: Affine schemes and schemes as locally ringed spaces, the functor of points, morphisms and fibre products, separated and proper morphisms, quasi-coherent sheaves, Proj and projective bundles, dimension, smoothness and normalization, Weil and Cartier divisors, line bundles and linear systems, blow-ups, differentials and the canonical sheaf, and flat families, each with the place where the minimal model program uses it
+level: prereq
+requires: [P1, P2.1, P2.5, P2.6]
+spine: ["Vakil, The rising sea (Vak25)", "Hartshorne, Algebraic geometry, Chapter II (Har77)", "Görtz and Wedhorn, Algebraic geometry I (GW20)"]
+chapters:
+  - "1. Affine schemes: the structure sheaf of the prime spectrum, its stalks and its sections, affine schemes as locally ringed spaces, the anti-equivalence with rings, and the first examples: Spec of a field, of the integers, of k[x], and of k[x]/(x^2)"
+  - "2. Schemes: schemes as locally ringed spaces, open subschemes and gluing, the affine line with a doubled origin, projective space by gluing, reduced, integral and Noetherian schemes, varieties as schemes, and the functor of points with the Yoneda lemma"
+  - "3. Morphisms: morphisms of schemes and S-schemes, points with values in a ring, open and closed immersions, closed subschemes, fibre products and fibres, base change, and morphisms of finite type, affine and finite morphisms"
+  - "4. Separated and proper morphisms: the diagonal, separated morphisms and the doubled origin, varieties, universally closed and proper morphisms, the valuative criteria, and the properness of projective space"
+  - "5. Quasi-coherent and coherent sheaves: the sheaf M~, the equivalence with modules on an affine scheme, quasi-coherent sheaves on a scheme and their abelian category, coherent sheaves, ideal sheaves and closed subschemes, pushforward and pullback, vector bundles, and the relative Spec"
+  - "6. Proj, O(n) and P(E): graded rings and Proj, the sheaves O(n), graded modules and sheaves on Proj, closed subschemes of projective space, projective morphisms, ample and very ample sheaves, and the projective bundle P(E)"
+  - "7. Dimension, smoothness and normalization: the dimension of schemes and of varieties, regular and smooth schemes, the Jacobian criterion, normal schemes, finite morphisms and the normalization"
+  - "8. Weil divisors: prime divisors and the order of vanishing on a normal scheme, Weil divisors and the class group, the excision sequence, the class groups of affine space, of projective space and of the quadric cone, and the sheaves O_X(D)"
+  - "9. Cartier divisors, line bundles and Q-Cartier divisors: Cartier divisors and the Picard group, Cartier and Weil divisors on normal and on locally factorial schemes, Q-Cartier divisors and the index, Q-factoriality, and pullback of divisors"
+  - "10. Linear systems: global sections and base points, morphisms to projective space, complete and incomplete linear systems, the Veronese and Segre maps, ample and very ample divisors, and rational maps from linear systems"
+  - "11. Blow-ups: the blow-up of a closed subscheme as Proj of the Rees algebra, its universal property, the exceptional divisor and strict transforms, the blow-up of a point of the plane, and the Hirzebruch surfaces"
+  - "12. Differentials and the canonical sheaf: the sheaf of relative differentials, the two exact sequences, smoothness and differentials, the Euler sequence, the canonical sheaf and the canonical divisor of a normal variety, and the adjunction formula"
+  - "13. Flat families: flat morphisms and their fibres, the constancy of the Hilbert polynomial, representable functors, the Grassmannian, and the Hilbert functor as the base of the Hilbert schemes of P8 Ch. 1"
