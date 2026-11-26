@@ -1,0 +1,9 @@
+# Noetherian and Artinian rings
+
+This chapter studies the two chain conditions. A ring or module is Noetherian if its increasing chains of ideals or submodules stop, and Artinian if its decreasing chains stop. Section 3.1 sets up the conditions and their behaviour in exact sequences. Section 3.2 proves the Hilbert basis theorem: a polynomial ring over a Noetherian ring is Noetherian, so every finitely generated algebra over a field is Noetherian. Section 3.3 is about Noetherian topological spaces, and shows that every closed subset of $\operatorname{Spec} A$ has finitely many irreducible components when $A$ is Noetherian. Section 3.4 defines the length of a module and proves the Jordan-Hölder theorem. Section 3.5 proves that an Artinian ring is a Noetherian ring of dimension zero, and that it is a finite product of local Artinian rings.
+
+For varieties, the Hilbert basis theorem says that every algebraic set is cut out by finitely many equations, and that the coordinate ring of an affine variety is Noetherian. The Noetherian property of the Zariski topology gives the decomposition of an algebraic set into finitely many irreducible components, which P0 Ch. 3 uses. Artinian rings are the rings of finite sets of points with nilpotent structure: the fibre of a finite morphism, or the intersection of curves on a surface at a point. Their length is an intersection multiplicity.
+
+The minimal model program works with Noetherian schemes throughout. The length of an Artinian ring computes intersection numbers $D \cdot C$ on surfaces in Volume 2, and the multiplicity of a fibre in a family. The ascending chain condition is also the model for the ACC conjectures of Volumes 10 and 12, where a set of numbers, not ideals, must satisfy it.
+
+The chapter follows Atiyah-Macdonald, Chapters 6 to 8, and Matsumura, Chapter 1. It uses Chapters 1 and 2.
