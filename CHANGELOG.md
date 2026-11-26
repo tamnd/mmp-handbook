@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume P3, schemes, divisors and line bundles: the volume file with the plan of 13 chapters, the volume intro, and Chapter 1, affine schemes: the structure sheaf, stalks and basic open sets, morphisms into affine schemes and the anti-equivalence with rings, closed subschemes and the first examples, with the books GW20, EGA1 and Mum99.
 - Volume P2, Chapter 8, derived categories: the homotopy category, cones and triangles, the derived category with roofs, injective replacement and Ext, total derived functors with $R\Gamma$, $Rf_*$, $Lf^*$, $\otimes^L$ and $R\mathcal{H}om$, the projection formula, Grothendieck duality, dualizing complexes and the canonical sheaf, and Kempf's criterion, with the books Huy06, Spa88, Lip09, Ver96, Kov00, Con00 and GR70.
 
 ## v0.0.3 - 2026-11-26
