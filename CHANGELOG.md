@@ -34,6 +34,7 @@ Each release has a section. The newest release is first.
 - Volume P1, Chapter 8: normal rings and class groups (Krull's theorem and the algebraic Hartogs theorem, Weil divisors, Nagata's localization sequence and the class group of a polynomial ring, the class groups of the cones xy = z^n and xw = yz, Cartier divisors, the Picard group and Q-factoriality).
 - Volume P1, Chapter 9: regular local rings (the associated graded ring of a regular local ring, regular local rings are domains, quotients by parameters, completion, the Jacobian criterion and the singular locus, minimal resolutions and the Koszul complex, Serre's characterization and localization, the theorem of Auslander and Buchsbaum, smooth varieties are locally factorial).
 - Volume P1, Chapter 10: depth, Cohen-Macaulay and Gorenstein rings (regular sequences, Rees's theorem and depth, depth and completion, the Auslander-Buchsbaum formula, Cohen-Macaulay local rings and complete intersections, Cohen-Macaulay as freeness over a regular subring, the type, Artinian Gorenstein rings, Veronese rings and the cone over the twisted cubic).
+- Volume P1, Chapter 11: Serre's criterion and reflexive modules (Serre's conditions R_k and S_k, depth two and the extension of homomorphisms, the algebraic Hartogs property, Serre's criteria for reducedness and normality, normal surfaces are Cohen-Macaulay, normality of hypersurfaces, reflexive modules over normal domains, divisorial ideals and the class group, reflexive powers).
 
 ## v0.0.1 - 2026-11-26
 
