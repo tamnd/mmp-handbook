@@ -3,7 +3,7 @@ title: Minimal models of surfaces
 nodes: []
 sources: [Har77, Bea96, Rei97, SGA6]
 reads_with: [Har77:V.5, Bea96:ch2, Rei97:ch2]
-requires: [P3.4, P4.6, P5.2, P5.5, P5.6, P5.7]
+requires: [P3.4, P4.6, P5.2, P5.5, P5.6, P5.7, P5.8]
 level: prereq
 kind: theorem
 status: drafted
@@ -18,7 +18,7 @@ As in Section 11.1, $S$ is a smooth projective surface over an algebraically clo
 
 It also uses one fact from outside the handbook: the group $\operatorname{Num}(S)$ of Definition P5.5.7 is a free abelian group of finite rank $\rho(S)$, the *Picard number*. It is torsion free because a class $D$ with $nD \equiv 0$ has $D \cdot C = 0$ for all $C$. The finiteness of the rank is the theorem of the base of Néron and Severi; Kleiman's exposé XIII of SGA 6 proves it in every characteristic, and Hartshorne, Exercise V.1.8, gives a proof in characteristic $0$ through the cohomology class of a divisor in $H^1(S, \Omega_S)$. Since $H^2 > 0$ for $H$ ample (Lemma P5.5.20), $\rho(S) \geq 1$.
 
-**Definition P5.11.13 (nef divisors, minimal surfaces, minimal models).** A divisor $D$ on $S$ is *nef* if $D \cdot C \geq 0$ for every integral curve $C$ on $S$. The surface $S$ is *minimal* if it contains no $(-1)$-curve. A *minimal model* of $S$ is a minimal surface $S_0$ together with a birational morphism $S \to S_0$.
+**Definition P5.11.13 (nef divisors, minimal surfaces, minimal models).** A divisor $D$ on $S$ is *nef* if $D \cdot C \geq 0$ for every integral curve $C$ on $S$, as in Definition P5.8.22. The surface $S$ is *minimal* if it contains no $(-1)$-curve. A *minimal model* of $S$ is a minimal surface $S_0$ together with a birational morphism $S \to S_0$.
 
 By the factorization theorem of Chapter 7, $S$ is minimal if and only if every birational morphism from $S$ to a smooth projective surface is an isomorphism.
 
