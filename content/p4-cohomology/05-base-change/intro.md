@@ -1,0 +1,9 @@
+# Base change
+
+Let $f \colon X \to Y$ be a projective morphism and $\mathcal{F}$ a coherent sheaf on $X$, flat over $Y$, a family of coherent sheaves $\mathcal{F}_y$ on the fibres $X_y$. This chapter compares the higher direct images $R^q f_* \mathcal{F}$, sheaves on the base, with the cohomology groups $H^q(X_y, \mathcal{F}_y)$ of the members of the family. They agree after a flat change of base, and in general they are related by the theorems of Grothendieck and Grauert, which say when the fibre cohomology jumps and when the higher direct images commute with restriction to a point.
+
+Section 5.1 proves flat base change for higher direct images and computes the stalks of $R^q f_* \mathcal{F}$. Section 5.2 constructs the Grothendieck complex: a bounded complex of finitely generated flat modules over an affine Noetherian base that computes the cohomology of $\mathcal{F}$ after every base change. Section 5.3 reads the semicontinuity of $y \mapsto \dim H^q(X_y, \mathcal{F}_y)$, the local constancy of the Euler characteristic, the theorem on cohomology and base change, and Grauert's theorem off this complex by linear algebra.
+
+In the minimal model program these theorems are used whenever a property of the general fibre of a family is transported to the special fibre or to the base. A contraction $f$ with $H^1(X_y, \mathcal{O}_{X_y}) = 0$ on every fibre has $R^1 f_* \mathcal{O}_X = 0$, invariance of plurigenera and deformation invariance arguments start from semicontinuity, and the local constancy of $\chi$ underlies the boundedness of families. The running example is a flat family of three points in the plane that become collinear, along which $h^0$ jumps.
+
+The chapter follows Hartshorne, Sections III.9 and III.12, Mumford's *Abelian varieties*, Section 5, Vakil, Chapter 25, and Görtz-Wedhorn II, with details from the Stacks project. It uses Chapters 1, 2 and 4, the flatness of P1 Ch. 1 and P3 Ch. 13, and Nakayama's lemma.
