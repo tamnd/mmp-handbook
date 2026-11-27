@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.9 - 2026-11-28
+
 ### Added
 
 - Volume 2 Chapter 4, The log MMP for surfaces: the cone theorem for Q-factorial surface pairs (2.4.1 to 2.4.7), klt surface singularities are rational and Q-factorial, divisorial and fibre type contractions and the absence of flips (2.4.8 to 2.4.15), and the log MMP for klt surface pairs, log minimal models and log Mori fibre spaces (2.4.16 to 2.4.23).
