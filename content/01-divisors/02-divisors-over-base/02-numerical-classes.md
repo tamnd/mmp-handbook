@@ -3,7 +3,7 @@ title: Numerical classes over a base
 nodes: []
 sources: [KM98, Laz04, Deb01, Kle66, SGA6, Hir64, Har77]
 reads_with: [KM98:ch1, Laz04:1.4, Deb01:ch1]
-requires: [P3.6, P3.7, P3.8, P3.9, P4.3, P4.5, P5.1, P5.5, P5.12, 1.1]
+requires: [P3.4, P3.6, P3.7, P3.8, P3.9, P4.3, P4.5, P5.1, P5.5, P5.12, 1.1]
 level: background
 kind: theorem
 status: drafted

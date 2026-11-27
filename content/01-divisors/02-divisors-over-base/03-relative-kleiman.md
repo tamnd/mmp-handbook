@@ -3,7 +3,7 @@ title: Relative ampleness and the relative Kleiman criterion
 nodes: []
 sources: [KM98, Laz04, Deb01, Kle66, Har77]
 reads_with: [KM98:1.44, Laz04:1.4, Laz04:1.7, Deb01:ch1]
-requires: [P3.4, P3.6, P3.9, P3.11, P5.5, P5.12, 1.1]
+requires: [P3.4, P3.6, P3.9, P3.11, P5.12, 1.1, 4.1]
 level: background
 kind: theorem
 status: drafted

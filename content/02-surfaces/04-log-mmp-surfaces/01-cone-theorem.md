@@ -3,7 +3,7 @@ title: The cone theorem for surface pairs
 nodes: []
 sources: [KM98, Mat02, Mum61]
 reads_with: [KM98:ch3, Mat02:ch1]
-requires: [P4.6, P5.5, P5.8, P5.12, 4.1, 4.2, 4.3]
+requires: [P5.5, P5.8, P5.12, 2.3, 3.3, 3.5, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted
@@ -16,7 +16,7 @@ reviewed_by: []
 
 The cone theorem for a smooth projective surface, Theorem P5.12.14, describes the $K$-negative part of the cone of curves. This section proves the same description for a pair $(X, \Delta)$ on a normal $\mathbb{Q}$-factorial surface. The proof does not repeat the bend-and-break argument. It moves the question to the minimal resolution, applies Theorem P5.12.14 there, and pushes the answer down. The rays that the boundary makes negative are found by hand: they are spanned by components of $\Delta$ of negative square.
 
-Throughout the chapter $k$ is an algebraically closed field of characteristic $0$, and a *surface* is a normal projective surface over $k$. For a surface $X$, $f \colon Y \to X$ denotes its minimal resolution (Definition 4.3.4), and $E_1, \dots, E_r$ are all the exceptional curves of $f$. Intersection numbers of Weil divisors on $X$ are Mumford's numbers of Corollary P5.8.5: $D \cdot D' = f^*D \cdot f^*D'$, where $f^*$ is Mumford's pullback. Chapter 3 develops this intersection theory for normal surfaces; only the facts listed in Lemma 2.4.2 are used here. For an integral curve $C \subset X$, $\tilde C = f^{-1}_* C$ is its strict transform, and $f^*C = \tilde C + \sum_i c_i E_i$ with every $c_i \ge 0$, by Corollary P5.8.5.
+Throughout the chapter $k$ is an algebraically closed field of characteristic $0$, and a *surface* is a normal projective surface over $k$. For a surface $X$, $f \colon Y \to X$ denotes its minimal resolution (Definition 4.3.4), and $E_1, \dots, E_r$ are all the exceptional curves of $f$. Intersection numbers of Weil divisors on $X$ are Mumford's numbers of Corollary P5.8.5: $D \cdot D' = f^*D \cdot f^*D'$, where $f^*$ is Mumford's pullback. Definition 2.3.1 and Theorem 2.3.4 develop this intersection theory for normal surfaces; only the facts listed in Lemma 2.4.2 are used here. For an integral curve $C \subset X$, $\tilde C = f^{-1}_* C$ is its strict transform, and $f^*C = \tilde C + \sum_i c_i E_i$ with every $c_i \ge 0$, by Corollary P5.8.5.
 
 **Definition 2.4.1 (surface pairs and their cones).**
 

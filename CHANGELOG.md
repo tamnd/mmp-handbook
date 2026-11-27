@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- Volumes 1 and 2: exact cross-references. 34 references to sibling chapters and to P5 now cite the exact label, the requires lists of 28 sections and of both volumes match what they cite, and six notes are worded to match what the cited result proves.
+
 ## v0.0.9 - 2026-11-28
 
 ### Added

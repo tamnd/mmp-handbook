@@ -3,7 +3,7 @@ title: Running the program over a base and relative minimal models
 nodes: []
 sources: [KM98, Mat02, Bea96, Rei97]
 reads_with: [KM98:ch3, Mat02:ch1, Bea96:ch5]
-requires: [P3.11, P4.6, P5.2, P5.5, P5.6, P5.7, P5.8, P5.9, P5.10, P5.11, P5.12]
+requires: [P3.11, P5.2, P5.5, P5.6, P5.7, P5.8, P5.9, P5.10, P5.11, P5.12]
 level: core
 kind: theorem
 status: drafted

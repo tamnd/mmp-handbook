@@ -3,7 +3,7 @@ title: Mori fibre spaces over curves and elementary transformations
 nodes: []
 sources: [Har77, Bea96, Mat02, Rei97]
 reads_with: [Har77:V.5, Bea96:ch3, Mat02:ch1]
-requires: [P5.5, P5.6, P5.7, P5.8, P5.9, P5.11, P5.12]
+requires: [P3.11, P5.5, P5.6, P5.7, P5.8, P5.9, P5.11, P5.12]
 level: core
 kind: theorem
 status: drafted
@@ -14,7 +14,7 @@ reviewed_by: []
 
 ### Statement
 
-A Mori fibre space over a curve, case 2 of Theorem 2.1.6, is a $\mathbb{P}^1$-bundle. This section studies the birational maps between them over the same curve. The basic move is the elementary transformation of P5 Chapter 9, which is here defined over any curve and followed through its effect on sections.
+A Mori fibre space over a curve, case 2 of Theorem 2.1.6, is a $\mathbb{P}^1$-bundle. This section studies the birational maps between them over the same curve. The basic move is the elementary transformation of Proposition P5.9.10, which is there defined for the Hirzebruch surfaces and is here defined over any curve and followed through its effect on sections.
 
 **Definition 2.1.10 ($\mathbb{P}^1$-fibrations and elementary transformations).** A *$\mathbb{P}^1$-fibration* is a surjective morphism $p \colon X \to B$ from a smooth projective surface onto a smooth projective curve all of whose closed scheme-theoretic fibres $X_b = p^* b$ are isomorphic to $\mathbb{P}^1$. Let $x \in X$ be a closed point over $b \in B$, let $\pi \colon Y = \operatorname{Bl}_x X \to X$ be the blow-up with exceptional curve $E$, and let $\tilde F \subseteq Y$ be the strict transform of $X_b$. The *elementary transformation* of $X$ at $x$ is the surface $\operatorname{elm}_x X$ obtained by contracting $\tilde F$, with the birational map $\varepsilon_x = c \circ \pi^{-1} \colon X \dashrightarrow \operatorname{elm}_x X$, where $c \colon Y \to \operatorname{elm}_x X$ is the contraction.
 

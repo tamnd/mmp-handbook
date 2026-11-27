@@ -3,7 +3,7 @@ title: Pairs and their singularities
 nodes: []
 sources: [KM98, Rei88, Kol87]
 reads_with: [KM98:ch2]
-requires: [P3, P8]
+requires: [P0.6, P3, P8.4]
 level: background
 kind: background
 status: drafted

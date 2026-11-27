@@ -3,7 +3,7 @@ title: The canonical class of a normal surface
 nodes: []
 sources: [KM98, Kol13, Rei87, Har77]
 reads_with: [KM98:ch4, Rei87:ch4]
-requires: [P5.5, P5.8, P5.12, P3.11, 4.1, 4.2, 4.3]
+requires: [P5.5, P5.6, P5.8, P5.12, 4.1, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted

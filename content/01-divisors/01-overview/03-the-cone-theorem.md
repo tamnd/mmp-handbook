@@ -3,7 +3,7 @@ title: The cone of curves and the cone theorem
 nodes: [MMV4DPSCE3, MMDZBZY2BV]
 sources: [KM98, Laz04, Deb01, Kle66, Mor82, KMM87, Fuj11]
 reads_with: [KM98:ch1, KM98:ch3, Laz04:ch1, Deb01:ch1]
-requires: [P7]
+requires: [P7, 1.2]
 level: background
 kind: theorem
 status: drafted
@@ -79,4 +79,4 @@ Mumford's example shows that the closure in Kleiman's criterion is needed. On a 
 
 ### Notes and history
 
-Kleiman proved his criterion in 1966 (Kle66). Mori proved the cone theorem for smooth projective varieties in 1982 (Mor82), with bend-and-break. Kawamata, Reid, Shokurov and Kollár proved it for klt pairs in the 1980s with vanishing theorems, and KMM87 is the standard account of this proof. Both statements are theorems. The cone theorem for lc pairs is also a theorem, due to Ambro and Fujino (Fuj11; Volume 7). Volume 1 proves the relative Kleiman criterion in a later chapter, Volume 6 gives bend-and-break, and Volume 7 gives the full proofs of the cone and contraction theorems.
+Kleiman proved his criterion in 1966 (Kle66). Mori proved the cone theorem for smooth projective varieties in 1982 (Mor82), with bend-and-break. Kawamata, Reid, Shokurov and Kollár proved it for klt pairs in the 1980s with vanishing theorems, and KMM87 is the standard account of this proof. Both statements are theorems. The cone theorem for lc pairs is also a theorem, due to Ambro and Fujino (Fuj11; Volume 7). Theorem 1.2.30 proves the relative Kleiman criterion, Volume 6 gives bend-and-break, and Volume 7 gives the full proofs of the cone and contraction theorems.

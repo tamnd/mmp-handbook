@@ -3,7 +3,7 @@ title: The Iitaka fibration and the Kodaira dimension
 nodes: []
 sources: [Laz04, Har77, KM98, Bea96]
 reads_with: [Laz04:ch2, Bea96:ch8]
-requires: [P3, P4.6, P5.4, P5.11]
+requires: [P3.6, P3.7, P3.10, P3.12, P4.2, P4.4, P4.6, P5.1, P5.4, P5.6, P5.10, P5.11, P5.12, 1.1]
 level: background
 kind: theorem
 status: drafted
@@ -103,4 +103,4 @@ The restriction $H^0(X, \omega_X^{\otimes m}) \to H^0(U, \omega_X^{\otimes m})$ 
 
 ### Notes and history
 
-The fibration is due to Iitaka (1971), who used it to organize the classification of varieties by the Kodaira dimension; Ueno's lecture notes of 1975 give the classical account. The proof of parts 1 and 2 follows the structure of Laz04, Theorem 2.1.33, with the algebraic closedness written out through the normalization in a finite extension, and part 3 is cited from there. The birational invariance of the plurigenera is classical; for surfaces it is Theorem P5.11.6. Iitaka's easy addition $\kappa(X, D) \le \kappa(F, D|_F) + \dim Y$ for a fibration with general fibre $F$, and his conjecture $\kappa(X) \ge \kappa(F) + \kappa(Y)$ on the subadditivity of the Kodaira dimension, start from this fibration; the conjecture is open in general, and Kawamata showed that it follows from the existence of good minimal models, so from the conjectures of Chapter 1.
+The fibration is due to Iitaka (1971), who used it to organize the classification of varieties by the Kodaira dimension; Ueno's lecture notes of 1975 give the classical account. The proof of parts 1 and 2 follows the structure of Laz04, Theorem 2.1.33, with the algebraic closedness written out through the normalization in a finite extension, and part 3 is cited from there. The birational invariance of the plurigenera is classical; for surfaces it is Theorem P5.11.6. Iitaka's easy addition $\kappa(X, D) \le \kappa(F, D|_F) + \dim Y$ for a fibration with general fibre $F$, and his conjecture $\kappa(X) \ge \kappa(F) + \kappa(Y)$ on the subadditivity of the Kodaira dimension, start from this fibration; the conjecture is open in general, and Kawamata showed that it follows from the existence of good minimal models, so from Conjectures 1.1.27 and 1.1.31.

@@ -3,7 +3,7 @@ title: Abundance for minimal surfaces of Kodaira dimension at most one
 nodes: []
 sources: [Bea96, Rei97, KM98, Har77]
 reads_with: [Bea96:ch8, Bea96:ch9, Rei97:ch4]
-requires: [P3.6, P4.4, P4.6, P5.1, P5.5, P5.7, P5.11]
+requires: [P1.13, P4.4, P4.6, P5.1, P5.5, P5.7, P5.10, P5.11, P5.12, 1.1]
 level: core
 kind: theorem
 status: drafted
@@ -18,7 +18,7 @@ Throughout, $k$ is an algebraically closed field and a surface is a smooth proje
 
 **Definition 2.5.1 (semiample divisor, semiample fibration).** Let $X$ be a normal projective variety and $D$ a Cartier divisor on $X$. Then $D$ is *semiample* if the linear system $|mD|$ is base point free for some $m \geq 1$. A $\mathbb{Q}$-Cartier $\mathbb{Q}$-divisor $D$ is semiample if some multiple $mD$ that is Cartier is semiample. If $|mD|$ is free, let $\varphi \colon X \to \mathbb{P}^N$ be the morphism it defines and $X \xrightarrow{\varphi'} Z \xrightarrow{g} \mathbb{P}^N$ its Stein factorization. The morphism $\varphi' \colon X \to Z$ is the *semiample fibration* of $D$. When $D = K_X$ it is the *Iitaka fibration* of $X$.
 
-This is the definition of Volume 1, Chapter 1, for divisors with rational coefficients. The semiample fibration does not depend on $m$: the lemma below shows that it contracts exactly the curves $C$ with $D \cdot C = 0$ when $X$ is a surface, and a contraction of a normal variety is determined by the curves it contracts.
+This is the semiampleness of Definition 1.1.26, for divisors with rational coefficients. The semiample fibration does not depend on $m$: the lemma below shows that it contracts exactly the curves $C$ with $D \cdot C = 0$ when $X$ is a surface, and a contraction of a normal variety is determined by the curves it contracts.
 
 **Lemma 2.5.2 (the semiample fibration).** Let $X$ be a normal projective variety and $D$ a Cartier divisor with $|mD|$ base point free, and let $\varphi' \colon X \to Z$ be as in Definition 2.5.1.
 
@@ -114,8 +114,8 @@ The fibres $F_i$ are disjoint, so Lemma 2.5.7, applied near each $b_i$, gives $f
 
 ### Lean
 
-`MinimalModel.IsSemiample` is the Lean form of semiampleness, for divisors with real coefficients, in the sense of Volume 1, Chapter 1. The statements of this section are not yet in Lean; they depend on the classification of surfaces, which the Lean project states only in special cases.
+`MinimalModel.IsSemiample` is the Lean form of semiampleness, for divisors with real coefficients, in the sense of Definition 1.1.26. The statements of this section are not yet in Lean; they depend on the classification of surfaces, which the Lean project states only in special cases.
 
 ### Notes and history
 
-The statement that the canonical class of a minimal surface with $\kappa \geq 0$ is semiample is part of the Enriques-Kodaira classification. Enriques proved the classification of complex surfaces; Kodaira, in his series of papers on compact analytic surfaces (Amer. J. Math. 86 (1964), 751 to 798, and the later parts), gave the modern proof and the canonical bundle formula, and Bombieri and Mumford extended the classification to characteristic $p$ (Mumford, in *Global Analysis*, Princeton 1969, and Bombieri and Mumford, parts II and III, 1977). Beauville (Bea96, Chapters VIII and IX) proves the cases $\kappa = 0$ and $\kappa = 1$ over $\mathbb{C}$, and Reid (Rei97, Chapter 4) gives the shape of the argument. The proof of Theorem 2.5.3 is the standard one: the ruling gives a curve with $K \cdot F' < 0$ on every model, which a nef class cannot have. Iitaka introduced the fibration that bears his name and the Kodaira dimension of a divisor in general. In higher dimension the statement $\kappa \geq 0$ for nef $K_X$ is the nonvanishing conjecture, which together with semiampleness forms the abundance conjecture of Volume 1, Chapter 1.
+The statement that the canonical class of a minimal surface with $\kappa \geq 0$ is semiample is part of the Enriques-Kodaira classification. Enriques proved the classification of complex surfaces; Kodaira, in his series of papers on compact analytic surfaces (Amer. J. Math. 86 (1964), 751 to 798, and the later parts), gave the modern proof and the canonical bundle formula, and Bombieri and Mumford extended the classification to characteristic $p$ (Mumford, in *Global Analysis*, Princeton 1969, and Bombieri and Mumford, parts II and III, 1977). Beauville (Bea96, Chapters VIII and IX) proves the cases $\kappa = 0$ and $\kappa = 1$ over $\mathbb{C}$, and Reid (Rei97, Chapter 4) gives the shape of the argument. The proof of Theorem 2.5.3 is the standard one: the ruling gives a curve with $K \cdot F' < 0$ on every model, which a nef class cannot have. Iitaka introduced the fibration that bears his name and the Kodaira dimension of a divisor in general. In higher dimension the statement $\kappa \geq 0$ for nef $K_X$ is the case of a nef $K_X$ of the non-vanishing Conjecture 1.1.30, and the abundance Conjecture 1.1.31 asks for semiampleness.

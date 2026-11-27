@@ -3,7 +3,7 @@ title: Extremal contractions of surface pairs
 nodes: []
 sources: [KM98, Art66, Laz04, Mat02, Har77]
 reads_with: [KM98:ch3, Mat02:ch1]
-requires: [P4.6, P5.5, P5.7, P5.8, P5.12, 3.3, 3.5, 4.1, 4.2, 4.3]
+requires: [P4.6, P5.5, P5.7, P5.8, P5.12, 2.3, 3.5, 4.1, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted
@@ -87,7 +87,7 @@ which contradicts negative definiteness. So $p_a(Z) \le 0$ for every positive cy
 
 *Corollary 2.4.9.* Let $p \in X$ be a singular point, $E_1, \dots, E_s$ the exceptional curves of the minimal resolution over $p$, a connected negative definite configuration by Theorem P5.8.3, and $\Delta_Y = f^*(K_X + \Delta) - K_Y$. Its exceptional part is determined by its intersection numbers with the $E_j$, since their intersection matrix is negative definite, so $\Delta_Y = f^*\Delta - \sum_i a_i E_i$ with the numerical pullback of Definition 4.3.3 and the numerical discrepancies $a_i$. Here $f^*\Delta \ge 0$ and $a_i \le 0$ by part 2 of Proposition 4.3.5, so $\Delta_Y \ge 0$, as in part 7 of Lemma 2.4.2. Let $\theta_i$ be the coefficient of $E_i$ in $\Delta_Y$. Then $0 \le \theta_i < 1$, because $\theta_i = -a(E_i, X, \Delta)$ and the pair is klt. Put $\Theta = \sum_{i \le s} \theta_i E_i$. The divisor $\Delta_Y - \Theta$ is effective and has no component among $E_1, \dots, E_s$, so for $j \le s$,
 $$(K_Y + \Theta) \cdot E_j = (K_Y + \Delta_Y) \cdot E_j - (\Delta_Y - \Theta) \cdot E_j = 0 - (\Delta_Y - \Theta) \cdot E_j \le 0,$$
-using that $K_Y + \Delta_Y$ is a pullback. By Lemma 2.4.8, $p_a(Z) \le 0$ for every positive cycle supported over $p$. Artin's criterion (Art66, Theorem 3, the equivalence of Theorem P5.8.16) says that $p$ is a rational singularity. A rational surface singularity has a finite local class group (Lipman, *Rational singularities with applications to algebraic surfaces and unique factorization*, Publ. Math. IHES 36, 1969, Proposition 17.1; see also Chapter 3), so for every Weil divisor $D$ some multiple of $D$ is Cartier near $p$. There are finitely many singular points, and a common multiple of these integers makes $D$ Cartier everywhere. So $X$ is $\mathbb{Q}$-factorial.
+using that $K_Y + \Delta_Y$ is a pullback. By Lemma 2.4.8, $p_a(Z) \le 0$ for every positive cycle supported over $p$. Artin's criterion (Art66, Theorem 3, the equivalence of Theorem P5.8.16) says that $p$ is a rational singularity. A rational surface singularity has a finite local class group (Lipman, *Rational singularities with applications to algebraic surfaces and unique factorization*, Publ. Math. IHES 36, 1969, Proposition 17.1; see also part 2 of Theorem 2.3.13), so for every Weil divisor $D$ some multiple of $D$ is Cartier near $p$. There are finitely many singular points, and a common multiple of these integers makes $D$ Cartier everywhere. So $X$ is $\mathbb{Q}$-factorial.
 
 *Theorem 2.4.10.* Write $f^*C = \tilde C + \sum_i c_i E_i$, and let $\Sigma$ be the configuration formed by $\tilde C$ and the exceptional curves over the points of $C$. These are exactly the curves of $f^{-1}(C)$.
 

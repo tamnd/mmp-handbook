@@ -3,7 +3,7 @@ title: The big and pseudoeffective cones and the volume
 nodes: []
 sources: [Laz04, KM98, KMM87, Har77, BDPP13]
 reads_with: [Laz04:2.2, KM98:ch1]
-requires: [P5.5, P5.6, P5.8, P5.12, 1.1, 1.2]
+requires: [P5.5, P5.6, P5.8, P5.12, 1.1]
 level: background
 kind: theorem
 status: drafted

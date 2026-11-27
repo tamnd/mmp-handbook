@@ -3,7 +3,7 @@ title: Divisors and linear equivalence over a base
 nodes: []
 sources: [KM98, Laz04, Deb01, Har77]
 reads_with: [KM98:ch1, Laz04:1.3, Deb01:ch1]
-requires: [P3.8, P3.9, P3.11, P5.1, 1.1]
+requires: [P3.8, P3.9, P5.1, P5.12, 1.1, 4.1]
 level: background
 kind: theorem
 status: drafted

@@ -3,7 +3,7 @@ title: The program for smooth surfaces
 nodes: [MMRP5RX4JJ, MM8MGCYF75, MM861R2D6G]
 sources: [Har77, KM98, Bea96, Mor82]
 reads_with: [Har77:V.5, KM98:ch1, Bea96:ch2]
-requires: [P5, P7]
+requires: [P0.6, P5, P7]
 level: background
 kind: theorem
 status: drafted

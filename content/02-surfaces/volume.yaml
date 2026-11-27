@@ -2,7 +2,7 @@ number: 2
 title: The MMP for surfaces
 subtitle: The minimal model program for smooth surfaces over a base, del Pezzo surfaces and their cones, normal and log surfaces, the log MMP for surfaces, and abundance for surfaces
 level: core
-requires: [1, P5.5, P5.6, P5.7, P5.8, P5.9, P5.10, P5.11, P5.12]
+requires: [1, 3.3, 3.5, 4.1, 4.2, 4.3, P1.8, P1.9, P1.13, P3.6, P3.9, P3.11, P3.12, P3.13, P4.2, P4.4, P4.5, P4.6, P5.1, P5.2, P5.3, P5.5, P5.6, P5.7, P5.8, P5.9, P5.10, P5.11, P5.12]
 spine: ["Reid, Chapters on algebraic surfaces (Rei97)", "Beauville, Complex algebraic surfaces (Bea96)", "Matsuki, Introduction to the Mori program, Chapter 1 (Mat02)"]
 chapters:
   - "1. The smooth surface MMP over a base: the relative cone theorem for a projective morphism of a smooth surface, the three extremal contractions, Mori fibre spaces over curves, elementary transformations of ruled surfaces, and minimal models for kappa >= 0 with a general type surface carrying a (-1)-curve"

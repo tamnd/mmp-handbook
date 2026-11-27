@@ -3,7 +3,7 @@ title: Contractions and exceptional loci
 nodes: []
 sources: [KM98, Har77, Deb01]
 reads_with: [KM98:ch1, Har77:ch3, Deb01:ch1]
-requires: [P3.4, P3.7, P3.11, P4.2, P4.6, 1.1]
+requires: [P3.7, P3.11, P4.2, P4.6, P5.8, 1.1]
 level: background
 kind: theorem
 status: drafted

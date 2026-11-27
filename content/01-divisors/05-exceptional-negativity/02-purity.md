@@ -3,7 +3,7 @@ title: Purity and the relative canonical divisor
 nodes: []
 sources: [KM98, Deb01, Har77]
 reads_with: [KM98:ch2, Deb01:ch1, Har77:ch2]
-requires: [P1.9, P1.12, P3.7, P3.9, P3.11, P3.12, P4.6, 1.1]
+requires: [P1.8, P1.9, P1.11, P1.12, P3.7, P3.9, P3.11, P3.12, P4.6, P5.8]
 level: background
 kind: theorem
 status: drafted
