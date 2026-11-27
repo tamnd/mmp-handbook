@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P5 Chapter 9, Ruled, rational and del Pezzo surfaces: ruled surfaces as projective bundles over a curve, the invariant e, Hirzebruch surfaces and elementary transformations (P5.9.1 to P5.9.14), the Noether-Enriques theorem and the minimal rational surfaces (P5.9.15 to P5.9.23), and del Pezzo surfaces, their (-1)-curves, classification and anticanonical models (P5.9.24 to P5.9.33).
 - P5 Chapter 10, Cubic surfaces and the plane blown up in nine points: the cubic surface as the plane blown up in six points and its 27 lines (P5.10.1 to P5.10.9), the E6 root system, the Weyl group of order 51840 and the 36 double sixes (P5.10.10 to P5.10.16), and eight and nine points, the rational elliptic surface with its infinitely many (-1)-curves, the E8 lattice of sections and the Hesse pencil (P5.10.17 to P5.10.27).
 
 ## v0.0.8 - 2026-11-27
