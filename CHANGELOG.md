@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.5 - 2026-11-27
+
 ### Added
 
 - P4 Chapter 7, Serre duality: Ext groups and Ext sheaves with the comparison after a high twist (Proposition P4.7.4), Serre duality on projective space by universal $\delta$-functors (Theorem P4.7.8), the dualizing sheaf of a projective scheme as $\mathcal{E}xt^r_P(\mathcal{O}_X, \omega_P)$, the Cohen-Macaulay criterion for duality in all degrees (Theorem P4.7.18), the local complete intersection formula, and the identification of the dualizing sheaf with the canonical sheaf for smooth and for normal projective varieties.
