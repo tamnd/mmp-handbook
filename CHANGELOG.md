@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P5 Chapter 2, Maps of curves: ramification and the Hurwitz formula with tame and wild ramification (P5.2.1 to P5.2.7), and the Frobenius morphism, the factorization of morphisms into a power of Frobenius and a separable map, and Lüroth's theorem (P5.2.8 to P5.2.16).
 - P5, Curves and surfaces: the volume plan of twelve chapters and its introduction, and Chapter 1, Curves and Riemann-Roch: the dictionary between smooth projective curves and function fields, the extension of morphisms and the degree of a finite morphism (P5.1.1 to P5.1.9), the Riemann-Roch theorem with $\deg K = 2g - 2$ and the curves of genus $0$ and $1$ (P5.1.10 to P5.1.18), and base points, very ampleness, Clifford's theorem and the canonical embedding (P5.1.19 to P5.1.28).
 
 ## v0.0.6 - 2026-11-27
