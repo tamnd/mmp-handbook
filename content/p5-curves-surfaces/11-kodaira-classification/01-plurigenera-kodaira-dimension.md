@@ -110,7 +110,7 @@ For the Kodaira dimension, if $\kappa(C_i) = -\infty$ for some $i$, then $P_n(S)
 
 *Theorem P5.11.6.* (1) By part 3 of Theorem P5.6.3, $nK_{\tilde S} = \pi^*(nK_S) + nE$, and by part 3 of Corollary P5.6.5, $h^0(\pi^*(nK_S) + nE) = h^0(nK_S)$. The same part of Theorem P5.6.3 gives $h^i(\mathcal{O}_{\tilde S}) = h^i(\mathcal{O}_S)$, hence $q$ and $\chi$ agree, and $K_{\tilde S}^2 = K_S^2 - 1$. Equal plurigenera give equal Kodaira dimensions.
 
-(2) Let $\varphi \colon S \dashrightarrow S'$ be birational. By the elimination of indeterminacy of Chapter 7, there is a composite $f \colon S'' \to S$ of blow-ups of points such that $g = \varphi \circ f \colon S'' \to S'$ is a morphism. It is a birational morphism of smooth projective surfaces, so by the factorization theorem of Chapter 7 it is a composite of blow-ups of points. Applying (1) to each blow-up in $f$ and in $g$ gives the equalities between $S$ and $S''$ and between $S'$ and $S''$. $\square$
+(2) Let $\varphi \colon S \dashrightarrow S'$ be birational. By the elimination of indeterminacy (Theorem P5.7.9), there is a composite $f \colon S'' \to S$ of blow-ups of points such that $g = \varphi \circ f \colon S'' \to S'$ is a morphism. It is a birational morphism of smooth projective surfaces, so by Theorem P5.7.12 it is a composite of blow-ups of points. Applying (1) to each blow-up in $f$ and in $g$ gives the equalities between $S$ and $S''$ and between $S'$ and $S''$. $\square$
 
 ### Exercises
 
