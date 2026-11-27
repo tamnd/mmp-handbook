@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.6 - 2026-11-27
+
 ### Added
 
 - P4 Chapter 9, Grothendieck duality: dualizing complexes over local rings and projective schemes (P4.9.1 to P4.9.10), Serre duality for complexes and duality for morphisms of projective schemes with $f^!$ (P4.9.11 to P4.9.17), and rational singularities with Kempf's criterion, Gorenstein rational equals canonical, and the cone criterion (P4.9.18 to P4.9.27).
