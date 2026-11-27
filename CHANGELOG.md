@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- P5 Chapter 5, Intersection theory on surfaces: Bertini's theorem for surfaces, the intersection pairing through Euler characteristics, local intersection multiplicities and numerical equivalence (P5.5.1 to P5.5.11), Riemann-Roch for surfaces, the adjunction and genus formulas and (-1)- and (-2)-curves (P5.5.12 to P5.5.19), and the Hodge index theorem with Weil's bound for curves over finite fields (P5.5.20 to P5.5.29).
+
 ## v0.0.7 - 2026-11-27
 
 ### Added
