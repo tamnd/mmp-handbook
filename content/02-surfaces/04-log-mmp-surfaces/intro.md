@@ -1,0 +1,13 @@
+# The log MMP for surfaces
+
+A surface pair $(X, \Delta)$ is a normal projective $\mathbb{Q}$-factorial surface with a boundary, a $\mathbb{Q}$-divisor with coefficients between $0$ and $1$. This chapter runs the minimal model program for such pairs. It is the first case of the program in which singularities appear in the input and in the output: the contraction of a curve of negative square on a smooth surface can produce a singular point, and the next step of the program starts from a singular surface. The chapter shows that klt pairs form a class that the program preserves, that there are no flips in dimension $2$, and that every run stops after at most $\rho(X) - 1$ steps at a log minimal model or at a log Mori fibre space.
+
+Section 1 proves the cone theorem for surface pairs. Mumford's intersection theory on the minimal resolution $f \colon Y \to X$ identifies $N^1(X)$ with the orthogonal complement of the exceptional curves, and the cone theorem for the smooth surface $Y$ of P5 Chapter 12 descends to $X$. The rays on which the boundary is negative are spanned by components of $\Delta$ of negative square. Every negative ray is spanned by a rational curve $\Gamma$ with $-(K_X + \Delta) \cdot \Gamma \le 3$.
+
+Section 2 contracts the rays. A ray of square zero gives a fibration over a curve with irreducible fibres and $\rho(X) = 2$, and a ray of positive square occurs only when $\rho(X) = 1$. A ray of negative square is spanned by one curve $C$. For a klt pair, the strict transform of $C$ and the exceptional curves over its points satisfy Artin's criterion, because the crepant boundary has coefficients less than $1$; so they contract to a rational singularity, which is $\mathbb{Q}$-factorial by Lipman's theorem. The theorem of Zariski and Fujita moves the contraction down to $X$. Discrepancies only go up.
+
+Section 3 assembles the program, proves termination and the exclusion of the two outcomes, and states the lc case of Fujino and Tanaka.
+
+The worked examples are the plane with a line arrangement, where the klt condition is a condition on the points of multiplicity at least $3$; the $(-n)$-curve of the Hirzebruch surface $F_n$, contracted to the point $\frac1n(1,1)$ of $\mathbb{P}(1,1,n)$ with discrepancy $-\frac{n-2}{n}$; two runs from $(F_n, bC_-)$ that end at different log Mori fibre spaces, and a run from $F_4$ with three boundary curves that ends at a log minimal model; and the klt del Pezzo surface $\mathbb{P}(1,1,n)$ with $\rho = 1$ and $K^2 = \frac{(n+2)^2}{n}$.
+
+The chapter uses P5 Chapters 5, 8 and 12 for intersection theory, contractibility and the smooth cone theorem, Chapter 3 for normal surfaces, and Volume 4, Chapters 1 to 3, for discrepancies and surface singularities.
