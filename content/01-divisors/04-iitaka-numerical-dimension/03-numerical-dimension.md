@@ -3,7 +3,7 @@ title: The numerical dimension of Nakayama
 nodes: []
 sources: [Laz04, Har77, BDPP13, KM98]
 reads_with: [Laz04:ch2, BDPP13:ch3]
-requires: [P3.6, P5.5, P5.6, P5.10, P5.11, P5.12]
+requires: [P3.6, P4.4, P5.1, P5.5, P5.6, P5.8, P5.10, P5.11, P5.12, 1.1, 1.3]
 level: background
 kind: theorem
 status: drafted
@@ -35,7 +35,7 @@ Lean: `MinimalModel.numericalDim`, in the project library.
 
 Lean: not yet in Lean.
 
-In part 6, bigness for rational $\varepsilon$ gives it for real $\varepsilon$ by the openness of the big cone, proved in Chapter 3, so $D$ is pseudo-effective in the sense of Definition 1.1.26. The converse also holds: for a pseudo-effective $D$ on a smooth projective $X$ there is an ample $A$ with $h^0(mD + A) \ne 0$ for every $m \ge 1$, so $\kappa_\sigma(D) \ge 0$ (Nakayama, Chapter V, Section 1). So $\kappa_\sigma(D) = -\infty$ exactly when $D$ is not pseudo-effective, and $\kappa_\sigma$ depends only on the numerical class of $D$ (Nakayama, Chapter V, Section 2). These two facts are cited and are not used in the proofs below.
+In part 6, bigness for rational $\varepsilon$ gives it for real $\varepsilon$ by the openness of the big cone, part 2 of Theorem 1.3.16, so $D$ is pseudo-effective in the sense of Definition 1.1.26. The converse also holds: for a pseudo-effective $D$ on a smooth projective $X$ there is an ample $A$ with $h^0(mD + A) \ne 0$ for every $m \ge 1$, so $\kappa_\sigma(D) \ge 0$ (Nakayama, Chapter V, Section 1). So $\kappa_\sigma(D) = -\infty$ exactly when $D$ is not pseudo-effective, and $\kappa_\sigma$ depends only on the numerical class of $D$ (Nakayama, Chapter V, Section 2). These two facts are cited and are not used in the proofs below.
 
 **Theorem 1.4.24 (bigness and $\kappa_\sigma$).** For a Cartier divisor $D$ on $X$ the following are equivalent:
 
@@ -149,4 +149,4 @@ Each summand has degree $c \ge 1 > 2g(E) - 2 = 0$, so it has exactly $c$ section
 
 ### Notes and history
 
-Nakayama introduced $\kappa_\sigma$ and the numerical dimension $\kappa_\nu$ in his memoir of 2004, together with the $\sigma$-decomposition, a version in all dimensions of the Zariski decomposition of P5.8.24. The example of Theorem 1.4.26 is classical, and it is the basic example in the literature on abundance of a nef divisor whose Iitaka dimension is smaller than its numerical dimension. The generalized abundance conjecture asks for $\kappa(K_X + \Delta) = \kappa_\sigma(K_X + \Delta)$ for log canonical pairs; for $\Delta = 0$ and $K_X$ pseudo-effective it implies the non-vanishing conjecture of Chapter 1. Lehmann showed that several other definitions of the numerical dimension agree with $\kappa_\sigma$, and Lesieutre found an example in 2016 in which two of the proposed definitions differ, so the choice of $\kappa_\sigma$ matters. BDPP13 use the dual cone of movable curves to characterize pseudo-effectivity, which is where $\kappa_\sigma \ge 0$ meets the duality of Chapter 3.
+Nakayama introduced $\kappa_\sigma$ and the numerical dimension $\kappa_\nu$ in his memoir of 2004, together with the $\sigma$-decomposition, a version in all dimensions of the Zariski decomposition of P5.8.24. The example of Theorem 1.4.26 is classical, and it is the basic example in the literature on abundance of a nef divisor whose Iitaka dimension is smaller than its numerical dimension. The generalized abundance conjecture asks for $\kappa(K_X + \Delta) = \kappa_\sigma(K_X + \Delta)$ for log canonical pairs; for $\Delta = 0$ and $K_X$ pseudo-effective it implies the case $\Delta = 0$ of the non-vanishing Conjecture 1.1.30. Lehmann showed that several other definitions of the numerical dimension agree with $\kappa_\sigma$, and Lesieutre found an example in 2016 in which two of the proposed definitions differ, so the choice of $\kappa_\sigma$ matters. BDPP13 use the dual cone of movable curves to characterize pseudo-effectivity, the analogue for pseudo-effective classes of the duality of nef classes and curves in part 3 of Theorem 1.3.4.

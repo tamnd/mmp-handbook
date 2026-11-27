@@ -3,7 +3,7 @@ title: The Iitaka dimension and the growth of sections
 nodes: []
 sources: [Laz04, Har77, Eis95]
 reads_with: [Laz04:ch2]
-requires: [P3, P4, P5.11]
+requires: [P3.6, P3.7, P3.8, P3.13, P4.3, P4.4, P4.6, P5.1, P5.6, P5.10, P5.11, 1.1]
 level: background
 kind: theorem
 status: drafted
@@ -152,4 +152,4 @@ The last sentence of the theorem follows: for $j > \kappa$ the lower bound makes
 
 ### Notes and history
 
-Iitaka introduced the $D$-dimension in 1971, for line bundles on compact complex manifolds, as the largest dimension of the images of the maps $\varphi_m$, and proved the growth of $h^0(mD)$ and the fibration of Section 2. The proof of the growth here follows Laz04, Section 2.1, which works with the semigroup and the exponent in the same way. The upper bound through a subvariety that maps onto the image is a version of the argument in Laz04, Section 2.1, written so that it uses only the Hilbert polynomial. On surfaces Chapter P5.11 proved the same bounds directly from Riemann-Roch.
+Iitaka introduced the $D$-dimension in 1971, for line bundles on compact complex manifolds, as the largest dimension of the images of the maps $\varphi_m$, and proved the growth of $h^0(mD)$ and the fibration of Section 2. The proof of the growth here follows Laz04, Section 2.1, which works with the semigroup and the exponent in the same way. The upper bound through a subvariety that maps onto the image is a version of the argument in Laz04, Section 2.1, written so that it uses only the Hilbert polynomial. On surfaces Proposition P5.11.3 proved the upper bound, and the lower bound for $\kappa = 2$, directly.

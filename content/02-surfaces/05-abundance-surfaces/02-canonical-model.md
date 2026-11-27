@@ -3,7 +3,7 @@ title: The canonical ring and the canonical model
 nodes: []
 sources: [Bea96, Rei97, Art66, KM98, Laz04, Kle66, Har77]
 reads_with: [Bea96:ch10, Rei97:ch4, KM98:ch4]
-requires: [P1.9, P1.13, P3.6, P3.12, P4.2, P4.4, P4.6, P5.1, P5.5, P5.8, P5.11, P5.12, 4.3]
+requires: [P1.9, P1.13, P3.6, P3.12, P4.2, P4.4, P4.6, P5.1, P5.5, P5.8, P5.11, 1.1, 4.3]
 level: core
 kind: theorem
 status: drafted
@@ -112,7 +112,7 @@ By Corollary P5.8.5, the Mumford pullback of the Cartier divisor $K_X$ is the us
 
 ### Lean
 
-The finite generation of the canonical ring in all dimensions is `MinimalModel.FiniteGenerationCanonical`, the statement of the finite generation theorem of Volume 1, Chapter 1. Theorem 2.5.16 is its case of surfaces of general type, which the Lean project does not state separately. The statements of this section are not yet in Lean.
+The finite generation of the canonical ring in all dimensions is `MinimalModel.FiniteGenerationCanonical`, the statement of the finite generation Theorem 1.1.29. Theorem 2.5.16 is its case of surfaces of general type, which the Lean project does not state separately. The statements of this section are not yet in Lean.
 
 ### Notes and history
 

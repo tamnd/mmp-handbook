@@ -3,7 +3,7 @@ title: The log minimal model program for surfaces
 nodes: [MMXV8DZWP4]
 sources: [KM98, Mat02, Kol13]
 reads_with: [KM98:ch3, Mat02:ch1]
-requires: [P3.11, P5.5, P5.8, P5.12, 3.3, 3.5, 4.1, 4.2, 4.3]
+requires: [P3.11, P5.12, 2.5, 3.3, 4.1, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted
@@ -96,4 +96,4 @@ The theorem and the proposition for klt pairs are not yet in Lean. The library s
 
 ### Notes and history
 
-For klt surface pairs the program is the case of dimension $2$ of the program for klt pairs, and termination is the same count of Picard numbers as for smooth surfaces in Theorem P5.12.21. Fujino, *Minimal model theory for log surfaces* (Publ. RIMS 48, 2012), proved it for all lc surfaces and for $\mathbb{Q}$-factorial surfaces with a boundary, and proved abundance for lc surfaces; Tanaka, *Minimal models and abundance for positive characteristic log surfaces* (Nagoya Math. J. 216, 2014), extended both to every characteristic. KM98, Chapter 3, presents the program for klt pairs in any dimension, where the flips of Chapter 6 and termination are the main difficulties; for surfaces both vanish. Matsuki, Chapter 1, uses surfaces as the model case. The surfaces $\mathbb{P}(1,1,n)$ are the simplest klt del Pezzo surfaces of Picard number $1$. Kol13, Chapter 3, classifies the lc surface singularities that the lc case has to handle. Chapter 5 proves abundance for klt surface pairs, so that the log minimal models of this section have semiample $K + \Delta$.
+For klt surface pairs the program is the case of dimension $2$ of the program for klt pairs, and termination is the same count of Picard numbers as for smooth surfaces in Theorem P5.12.21. Fujino, *Minimal model theory for log surfaces* (Publ. RIMS 48, 2012), proved it for all lc surfaces and for $\mathbb{Q}$-factorial surfaces with a boundary, and proved abundance for lc surfaces; Tanaka, *Minimal models and abundance for positive characteristic log surfaces* (Nagoya Math. J. 216, 2014), extended both to every characteristic. KM98, Chapter 3, presents the program for klt pairs in any dimension, where the flips of Chapter 6 and termination are the main difficulties; for surfaces both vanish. Matsuki, Chapter 1, uses surfaces as the model case. The surfaces $\mathbb{P}(1,1,n)$ are the simplest klt del Pezzo surfaces of Picard number $1$. Kol13, Chapter 3, classifies the lc surface singularities that the lc case has to handle. Theorem 2.5.22 gives abundance for lc surface pairs, and Proposition 2.5.23 proves the big klt case, so that the log minimal models of this section have semiample $K + \Delta$.

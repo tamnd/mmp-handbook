@@ -3,7 +3,7 @@ title: The round cone of E x E
 nodes: []
 sources: [Laz04, Sil09, Bea96]
 reads_with: [Laz04:1.5, Sil09:ch3]
-requires: [P5.4, P5.5, P5.8, P5.12, 1.1]
+requires: [P5.4, P5.5, P5.8, P5.12]
 level: background
 kind: theorem
 status: drafted

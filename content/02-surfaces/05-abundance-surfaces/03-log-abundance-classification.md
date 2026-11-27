@@ -3,7 +3,7 @@ title: Log abundance for surface pairs and the Enriques-Kodaira outline
 nodes: [MMMSGVFVJH]
 sources: [KM98, Fuj11, Mat02, Bea96, Kol13]
 reads_with: [KM98:ch3, Mat02:ch1, Bea96:ch8]
-requires: [P5.8, P5.10, P5.11, P5.12, 4.2, 4.3]
+requires: [P5.8, P5.10, P5.11, P5.12, 1.1, 1.4, 2.4, 4.1, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted
@@ -14,13 +14,13 @@ reviewed_by: []
 
 ### Statement
 
-A *surface pair* $(X, \Delta)$ is a normal projective surface $X$ with an effective $\mathbb{R}$-divisor $\Delta$ such that $K_X + \Delta$ is $\mathbb{R}$-Cartier. It is klt or lc in the sense of Volume 4, Chapter 1. Chapter 4 runs the log minimal model program for such pairs, and it ends at a log Mori fibre space or at a pair with $K_X + \Delta$ nef. Log abundance treats the second case.
+A *surface pair* $(X, \Delta)$ is a normal projective surface $X$ with an effective $\mathbb{R}$-divisor $\Delta$ such that $K_X + \Delta$ is $\mathbb{R}$-Cartier. It is klt or lc in the sense of Volume 4, Chapter 1. Theorem 2.4.17, for klt surface pairs, and Theorem 2.4.19, for lc pairs, run the log minimal model program, and a run ends at a log Mori fibre space or at a pair with $K_X + \Delta$ nef. Log abundance treats the second case.
 
 **Definition 2.5.21 (log canonical ring, numerical dimension).** Let $(X, \Delta)$ be a surface pair with $\Delta$ a $\mathbb{Q}$-divisor. Its *log canonical ring* is
 $$R(X, K_X + \Delta) = \bigoplus_{n \geq 0} H^0\big(X, \mathcal{O}_X(\lfloor n(K_X + \Delta) \rfloor)\big),$$
 and $\kappa(X, K_X + \Delta)$ is its growth: $-\infty$ if all the summands with $n \geq 1$ vanish, and otherwise the least $j$ with $h^0(\lfloor n(K_X + \Delta) \rfloor) \leq c \, n^j$. For a nef $\mathbb{R}$-Cartier divisor $D$ on a normal projective surface, the *numerical dimension* $\nu(D)$ is $0$ if $D \equiv 0$, $1$ if $D \not\equiv 0$ and $D^2 = 0$, and $2$ if $D^2 > 0$, where $D^2$ is Mumford's intersection number (Corollary P5.8.5).
 
-This is the numerical dimension of Volume 1, Chapter 4, for surfaces. For a Cartier divisor on a smooth surface $\kappa(X, D) = \kappa(D)$ of Definition P5.11.1.
+For a nef Cartier divisor on a smooth surface, $\nu(D)$ is the numerical dimension $\kappa_\sigma(D)$ of Definition 1.4.22, by Proposition 1.4.25. For a Cartier divisor on a smooth surface $\kappa(X, D) = \kappa(D)$ of Definition P5.11.1.
 
 **Theorem 2.5.22 (log abundance for surfaces).** Let $(X, \Delta)$ be a projective lc surface pair over an algebraically closed field, with $K_X + \Delta$ nef. Then $K_X + \Delta$ is semiample: it is $\mathbb{R}$-linearly equivalent to a nonnegative real combination of semiample Cartier divisors. If $\Delta$ is a $\mathbb{Q}$-divisor, some multiple $m(K_X + \Delta)$ is a base point free Cartier divisor, and $\kappa(X, K_X + \Delta) = \nu(K_X + \Delta)$.
 
@@ -84,7 +84,7 @@ with $\mathcal{G}_i$ coherent. The proof of Lemma 2.5.15 applies word for word t
 
 ### Lean
 
-`MinimalModel.SurfaceAbundance` states Theorem 2.5.22 for lc pairs with real coefficients, over an algebraically closed field of characteristic $0$, as in Fujino's paper. It is the case $n = 2$ of `MinimalModel.Abundance`, the abundance conjecture of Volume 1, Chapter 1. Proposition 2.5.23 is the case of surfaces of `MinimalModel.AbundanceBig`, the base point free theorem with $D = K + \Delta$. Corollary 2.5.25 is the equality $\kappa = \nu$ that abundance predicts in every dimension, and `MinimalModel.AbundanceNuZero` states abundance in the case $\nu = 0$ in every dimension. The positive characteristic case of Tanaka is not stated in Lean.
+`MinimalModel.SurfaceAbundance` states Theorem 2.5.22 for lc pairs with real coefficients, over an algebraically closed field of characteristic $0$, as in Fujino's paper. It is the case $n = 2$ of `MinimalModel.Abundance`, the abundance Conjecture 1.1.31. Proposition 2.5.23 is the case of surfaces of `MinimalModel.AbundanceBig`, the base point free theorem with $D = K + \Delta$. Corollary 2.5.25 is the equality $\kappa = \nu$ that abundance predicts in every dimension, and `MinimalModel.AbundanceNuZero` states abundance in the case $\nu = 0$ in every dimension. The positive characteristic case of Tanaka is not stated in Lean.
 
 ### Notes and history
 

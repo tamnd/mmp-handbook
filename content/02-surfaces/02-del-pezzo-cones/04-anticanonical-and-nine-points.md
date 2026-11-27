@@ -3,7 +3,7 @@ title: Degrees two and one, and the plane blown up in nine points
 nodes: []
 sources: [Kol96, Har77, Bea96, KM98]
 reads_with: [Kol96:III.3, Har77:V.4, Bea96:ch4]
-requires: [P5.3, P5.5, P5.6, P5.9, P5.10, P5.12]
+requires: [P5.3, P5.5, P5.6, P5.9, P5.10, P5.11, P5.12]
 level: core
 kind: theorem
 status: drafted

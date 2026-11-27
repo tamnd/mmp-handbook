@@ -3,7 +3,7 @@ title: Rational singularities are Q-factorial
 nodes: []
 sources: [Lip69, Art66, Mum61, Sil09]
 reads_with: [KM98:ch4, Kol13:ch3]
-requires: [P1.8, P3.9, P5.5, P5.8, 4.2, 4.3]
+requires: [P1.8, P3.9, P5.5, P5.7, P5.8, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted

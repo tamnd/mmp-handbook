@@ -3,7 +3,7 @@ title: The negativity lemma
 nodes: []
 sources: [KM98, Har77, Laz04, Deb01, Mum61, Hir64]
 reads_with: [KM98:ch3, Laz04:ch1, Har77:ch3]
-requires: [P3.4, P3.7, P4.6, P5.5, P5.8, 1.1]
+requires: [P1.9, P3.4, P3.7, P3.9, P4.6, P5.8]
 level: background
 kind: theorem
 status: drafted
@@ -59,7 +59,7 @@ Corollary 1.5.24 contains Theorem 1.5.12 for a normal $X$, since $\operatorname{
 
 ### Proof in words
 
-On a surface over an affine base, the negativity lemma is the argument of P5 Chapter 8. Mumford's argument with a function vanishing at a point of the base shows that the curves over that point have a negative definite intersection matrix, and the sign lemma for such matrices does the rest.
+On a surface over an affine base, the negativity lemma is the argument of Theorem P5.8.3 and Corollary P5.8.4. Mumford's argument with a function vanishing at a point of the base shows that the curves over that point have a negative definite intersection matrix, and the sign lemma for such matrices does the rest.
 
 In higher dimension, take a component $E$ of $B$ with negative coefficient, chosen so that its image $h(E)$ has the largest dimension $w$ among such components. Cutting $Y$ by $w$ general hyperplanes leaves finitely many points of $h(E)$, and the images of all the negative components meet the cut in at most finitely many points. Cutting $X$ further by general hyperplanes leaves a smooth surface $S'$, which maps birationally to its image, and a proper curve $\Gamma \subseteq E \cap S'$ that lies on no other component of $B$. On $S'$, the restriction of $B$ still has negative intersection with the contracted curves, its negative components are all contracted, because their images lie in the finite set above, and its coefficient along $\Gamma$ is negative. This contradicts the surface case. The reduction to a smooth $X$, needed for Bertini's theorem, is a resolution of singularities and the projection formula.
 
@@ -128,7 +128,7 @@ Part 1 of Lemma P5.8.1 gives $e \geq 0$. This holds for every $t \in T \setminus
 
 ### Lean
 
-The project library states the cone and contraction theorems with `MinimalModel.IsExtremalContraction` and `MinimalModel.IsContraction`, and the relative nefness used there is a placeholder interface. Mathlib has no intersection numbers of divisors with curves on a variety and no Bertini theorem, so none of the statements of this section is in Lean. A formal proof would follow the reduction to Lemma 1.5.20 given here, with the matrix lemma of P5 Chapter 8 as its algebraic core.
+The project library states the cone and contraction theorems with `MinimalModel.IsExtremalContraction` and `MinimalModel.IsContraction`, and the relative nefness used there is a placeholder interface. Mathlib has no intersection numbers of divisors with curves on a variety and no Bertini theorem, so none of the statements of this section is in Lean. A formal proof would follow the reduction to Lemma 1.5.20 given here, with the matrix lemma, Lemma P5.8.1, as its algebraic core.
 
 ### Notes and history
 

@@ -3,7 +3,7 @@ title: The cone of curves of a del Pezzo surface
 nodes: []
 sources: [KM98, Mat02, Har77, Rei97]
 reads_with: [KM98:ch1, Har77:V.4, Rei97:ch2]
-requires: [P5.5, P5.6, P5.9, P5.10, P5.12]
+requires: [P5.6, P5.9, P5.12]
 level: core
 kind: theorem
 status: drafted
@@ -14,7 +14,7 @@ reviewed_by: []
 
 ### Statement
 
-In this chapter $k$ is an algebraically closed field of characteristic $0$, and a surface is a smooth projective surface over $k$. For a surface $S$, $NE(S) \subseteq N^1(S)$ is the cone of effective $1$-cycles, $\overline{NE}(S)$ its closure, and $\operatorname{Nef}(S)$ the nef cone, as in Chapter P5.12. A *del Pezzo surface* is a surface with $-K_S$ ample, and its *degree* is $K_S^2$ (Definition P5.9.24).
+In this chapter $k$ is an algebraically closed field of characteristic $0$, and a surface is a smooth projective surface over $k$. For a surface $S$, $NE(S) \subseteq N^1(S)$ is the cone of effective $1$-cycles, $\overline{NE}(S)$ its closure, and $\operatorname{Nef}(S)$ the nef cone, as in Definition P5.12.1. A *del Pezzo surface* is a surface with $-K_S$ ample, and its *degree* is $K_S^2$ (Definition P5.9.24).
 
 **Definition 2.2.1 (the surfaces $S_r$).** Let $0 \leq r \leq 8$ and let $p_1, \dots, p_r \in \mathbb{P}^2$ be points in general position in the sense of Definition P5.9.24. Write $S_r = \operatorname{Bl}_{p_1, \dots, p_r} \mathbb{P}^2$, with $S_0 = \mathbb{P}^2$, let $\ell$ be the pullback of a line and $E_1, \dots, E_r$ the exceptional curves. Then $\operatorname{Num}(S_r) = I^{1,r} = \mathbb{Z}\ell \oplus \mathbb{Z}E_1 \oplus \dots \oplus \mathbb{Z}E_r$ with $\ell^2 = 1$, $E_i^2 = -1$, the other products $0$, and $K = -3\ell + E_1 + \dots + E_r$ (Example P5.6.8). A class $a\ell - \sum_i b_i E_i$ is written $(a; b_1, \dots, b_r)$ when convenient. Let $N_r$ be the number of $(-1)$-curves on $S_r$.
 
@@ -75,4 +75,4 @@ Nothing of this section is in Lean. The project library has no cone of curves of
 
 ### Notes and history
 
-Del Pezzo described the surfaces of degree $d$ in $\mathbb{P}^d$ in 1887, and the description of their lines by exceptional classes is due to Manin, Cubic forms, Chapter IV, and Demazure, Surfaces de del Pezzo, Séminaire sur les singularités des surfaces, 1980. The point of view of this section, that the cone of curves of a Fano variety is rational polyhedral, comes from Mori's cone theorem (Mor82, KM98, Theorem 3.7) and holds in every dimension for Fano varieties with klt singularities. For surfaces the proof only needs Chapter P5.12. Reid, Chapters on algebraic surfaces, Rei97, presents the del Pezzo cones in this way.
+Del Pezzo described the surfaces of degree $d$ in $\mathbb{P}^d$ in 1887, and the description of their lines by exceptional classes is due to Manin, Cubic forms, Chapter IV, and Demazure, Surfaces de del Pezzo, Séminaire sur les singularités des surfaces, 1980. The point of view of this section, that the cone of curves of a Fano variety is rational polyhedral, comes from Mori's cone theorem (Mor82, KM98, Theorem 3.7) and holds in every dimension for Fano varieties with klt singularities. For surfaces the proof only needs Theorems P5.12.14 and P5.12.15. Reid, Chapters on algebraic surfaces, Rei97, presents the del Pezzo cones in this way.

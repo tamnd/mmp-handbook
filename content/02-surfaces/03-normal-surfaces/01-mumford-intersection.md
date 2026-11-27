@@ -3,7 +3,7 @@ title: Mumford's intersection pairing
 nodes: []
 sources: [Mum61, KM98, Har77, Kol13]
 reads_with: [KM98:ch4, Bea96:ch2]
-requires: [P3.11, P5.5, P5.7, P5.8, P5.12, 4.3]
+requires: [P3.11, P4.6, P5.5, P5.7, P5.8, P5.12, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted
