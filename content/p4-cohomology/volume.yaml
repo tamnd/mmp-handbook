@@ -1,0 +1,16 @@
+number: P4
+title: Cohomology and duality
+subtitle: The cohomology of quasi-coherent sheaves, the cohomology of projective space, Euler characteristics, higher direct images, base change, formal functions and Stein factorization, Serre duality, Ext sheaves and local duality, and Grothendieck duality with dualizing complexes and Kempf's criterion, each with the place where the minimal model program uses it
+level: prereq
+requires: [P1, P2, P3]
+spine: ["Hartshorne, Algebraic geometry, Chapter III (Har77)", "Vakil, The rising sea (Vak25)", "Görtz and Wedhorn, Algebraic geometry II (GW23)", "The Stacks project (Stacks)"]
+chapters:
+  - "1. Cohomology of quasi-coherent sheaves: Čech complexes on affine schemes, the vanishing of the cohomology of quasi-coherent sheaves on affine schemes, Čech cohomology on separated schemes, Serre's criterion for affineness, and flat base change"
+  - "2. Cohomology of projective space: the cohomology of O(n) on projective space, the finiteness of the cohomology of coherent sheaves on projective schemes, Serre vanishing, and Castelnuovo-Mumford regularity"
+  - "3. Euler characteristic and Hilbert polynomial: the Euler characteristic of a coherent sheaf on a proper scheme, its additivity, the Hilbert polynomial as an Euler characteristic, and the Riemann-Roch theorem on a curve as a first example"
+  - "4. Higher direct images: the quasi-coherence of higher direct images, their computation on an affine base, the Leray spectral sequence, the projection formula, and the vanishing for affine and finite morphisms"
+  - "5. Base change: flat base change for higher direct images, cohomology and base change, the semicontinuity theorem, and Grauert's theorem"
+  - "6. Formal functions, Zariski's main theorem and Stein factorization: the theorem on formal functions, connected fibres, Zariski's main theorem, and the Stein factorization of a proper morphism, as used for contractions"
+  - "7. Serre duality: the dualizing sheaf of projective space, Serre duality on projective space and on Cohen-Macaulay projective schemes, and the canonical sheaf as the dualizing sheaf"
+  - "8. Ext sheaves and local duality: Ext and local Ext sheaves, local cohomology, the depth criterion, and local duality over a Noetherian local ring"
+  - "9. Grothendieck duality, dualizing complexes and Kempf's criterion: dualizing complexes, the upper shriek functor for proper morphisms, rational singularities, and Kempf's criterion"
