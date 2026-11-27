@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.8 - 2026-11-27
+
 ### Added
 
 - P5 Chapter 12, The minimal model program for surfaces: the cone of curves, nef and positive cones, Nakai-Moishezon and Kleiman's criteria (P5.12.1 to P5.12.10), the cone theorem for surfaces and the classification of K-negative extremal contractions (P5.12.11 to P5.12.19), and runs of the program ending at a nef model or a Mori fibre space according to the Kodaira dimension, with the runs of a cubic surface (P5.12.20 to P5.12.27).
