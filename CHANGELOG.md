@@ -6,6 +6,9 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 1 Chapter 3, The cones of divisors: ample and nef cones over a base and their duality with the closed cone of curves, with the nef cones of the plane blown up at a point, of P^1 x P^1 and of the Hirzebruch surfaces (1.3.1 to 1.3.9), big and pseudoeffective cones, Kodaira's lemma and the volume (1.3.10 to 1.3.23), and the round cone of E x E (1.3.24 to 1.3.28).
+- Volume 2 Chapter 3, Normal surfaces: Mumford's intersection pairing on a normal surface and the Hodge index theorem (2.3.1 to 2.3.9), numerically Cartier divisors, the discriminant group and Q-factoriality of rational singularities after Lipman (2.3.10 to 2.3.18), and the canonical class of a normal surface on its minimal resolution, with the cones over rational normal curves and the elliptic cone (2.3.19 to 2.3.26).
+- P5 Chapter 9, Ruled, rational and del Pezzo surfaces: ruled surfaces as projective bundles over a curve, the invariant e, Hirzebruch surfaces and elementary transformations (P5.9.1 to P5.9.14), the Noether-Enriques theorem and the minimal rational surfaces (P5.9.15 to P5.9.23), and del Pezzo surfaces, their (-1)-curves, classification and anticanonical models (P5.9.24 to P5.9.33).
 - P5 Chapter 10, Cubic surfaces and the plane blown up in nine points: the cubic surface as the plane blown up in six points and its 27 lines (P5.10.1 to P5.10.9), the E6 root system, the Weyl group of order 51840 and the 36 double sixes (P5.10.10 to P5.10.16), and eight and nine points, the rational elliptic surface with its infinitely many (-1)-curves, the E8 lattice of sections and the Hesse pencil (P5.10.17 to P5.10.27).
 
 ## v0.0.8 - 2026-11-27
