@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- P4 Chapter 8, Ext sheaves and local duality: local cohomology with its Čech and Ext descriptions and the cone comparison, Grothendieck's depth and dimension theorem with the Cohen-Macaulay criterion for cones, injective hulls, Matlis duality, local duality over a quotient of a regular local ring, and the canonical module.
+
 ## v0.0.5 - 2026-11-27
 
 ### Added
