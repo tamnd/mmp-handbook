@@ -1,0 +1,19 @@
+number: P5
+title: Curves and surfaces
+subtitle: Curves and the Riemann-Roch theorem, maps of curves and the Hurwitz formula, singular curves, elliptic curves and bundles on the projective line, intersection theory on surfaces, blow-ups, Castelnuovo's criterion and the factorization of birational maps, contractions and Zariski decomposition, ruled, rational and del Pezzo surfaces, cubic surfaces, the Enriques-Kodaira classification, and the minimal model program for surfaces
+level: prereq
+requires: [P3, P4]
+spine: ["Hartshorne, Algebraic geometry, Chapters IV and V (Har77)", "Beauville, Complex algebraic surfaces (Bea96)", "Reid, Chapters on algebraic surfaces (Rei97)", "Vakil, The rising sea (Vak25)"]
+chapters:
+  - "1. Curves and Riemann-Roch: smooth projective curves and their function fields, the Riemann-Roch theorem with the canonical divisor, base points and very ampleness, and the canonical embedding and hyperelliptic curves"
+  - "2. Maps of curves: finite morphisms of curves, ramification and the Hurwitz formula, purely inseparable maps and the Frobenius, and the Lüroth theorem"
+  - "3. Singular curves: the normalization of a curve, the delta invariant and the genus formula, nodes and cusps, the arithmetic genus of plane curves, and dualizing sheaves of singular curves"
+  - "4. Elliptic curves and bundles on the projective line: the group law, the j-invariant, Grothendieck's splitting theorem for vector bundles on the projective line, and the surface E x E"
+  - "5. Intersection theory on surfaces: the intersection pairing, the adjunction formula, Riemann-Roch for surfaces, and the Hodge index theorem"
+  - "6. Blow-ups of surfaces: the blow-up of a point of a smooth surface, its Picard group and canonical divisor, strict transforms and multiplicities, and the resolution of curve singularities by blow-ups"
+  - "7. Castelnuovo's criterion and factorization: the contraction of a (-1)-curve, the elimination of indeterminacy, and the factorization of birational morphisms of smooth surfaces into blow-ups"
+  - "8. Contractions, negativity and Zariski decomposition: the negativity lemma, Grauert's and Artin's contraction criteria, and the Zariski decomposition of a pseudoeffective divisor"
+  - "9. Ruled, rational and del Pezzo surfaces: ruled surfaces as projective bundles over curves, the Hirzebruch surfaces, the Noether-Enriques theorem, and del Pezzo surfaces"
+  - "10. Cubic surfaces and the plane blown up in 9 points: the 27 lines, the configuration of the exceptional curves, and the plane blown up in nine points with its anticanonical pencil"
+  - "11. Kodaira dimension and the Enriques-Kodaira classification: plurigenera and Kodaira dimension, minimal models of surfaces, and the classification by Kodaira dimension"
+  - "12. The MMP for surfaces: the cone theorem for surfaces, the contraction of extremal rays, and the run of the program on a smooth projective surface, as a preview of Volume 2"

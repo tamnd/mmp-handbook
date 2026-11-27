@@ -1,0 +1,9 @@
+# Curves and Riemann-Roch
+
+A smooth projective curve is the same thing as a function field of transcendence degree $1$. Its geometry is controlled by one number, the genus, and by one theorem, Riemann-Roch. This chapter proves both facts and draws the first consequences for linear systems: which divisors give morphisms to projective space, which give embeddings, and what the canonical linear system does.
+
+Section 1.1 shows that the local rings of a normal curve are discrete valuation rings, that a rational map from a smooth curve to a projective variety extends to a morphism, and that the smooth projective curves with nonconstant morphisms are anti-equivalent to the function fields of transcendence degree $1$ with $k$-embeddings. It also defines the degree of a finite morphism and of the pullback of a divisor. Section 1.2 combines the Riemann-Roch theorem of P4 Ch. 3 with Serre duality of P4 Ch. 7 to give the classical form $\ell(D) - \ell(K - D) = \deg D + 1 - g$. It deduces $\deg K = 2g - 2$, the vanishing of $h^1$ in degree greater than $2g - 2$, and the characterization of $\mathbb{P}^1$ as the curve of genus $0$. Section 1.3 gives the criteria for base point freeness and very ampleness, proves Clifford's theorem, and shows that the canonical system of a curve of genus $g \geq 2$ is an embedding exactly when the curve is not hyperelliptic. Its examples are the curves of genus $2$, $3$ and $4$.
+
+In the minimal model program curves are where the theory starts and where it is tested. The cone theorem of Volume 7 is about curves on a variety, and a curve $C$ with $K_X \cdot C < 0$ is a rational curve by bend and break (Volume 7). The genus formula, the degree of $K$, and the characterization of $\mathbb{P}^1$ are the facts about curves that those arguments use.
+
+The chapter follows Hartshorne, Sections I.6, II.6 and IV.1 to IV.5, and Vakil, Chapters 19 and 20, with Fulton's *Algebraic curves* for the classical examples.
