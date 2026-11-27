@@ -1,0 +1,77 @@
+---
+title: Extremal contractions and the runs of the program
+nodes: []
+sources: [KM98, Mat02, Rei97, Bea96]
+reads_with: [KM98:ch1, Rei97:ch2, Bea96:ch4]
+requires: [P5.6, P5.9, P5.11, P5.12, 2.1]
+level: core
+kind: theorem
+status: drafted
+drafted_by: writer@claude-opus-5-5
+reviewed_by: []
+---
+## Extremal contractions and the runs of the program
+
+### Statement
+
+By Theorem 2.2.2 every extremal ray of a del Pezzo surface is $K$-negative, so every extremal ray can be contracted and every contraction is a step of the minimal model program. This section describes the contractions and all runs of the program from $S_r$, in the sense of Definition P5.12.20. Two runs are the same if they contract the same rays in the same order and end with the same Mori fibre space.
+
+**Proposition 2.2.13 (the extremal contractions of a del Pezzo surface).** Let $S$ be a del Pezzo surface of degree $d$, $R$ an extremal ray and $\varphi_R$ its contraction.
+
+1. If $\rho(S) \geq 3$, then $R = \mathbb{R}_{\geq 0}[C]$ for a $(-1)$-curve $C$, and $\varphi_R \colon S \to S'$ is the blow-down of $C$ onto a del Pezzo surface of degree $d + 1$. If $S = S_r$ with $r \geq 3$, then $S'$ is isomorphic to $S_{r-1}$, the plane blown up in $r - 1$ points in general position.
+2. In the situation of (1), $\varphi_R^* \operatorname{Nef}(S') = \operatorname{Nef}(S) \cap C^\perp$, and this is a facet of $\operatorname{Nef}(S)$. So $\operatorname{Nef}(S)$ has exactly one facet for each $(-1)$-curve, $N$ facets in all, and the contractions of $S$ correspond to the facets of $\operatorname{Nef}(S)$.
+3. If $\rho(S) = 2$, then $S$ is $F_1$, where $\varphi_R$ is the blow-down $F_1 \to \mathbb{P}^2$ of $E$ or the ruling $F_1 \to \mathbb{P}^1$, or $S$ is $\mathbb{P}^1 \times \mathbb{P}^1$, where $\varphi_R$ is one of the two projections. If $\rho(S) = 1$, then $S = \mathbb{P}^2$ and $\varphi_R$ is the map to a point.
+
+Lean: not yet in Lean.
+
+**Theorem 2.2.14 (the runs of the program from $S_r$).** Let $0 \leq r \leq 8$ and $S = S_r$.
+
+1. Every run $S = S^0 \to S^1 \to \dots \to S^N$ passes through del Pezzo surfaces, with $K_{S^i}^2 = 9 - r + i$ and $S^i \cong S_{r-i}$ for $i \leq r - 2$. It ends at a Mori fibre space, and at exactly one of $\mathbb{P}^2 \to \operatorname{pt}$ with $N = r$, $F_1 \to \mathbb{P}^1$ with $N = r - 1$, or $\mathbb{P}^1 \times \mathbb{P}^1 \to \mathbb{P}^1$ with $N = r - 1$. The last needs $r \geq 2$, and for $r \leq 1$ only the first two occur, with $\mathbb{P}^2 \to \operatorname{pt}$ the only run for $r = 0$.
+2. Let $m_r$ be the number of runs from $S_r$. Then $m_0 = 1$, $m_1 = 2$, $m_2 = 6$, and $m_r = N_r \, m_{r-1}$ for $3 \leq r \leq 8$:
+$$m_3, \dots, m_8 = 36, \ 360, \ 5760, \ 155520, \ 8709120, \ 2090188800.$$
+3. For $r \geq 2$ each of the three Mori fibre spaces of (1) ends exactly $\frac13 m_r$ runs, and $\frac13 m_r = |W_r|$, the order of the Weyl group of Corollary 2.2.10.
+
+Lean: not yet in Lean.
+
+### Proof in words
+
+On a del Pezzo surface the canonical class is never nef, so a run never stops at a minimal model, and it ends at a Mori fibre space. While the Picard number is at least $3$, every ray is a $(-1)$-curve and its contraction is again del Pezzo, of one degree higher, so by the classification it is the plane blown up in one point fewer. The Picard number drops by one at each step, and at Picard number $2$ the surface is a del Pezzo surface of degree $8$, so $F_1$ or the quadric. The count follows: the first step has $N_r$ choices, each leads to a surface of the same kind with $m_{r-1}$ runs, and the surface $S_2$ has the six runs of Chapter P5.12. The six runs of $S_2$ end two at each Mori fibre space, and this splitting into thirds is inherited. Contracting a $(-1)$-curve pulls back the nef cone of the smaller surface onto a facet, which is the dual statement of the fact that the curve spans an extremal ray.
+
+### Examples
+
+**Example 2.2.15 (the $36$ runs from $S_3$).** By Example 2.2.5, the six $(-1)$-curves of $S_3$ form a hexagon of meeting pairs, and two disjoint curves can be contracted one after the other by Lemma P5.12.22. A run from $S_3$ contracts one curve, giving some $S_2$, and continues by Example P5.12.26. Its first two steps contract one of the nine disjoint pairs, in some order, and give a del Pezzo surface with $\rho = 2$. That surface is $F_1$ if and only if one of the four remaining $(-1)$-curves is disjoint from both contracted curves. Indeed such a curve stays a $(-1)$-curve by Lemma P5.12.22, a curve meeting a contracted curve has image of square at least $0$, and the $(-1)$-curve of $F_1$ would pull back to a $(-1)$-curve of $S_3$ disjoint from both. For the pair $\{E_1, E_2\}$ the curve $E_3$ is disjoint from both, and for $\{L_{13}, L_{23}\}$ the curve $L_{12}$ is, since $L_{12} \cdot L_{13} = 1 - 1 = 0$. For the pair $\{E_1, L_{23}\}$ every remaining curve meets one of them: $E_2$ and $E_3$ meet $L_{23}$, and $L_{12}$ and $L_{13}$ meet $E_1$. So the pairs $\{E_i, E_j\}$ and $\{L_{ik}, L_{jk}\}$ give $F_1$, and the pairs $\{E_i, L_{jk}\}$ with $\{i, j, k\} = \{1, 2, 3\}$ give $\mathbb{P}^1 \times \mathbb{P}^1$. The Cremona involution of Example P5.10.14 exchanges $E_i$ and $L_{jk}$, and so the two kinds of pairs of the first type. Six unordered pairs, each in two orders, give $12$ ways to reach an $F_1$, and each $F_1$ has two runs by Example P5.12.25: $12$ runs end at $\mathbb{P}^2 \to \operatorname{pt}$ and $12$ at $F_1 \to \mathbb{P}^1$. For a pair $\{E_i, L_{jk}\}$, contracting $E_i$ leaves $\operatorname{Bl}_{p_j, p_k}\mathbb{P}^2$, in which $L_{jk}$ is the line through the two points, so the result is $\mathbb{P}^1 \times \mathbb{P}^1$ by Example P5.12.26. Three pairs in two orders, each with two rulings, give $12$ runs ending at $\mathbb{P}^1 \times \mathbb{P}^1 \to \mathbb{P}^1$. The total is $36 = 6 \cdot 6$, with $12 = |W(A_2 \times A_1)|$ runs at each end.
+
+**Example 2.2.16 (a conic bundle and its relative runs).** Let $r \geq 2$ and $f \colon S_r \to \mathbb{P}^1$ be the morphism given by the pencil of lines through $p_1$, with fibre class $F = \ell - E_1$, so $F^2 = 0$ and $K \cdot F = -3 + 1 = -2$. A line through $p_1$ contains at most one other $p_j$, since no three points are collinear, so the reducible fibres are the $r - 1$ fibres $L_{1j} + E_j$ for $2 \leq j \leq r$, with $L_{1j} \cdot E_j = 1$, and the other fibres are $\mathbb{P}^1$. The curve $E_1$ is a section, since $E_1 \cdot F = 1$. By Proposition P5.9.16 (5) and Theorem P5.9.17, a run of the program over $\mathbb{P}^1$, as in Chapter 1, contracts one component of each reducible fibre, so there are $2^{r-1}$ such runs, each of $r - 1$ steps, and each ends at a geometrically ruled surface over $\mathbb{P}^1$ that is del Pezzo of degree $8$ by Proposition P5.9.25 (2), so $F_1$ or $\mathbb{P}^1 \times \mathbb{P}^1$ with one of its rulings.
+
+Which one is decided by the image of the section $E_1$. Since $E_1 \cdot L_{1j} = 1$ and $E_1 \cdot E_j = 0$, contracting $E_j$ does not change the square of the image of $E_1$, by Lemma P5.12.22, and contracting $L_{1j}$ raises it by $1$: if $\pi$ contracts $L_{1j}$, then $\pi^*\pi(E_1) = E_1 + L_{1j}$, of square $-1 + 2 - 1 = 0$. So if $k$ of the curves $L_{1j}$ are contracted, the image of $E_1$ is a section of square $k - 1$. On $F_1 \to \mathbb{P}^1$ every section has class $C_- + mF$, of odd square $-1 + 2m$, and on $\mathbb{P}^1 \times \mathbb{P}^1$ a section of a ruling has class $F_1 + mF_2$, of even square $2m$ (Proposition P5.9.9). So the run ends at $F_1$ if $k$ is even and at $\mathbb{P}^1 \times \mathbb{P}^1$ if $k$ is odd, and each occurs for $\sum_{k \text{ even}} \binom{r-1}{k} = 2^{r-2}$ runs. For $r = 2$ the two runs contract $E_2$, ending at $F_1$, or $L_{12}$, ending at $\mathbb{P}^1 \times \mathbb{P}^1$, as in Example P5.12.26.
+
+**Example 2.2.17 (the conic bundle structures).** A conic bundle structure $S_r \to \mathbb{P}^1$ has a fibre class $F$ with $F^2 = 0$ and $K \cdot F = -2$, by Proposition P5.9.16 (2). A computer enumeration of these classes in $I^{1,r}$ finds $1, 2, 3, 5, 10, 27, 126, 2160$ of them for $r = 1, \dots, 8$, and each of them is nef: it has nonnegative product with every exceptional class. For $r = 4$ they are the four pencils $\ell - E_i$ and the pencil of conics $2\ell - E_1 - \dots - E_4$. For $r = 6$ the $27$ classes are $\ell - E_i$, $2\ell - \Sigma_4$ and $3\ell - 2E_i - \sum_{j \neq i} E_j$ ($6 + 15 + 6$), and on the cubic surface they are the classes $-K - L$ of the residual conics of the planes through a line $L$: indeed $(-K - L)^2 = 3 - 2 - 1 = 0$ and $K \cdot (-K - L) = -3 + 1 = -2$, and $L \mapsto -K - L$ is a bijection from the $27$ lines onto these classes. If a run from $S_r$ ends at a Mori fibre space $T \to \mathbb{P}^1$, the pullback to $S_r$ of the fibre class of $T$ is one of these classes, since by Lemma P5.11.15 (3) the pullback under the composite of the contractions keeps the square $0$ and the degree $-2$ against $K$.
+
+### Proof
+
+*Proposition 2.2.13.* (1) By Theorem 2.2.2 (2), $R$ is spanned by a $(-1)$-curve $C$, and by Theorem P5.12.15 (1), $\varphi_R$ is its blow-down. By Proposition P5.9.25 (2), $S'$ is del Pezzo of degree $d + 1$. If $S = S_r$, then $\rho(S') = r \geq 3$ and $K_{S'}^2 = 10 - r$, so by Theorem P5.9.27, $S'$ is $S_{r-1}$ for some $r - 1$ points in general position.
+
+(2) Let $\pi = \varphi_R$. By Theorem P5.6.3 (4), $\pi^*$ is an isometry of $N^1(S')$ onto $C^\perp$. Let $x' \in N^1(S')$. Every integral curve of $S'$ is $\pi(\Gamma)$ for its strict transform $\Gamma \neq C$, and $\pi^* x' \cdot \Gamma = x' \cdot \pi(\Gamma)$ by Lemma P5.11.15 (3), while $\pi^* x' \cdot C = 0$. So $\pi^* x'$ is nef if and only if $x'$ is nef, and $\pi^* \operatorname{Nef}(S') = \operatorname{Nef}(S) \cap C^\perp$. The cone $\operatorname{Nef}(S')$ has nonempty interior in $N^1(S')$, since it contains the ample cone, so $\operatorname{Nef}(S) \cap C^\perp$ spans the hyperplane $C^\perp$, and it is a face of $\operatorname{Nef}(S)$ because $C$ is nonnegative on $\operatorname{Nef}(S)$. So it is a facet. Distinct $(-1)$-curves span distinct rays, so they give distinct hyperplanes $C^\perp$ and distinct facets. By Corollary 2.2.3 every facet of $\operatorname{Nef}(S)$ lies in one of the hyperplanes $C_i^\perp$, so $\operatorname{Nef}(S)$ has exactly $N$ facets.
+
+(3) This is Theorem 2.2.2 (3), with the types of the rays read off from Theorem P5.12.15: on $F_1$ the ray of $E$ has square $-1$ and the ray of $\ell - E$ square $0$, on $\mathbb{P}^1 \times \mathbb{P}^1$ both rays have square $0$, and on $\mathbb{P}^2$ the ray has square $1$. $\square$
+
+*Theorem 2.2.14.* (1) Let $S^0 \to \dots \to S^N$ be a run. Each step is the contraction of a $(-1)$-curve, so by Proposition P5.9.25 (2) and induction each $S^i$ is del Pezzo of degree $9 - r + i$, and $\rho(S^i) = r + 1 - i$ by Theorem P5.12.21 (1). A del Pezzo surface does not have $K$ nef, so by Theorem P5.12.21 (2) and Definition P5.12.20 the run ends at a Mori fibre space. For $i \leq r - 2$, $\rho(S^i) \geq 3$, so $S^i \cong S_{r-i}$ by Proposition 2.2.13 (1), and $S^i$ has no ray of type 2 or 3, so the run does not end at $S^i$. So $N \geq r - 1$, and $S^{r-1}$ is a del Pezzo surface with $\rho = 2$, $F_1$ or $\mathbb{P}^1 \times \mathbb{P}^1$ by Proposition 2.2.13 (3). On $\mathbb{P}^1 \times \mathbb{P}^1$ both rays are of type 2 and the run ends with $N = r - 1$. On $F_1$ the run ends at $F_1 \to \mathbb{P}^1$ with $N = r - 1$ or contracts $E$ and ends at $\mathbb{P}^2 \to \operatorname{pt}$ with $N = r$. For $r = 1$, $S^0 = F_1$; for $r = 0$, $S^0 = \mathbb{P}^2$. The three Mori fibre spaces are distinct, since they differ in $\rho$ or in the surface.
+
+(2) and (3). For a del Pezzo surface $T$ count its runs as above. If $\rho(T) \geq 3$, a run from $T$ is a choice of one of the $N(T)$ rays followed by a run from its contraction. For $T = \mathbb{P}^2$ there is one run; for $F_1$ there are two, one at $\mathbb{P}^2 \to \operatorname{pt}$ and one at $F_1 \to \mathbb{P}^1$ (Example P5.12.25); for $\mathbb{P}^1 \times \mathbb{P}^1$ there are two, both at $\mathbb{P}^1 \times \mathbb{P}^1 \to \mathbb{P}^1$. For any $S_2$, two of the three rays give $F_1$ and one gives $\mathbb{P}^1 \times \mathbb{P}^1$ (Example P5.12.26), so there are $2 + 2 + 2 = 6$ runs, two at each end. Induct on $r \geq 3$: every contraction of $S_r$ is some $S_{r-1}$ by Proposition 2.2.13 (1), which by induction has $m_{r-1}$ runs, $\frac13 m_{r-1}$ at each end. So $S_r$ has $m_r = N_r m_{r-1}$ runs, $\frac13 N_r m_{r-1}$ at each end. With $N_3, \dots, N_8 = 6, 10, 16, 27, 56, 240$ this gives $36$, $360$, $5760$, $155520$, $8709120$ and $2090188800$. Finally $\frac13 m_2 = 2 = |W_2|$, and $\frac13 m_r = N_r \cdot \frac13 m_{r-1}$ while $|W_r| = N_r |W_{r-1}|$ by Corollary 2.2.10, so $\frac13m_r = |W_r|$ by induction. $\square$
+
+### Exercises
+
+1. (A) List the $12$ runs from $S_3$ that end at $\mathbb{P}^1 \times \mathbb{P}^1 \to \mathbb{P}^1$ as sequences of contracted curves, and check that the Cremona involution of Example P5.10.14 permutes them.
+2. (A) Let $C$ be a $(-1)$-curve on $S_r$, $r \geq 3$. Show that $(-K_{S_r} + C)$ is the pullback of $-K_{S'}$ under the contraction $S_r \to S'$ of $C$, and check that it is nef and orthogonal to $C$.
+3. (B) Show that the runs from $S_r$ ending at $\mathbb{P}^2 \to \operatorname{pt}$ correspond bijectively to the ordered sequences $(D_1, \dots, D_r)$ of pairwise orthogonal exceptional classes, by sending a run to the total transforms of its contracted curves. Deduce from Theorem 2.2.14 (3) that there are $|W_r|$ such sequences, as in Exercise 6 of Section 2.
+4. (B) On the cubic surface $S_6$, show that exactly $5760$ runs begin by contracting $E_6$, and that $1920$ of them end at each of the three Mori fibre spaces. Show that the number of runs beginning with a given $(-1)$-curve does not depend on the curve.
+5. (B) In Example 2.2.16 with $r = 4$, write down the eight relative runs and the resulting surfaces, and compute in each case the image of the section $E_1$ and its square.
+6. (C) Let $S = S_r$ with $r \geq 2$ and let $F$ be the fibre class of a conic bundle $S \to \mathbb{P}^1$. Show that the conic bundle has exactly $r - 1$ reducible fibres, each the sum of two $(-1)$-curves meeting in one point. Use $K^2 + (\text{number of reducible fibres}) = 8$ for a conic bundle with integral fibres $\mathbb{P}^1$ and reducible fibres of two components.
+
+### Lean
+
+Nothing of this section is in Lean. The library has no extremal contractions of surfaces and no runs of the program for surfaces.
+
+### Notes and history
+
+The description of all Mori fibre spaces reached from a rational surface, $\mathbb{P}^2$ and the conic bundles, is the starting point of the birational classification of rational surfaces over nonclosed fields by Iskovskikh, Minimal models of rational surfaces over arbitrary fields, 1979, where the runs are $G$-equivariant and conic bundles with many reducible fibres appear as ends. Over an algebraically closed field the ends are only $\mathbb{P}^2$, $F_1$ and $\mathbb{P}^1 \times \mathbb{P}^1$, which corrects the shorthand that every run from a del Pezzo surface ends at $\mathbb{P}^2$ or at $\mathbb{P}^1 \times \mathbb{P}^1$: the ruling $F_1 \to \mathbb{P}^1$ is a Mori fibre space as well. The counts $m_r = 3|W_r|$ do not seem to be in the literature in this form, and they were verified by the recursion above and by a direct enumeration.
