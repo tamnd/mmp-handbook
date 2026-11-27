@@ -1,0 +1,12 @@
+number: 2
+title: The MMP for surfaces
+subtitle: The minimal model program for smooth surfaces over a base, del Pezzo surfaces and their cones, normal and log surfaces, the log MMP for surfaces, and abundance for surfaces
+level: core
+requires: [1, P5.5, P5.6, P5.7, P5.8, P5.9, P5.10, P5.11, P5.12]
+spine: ["Reid, Chapters on algebraic surfaces (Rei97)", "Beauville, Complex algebraic surfaces (Bea96)", "Matsuki, Introduction to the Mori program, Chapter 1 (Mat02)"]
+chapters:
+  - "1. The smooth surface MMP over a base: the relative cone theorem for a projective morphism of a smooth surface, the three extremal contractions, Mori fibre spaces over curves, elementary transformations of ruled surfaces, and minimal models for kappa >= 0 with a general type surface carrying a (-1)-curve"
+  - "2. Del Pezzo surfaces and their cones: the plane blown up in r points, the (-1)-curves and the root systems, the cones of S_r with 3, 6, 10, 16, 27, 56 and 240 extremal rays, anticanonical models, and the plane blown up in nine points"
+  - "3. Normal surfaces: Mumford's intersection theory, Q-factoriality of rational singularities, the minimal resolution, klt surface germs as quotient singularities, and the canonical class of a normal surface"
+  - "4. The log MMP for surfaces: the cone and contraction theorems for log canonical and klt surface pairs, the log MMP for surfaces with its termination, and log minimal models and log Mori fibre spaces"
+  - "5. Abundance for surfaces: semiampleness of a nef canonical divisor for kappa = 0, 1, 2, the canonical ring and its finite generation, log abundance for klt surface pairs, and the Enriques-Kodaira outline from the point of view of the MMP"

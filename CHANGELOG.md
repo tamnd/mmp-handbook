@@ -6,6 +6,12 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P5 Chapter 10, Cubic surfaces and the plane blown up in nine points: the cubic surface as the plane blown up in six points and its 27 lines (P5.10.1 to P5.10.9), the E6 root system, the Weyl group of order 51840 and the 36 double sixes (P5.10.10 to P5.10.16), and eight and nine points, the rational elliptic surface with its infinitely many (-1)-curves, the E8 lattice of sections and the Hesse pencil (P5.10.17 to P5.10.27).
+
+## v0.0.8 - 2026-11-27
+
+### Added
+
 - P5 Chapter 12, The minimal model program for surfaces: the cone of curves, nef and positive cones, Nakai-Moishezon and Kleiman's criteria (P5.12.1 to P5.12.10), the cone theorem for surfaces and the classification of K-negative extremal contractions (P5.12.11 to P5.12.19), and runs of the program ending at a nef model or a Mori fibre space according to the Kodaira dimension, with the runs of a cubic surface (P5.12.20 to P5.12.27).
 - P5 Chapter 7, Castelnuovo's criterion and factorization: the formal neighbourhood of a (-1)-curve and Castelnuovo's contractibility criterion with the universal property of the contraction (P5.7.1 to P5.7.8), and elimination of indeterminacy, the factorization of birational morphisms into blow-ups, Zariski's factorization of birational maps and the standard Cremona transformation (P5.7.9 to P5.7.18).
 - P5 Chapter 8, Negativity, contractions and Zariski decomposition: the negativity lemma, Mumford's negative definiteness theorem and rational pullback (P5.8.1 to P5.8.9), the fundamental cycle, Laufer's algorithm, rational singularities and (-2)-configurations with the contraction criteria of Grauert and Artin (P5.8.10 to P5.8.21), and existence and uniqueness of the Zariski decomposition of a pseudoeffective class (P5.8.22 to P5.8.29).

@@ -4,3 +4,9 @@ subtitle: Divisors over a base, the cones of curves and divisors, and an overvie
 level: background
 requires: [P3.8, P3.9, P3.10, P3.11, P3.12, P4.1, P4.2, P4.3, P4.4, P4.5, P4.6, P7.1, P7.2, P7.3, P7.4, P7.5, P7.6, P7.7]
 spine: ["Kollár-Mori 1998, Ch. 1 (KM98)", "Lazarsfeld, Positivity I (Laz04)", "Debarre 2001, Ch. 1 (Deb01)"]
+chapters:
+  - "1. An overview of the minimal model program: the program for smooth surfaces, pairs and singularities, the cone theorem, contractions and flips, termination, minimal models and abundance"
+  - "2. Divisors and curves over a base: Q- and R-divisors, Q- and R-Cartier divisors, linear and numerical equivalence over a base Z, the spaces N^1(X/Z) and N_1(X/Z), the relative cone of curves, and the relative Kleiman criterion"
+  - "3. The cones of divisors: ample, nef, big and pseudoeffective cones over a base, the volume of a divisor, and the nef cones of the plane blown up at a point, of P^1 x P^1, of the Hirzebruch surfaces and of E x E"
+  - "4. Iitaka dimension and numerical dimension: the Iitaka dimension and the Iitaka fibration, the Kodaira dimension, Nakayama's numerical dimension kappa_sigma, and a divisor with kappa = 0 and kappa_sigma = 1"
+  - "5. Exceptional loci and the negativity lemma: Zariski's main theorem and the Stein factorization as used for contractions, exceptional loci of birational morphisms, the negativity lemma in all dimensions, and the blow-up of a point of P^n with K = pi^*K + (n-1)E and E^n = (-1)^(n-1)"
