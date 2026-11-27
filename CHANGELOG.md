@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.7 - 2026-11-27
+
 ### Added
 
 - P5 Chapter 4, Elliptic curves and bundles on the projective line: Weierstrass form, the group law as a morphism through families of degree one divisors and Grauert's theorem, the j-invariant and the surface E x E (P5.4.1 to P5.4.9), and Grothendieck's splitting theorem with free and very free rational curves (P5.4.10 to P5.4.16). Book entry Kol96.
