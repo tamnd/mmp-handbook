@@ -1,0 +1,9 @@
+# Differentials and the canonical sheaf
+
+The module of Kähler differentials of P1 Ch. 12 glues to a quasi-coherent sheaf on every scheme over a base. This sheaf measures smoothness: a scheme over a field is smooth of dimension $d$ exactly where its sheaf of differentials is locally free of rank $d$. On a smooth variety of dimension $d$ the top exterior power of the differentials is an invertible sheaf, the canonical sheaf, and its divisor class is the canonical class $K_X$. Every statement of the minimal model program is about $K_X$, and this chapter is where it is constructed.
+
+Section 12.1 constructs the sheaf of relative differentials $\Omega_{X/S}$, proves its universal property and its compatibility with base change, and globalizes the two exact sequences of P1 Ch. 12. Section 12.2 proves the differential criterion for smoothness, generic smoothness over a perfect field, and the exactness of the conormal sequence for a smooth subvariety of a smooth variety. Section 12.3 proves the Euler sequence on projective space and computes $\omega_{\mathbb{P}^n} \cong \mathcal{O}(-n-1)$. Section 12.4 defines the canonical sheaf and the canonical divisor of a smooth variety and of a normal variety, proves the adjunction formula, and computes the canonical divisor of the blow-up of a point of a smooth surface and of the blow-up of the vertex of the quadric cone.
+
+In the minimal model program the canonical divisor of a normal variety is the Weil divisor of Section 12.4, and the canonical divisor of a pair is $K_X + \Delta$. The formula $K_{\tilde X} = \pi^* K_X + E$ for the blow-up of a smooth point is the first discrepancy computation: the exceptional divisor has discrepancy $1$. The blow-up of the vertex of the quadric cone has discrepancy $0$, the first canonical singularity of Volume 4.
+
+The chapter follows Vakil, Chapter 21, and Hartshorne, Section II.8, with the Stacks Project for the sheaf version. It uses P1 Ch. 12 and Chapters 5 to 11.
