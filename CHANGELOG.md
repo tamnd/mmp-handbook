@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P5 Chapter 4, Elliptic curves and bundles on the projective line: Weierstrass form, the group law as a morphism through families of degree one divisors and Grauert's theorem, the j-invariant and the surface E x E (P5.4.1 to P5.4.9), and Grothendieck's splitting theorem with free and very free rational curves (P5.4.10 to P5.4.16). Book entry Kol96.
 - P5 Chapter 3, Singular curves: normalization, the delta-invariant, the genus formula and the multiplicity bound for plane curves (P5.3.1 to P5.3.9), and the dualizing sheaf through the normalization, Riemann-Roch on an integral curve and Serre's conductor formula for Gorenstein points (P5.3.10 to P5.3.18). Book entries Ser88 and Liu02.
 - P5 Chapter 2, Maps of curves: ramification and the Hurwitz formula with tame and wild ramification (P5.2.1 to P5.2.7), and the Frobenius morphism, the factorization of morphisms into a power of Frobenius and a separable map, and Lüroth's theorem (P5.2.8 to P5.2.16).
 - P5, Curves and surfaces: the volume plan of twelve chapters and its introduction, and Chapter 1, Curves and Riemann-Roch: the dictionary between smooth projective curves and function fields, the extension of morphisms and the degree of a finite morphism (P5.1.1 to P5.1.9), the Riemann-Roch theorem with $\deg K = 2g - 2$ and the curves of genus $0$ and $1$ (P5.1.10 to P5.1.18), and base points, very ampleness, Clifford's theorem and the canonical embedding (P5.1.19 to P5.1.28).
