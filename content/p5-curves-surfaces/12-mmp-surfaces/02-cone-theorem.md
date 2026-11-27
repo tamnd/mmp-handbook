@@ -3,7 +3,7 @@ title: The cone theorem and extremal contractions of surfaces
 nodes: []
 sources: [KM98, Mor82, Har77, Bea96]
 reads_with: [KM98:ch1, Mor82:sec1, Har77:V.5]
-requires: [P0.8, P3.6, P3.13, P4.5, P4.6, P5.5, P5.6, P5.11]
+requires: [P0.8, P3.6, P3.13, P4.5, P4.6, P5.5, P5.6, P5.7, P5.11]
 level: prereq
 kind: theorem
 status: drafted
@@ -97,7 +97,7 @@ Let $u, v \in \overline{NE}(S)$ with $u + v = t[C]$, $t \geq 0$. Write $u = a[C]
 
 *Theorem P5.12.15.* Let $R = \mathbb{R}_{\geq 0} x$ with $K \cdot x < 0$. The three cases $x^2 < 0$, $x^2 = 0$ and $x^2 > 0$ are exclusive, and the square of any curve with class in $R$ has the sign of $x^2$.
 
-*Case $x^2 < 0$.* By Lemma P5.12.12, $R = \mathbb{R}_{\geq 0}[C]$ for a $(-1)$-curve $C$, the only integral curve with class in $R$. By Castelnuovo's theorem (Theorem P0.8.32, and Chapter 7) there are a smooth projective surface $S'$, a point $p \in S'$ and an isomorphism $S \cong \operatorname{Bl}_p S'$ sending $C$ to the exceptional curve. The blow-down $\varphi \colon S \to S'$ is projective, $\varphi_* \mathcal{O}_S = \mathcal{O}_{S'}$ by Theorem P5.6.2, it contracts exactly $C$ and is an isomorphism elsewhere, and $\rho(S') = \rho(S) - 1$ by Theorem P5.6.3 (4).
+*Case $x^2 < 0$.* By Lemma P5.12.12, $R = \mathbb{R}_{\geq 0}[C]$ for a $(-1)$-curve $C$, the only integral curve with class in $R$. By Castelnuovo's theorem (Theorem P0.8.32 and Theorem P5.7.4) there are a smooth projective surface $S'$, a point $p \in S'$ and an isomorphism $S \cong \operatorname{Bl}_p S'$ sending $C$ to the exceptional curve. The blow-down $\varphi \colon S \to S'$ is projective, $\varphi_* \mathcal{O}_S = \mathcal{O}_{S'}$ by Theorem P5.6.2, it contracts exactly $C$ and is an isomorphism elsewhere, and $\rho(S') = \rho(S) - 1$ by Theorem P5.6.3 (4).
 
 *Case $x^2 > 0$.* By Lemma P5.12.12 (1), $\rho(S) = 1$, so $N^1(S) = \mathbb{R}[H]$ and $\overline{NE}(S) = \mathbb{R}_{\geq 0}[H] = R$. Then $K \cdot H < 0$, so $-K = \lambda [H]$ in $N^1(S)$ with $\lambda > 0$, and $-K$ is positive on $\overline{NE}(S) \setminus \{0\}$, hence ample by Theorem P5.12.6. A smooth projective surface with $\rho = 1$ and $-K$ ample is isomorphic to $\mathbb{P}^2$, and this is cited. It follows from the classification: $h^0(nK) = 0$ for $n \geq 1$, since $H \cdot nK < 0$ (Lemma P5.5.20), so $\kappa(S) = -\infty$; $S$ contains no $(-1)$-curve, since its contraction would have $\rho = 0$ by Theorem P5.6.3, so $S$ is its own minimal model; and by Theorem P5.11.26 (1) it is $\mathbb{P}^2$ or a geometrically ruled surface, which has $\rho = 2$. Kollár and Mori, Theorem 1.28, and Mori 1982, Chapter 2, give the statement directly. The structure map to a point contracts every curve, and every class lies in $R$.
 
