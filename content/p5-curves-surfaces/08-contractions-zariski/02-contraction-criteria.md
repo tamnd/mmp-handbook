@@ -3,7 +3,7 @@ title: Grauert's and Artin's contraction criteria
 nodes: []
 sources: [Art66, Mum61, DuV34, KM98, Bea96, Har77]
 reads_with: [Art66:all, KM98:ch4]
-requires: [P2.7, P3.11, P4.6, P5.5, P5.6]
+requires: [P2.7, P3.11, P4.6, P5.5, P5.6, P5.7]
 level: prereq
 kind: theorem
 status: drafted
@@ -82,7 +82,7 @@ as part 3 of Proposition P5.8.17 predicts. The fundamental cycle is not reduced 
 
 **Example P5.8.19 (a single rational curve).** Let $C \cong \mathbb{P}^1$ be a smooth rational curve on $S$ with $C^2 = -n$, $n \geq 1$. By Theorem P5.5.14, $K_S \cdot C = -2 - C^2 = n - 2$. The positive cycles are $mC$, $m \geq 1$, and
 $$p_a(mC) = 1 + \tfrac{1}{2}\left(-n m^2 + (n - 2) m\right) = 1 - m - \tfrac{n m (m - 1)}{2} \leq 0,$$
-with equality only for $m = 1$. So $Z_f = C$, $p_a(Z_f) = 0$, and by Theorem P5.8.16, $C$ is contracted to a rational singularity of multiplicity $n$, with embedding dimension $n + 1$ if $n \geq 2$. For $n = 1$ the multiplicity is $1$ and the point is smooth, which is Castelnuovo's criterion of Chapter 7. For $n = 2$ this is the vertex of the quadric cone of Example P5.8.9. For general $n$ it is the vertex of the cone over the rational normal curve of degree $n$, whose embedding dimension $n + 1$ is visible from its equations.
+with equality only for $m = 1$. So $Z_f = C$, $p_a(Z_f) = 0$, and by Theorem P5.8.16, $C$ is contracted to a rational singularity of multiplicity $n$, with embedding dimension $n + 1$ if $n \geq 2$. For $n = 1$ the multiplicity is $1$ and the point is smooth, which is Castelnuovo's criterion, Theorem P5.7.4. For $n = 2$ this is the vertex of the quadric cone of Example P5.8.9. For general $n$ it is the vertex of the cone over the rational normal curve of degree $n$, whose embedding dimension $n + 1$ is visible from its equations.
 
 **Example P5.8.20 (the vertex of the quadric cone is rational).** In Example P5.8.9, $U = f^{-1}(\operatorname{Spec} A)$ is covered by the two affine planes $U_1 = \operatorname{Spec} k[x, z']$ and $U_2 = \operatorname{Spec} k[y, z'']$, with $U_1 \cap U_2 = \operatorname{Spec} k[x, z', z'^{-1}]$, $z'' = z'^{-1}$ and $y = x z'^2$. Since $\operatorname{Spec} A$ is affine, the restriction of $R^1 f_* \mathcal{O}_S$ to it is the sheaf associated to $H^1(U, \mathcal{O}_U)$ (Hartshorne, Proposition III.8.5), and $H^1(U, \mathcal{O}_U)$ is the cokernel of the Čech map
 $$k[x, z'] \oplus k[y, z''] \to k[x, z', z'^{-1}].$$
@@ -119,7 +119,7 @@ Let $E_{\mathrm{red}} = C_1 + \dots + C_r$. A function in $\mathfrak{m}$ pulls b
 2. (A) Let $C_1, C_2$ be smooth rational curves with $C_1^2 = -2$ and $C_2^2 = -3$ meeting transversally in one point. Show that the configuration is negative definite, that $Z_f = C_1 + C_2$ and $p_a(Z_f) = 0$, and find the multiplicity and the embedding dimension of the singularity obtained by contracting it.
 3. (A) Show that two $(-2)$-curves with $C_1 \cdot C_2 = 2$ do not form a negative definite configuration, and find the nef divisor that part 2 of Lemma P5.8.1 produces.
 4. (B) Let $t$ be a rational singularity of $f$. Using Proposition P5.8.15 and part 3 of Proposition P5.8.13, show that every curve $C_i$ over $t$ is isomorphic to $\mathbb{P}^1$, that $C_i \cdot C_j \leq 1$ for $i \neq j$, and that the dual graph of $f^{-1}(t)$ is a tree.
-5. (B) Let $f \colon S \to T$ be as in Definition P5.8.14 and $g \colon S' \to S$ the blow-up of a point. Show that $R^1 g_* \mathcal{O}_{S'} = 0$ and $g_* \mathcal{O}_{S'} = \mathcal{O}_S$, deduce from the Leray spectral sequence, or from the five term exact sequence, that $R^1 (f \circ g)_* \mathcal{O}_{S'} \cong R^1 f_* \mathcal{O}_S$, and conclude with Chapter 7 that the notion of rational singularity does not depend on $f$.
+5. (B) Let $f \colon S \to T$ be as in Definition P5.8.14 and $g \colon S' \to S$ the blow-up of a point. Show that $R^1 g_* \mathcal{O}_{S'} = 0$ and $g_* \mathcal{O}_{S'} = \mathcal{O}_S$, deduce from the Leray spectral sequence, or from the five term exact sequence, that $R^1 (f \circ g)_* \mathcal{O}_{S'} \cong R^1 f_* \mathcal{O}_S$, and conclude with Theorem P5.7.12 that the notion of rational singularity does not depend on $f$.
 6. (C) Let $C$ be a smooth curve of genus $g \geq 1$ on $S$ with $C^2 < 0$. Show that the fundamental cycle of $\{C\}$ is $C$, with $p_a(Z_f) = g$, and that $C$ is never contracted to a rational singularity. For a smooth projective curve $B$ of genus $g$, blow up a point of the section $B \times \{0\}$ of $B \times \mathbb{P}^1$ and show that the strict transform of the section is such a curve with $C^2 = -1$, so that every value $p_a(Z_f) \geq 0$ occurs.
 
 ### Lean

@@ -3,7 +3,7 @@ title: The negativity lemma
 nodes: []
 sources: [Har77, Bea96, KM98, Mum61]
 reads_with: [KM98:ch3, Bea96:ch2]
-requires: [P1.5, P3.7, P3.11, P4.6, P5.5, P5.6]
+requires: [P1.5, P3.7, P3.11, P4.6, P5.5, P5.6, P5.7]
 level: prereq
 kind: theorem
 status: drafted
@@ -120,7 +120,7 @@ The union $C_1 \cup \dots \cup C_r$ is connected by part 2, so the dual graph is
 3. (B) Show by an example with $r = 2$ that part 1 of Lemma P5.8.1 fails for negative definite matrices with a negative entry off the diagonal.
 4. (B) (*Zariski's lemma.*) Let $\varphi \colon S \to B$ be a surjective morphism onto a smooth projective curve and $F = \varphi^* b = \sum_i a_i C_i$ a fibre, with $C_i$ distinct integral curves. Show that $F \cdot C_i = 0$ for all $i$, that the intersection matrix of the $C_i$ is negative semidefinite, and that an $\mathbb{R}$-divisor $D$ supported on $F$ has $D^2 = 0$ only if $D$ is a real multiple of $F$. You may use that fibres of $\varphi$ are connected when $\varphi_* \mathcal{O}_S = \mathcal{O}_B$.
 5. (B) In Example P5.8.6 with $n = 1$, let $L$ be the line through $p_1$ with tangent direction $p_2$. Using Proposition P5.6.4 twice, show that $f^* L = \tilde L + C_1 + 2 C_2$, and recover the coefficients $1$ and $2$ from the conditions of Corollary P5.8.5 and $\tilde L \cdot C_1 = 0$, $\tilde L \cdot C_2 = 1$.
-6. (C) Let $f \colon S \to T$ be as in Theorem P5.8.3 and $g \colon S' \to S$ the blow-up of a point. Show that $(f \circ g)^* D = g^* (f^* D)$ for every $\mathbb{R}$-Weil divisor $D$ on $T$, and deduce that Mumford's intersection number does not change when $f$ is replaced by $f \circ g$. Using the factorization theorem of Chapter 7, show that it does not depend on the choice of $f$.
+6. (C) Let $f \colon S \to T$ be as in Theorem P5.8.3 and $g \colon S' \to S$ the blow-up of a point. Show that $(f \circ g)^* D = g^* (f^* D)$ for every $\mathbb{R}$-Weil divisor $D$ on $T$, and deduce that Mumford's intersection number does not change when $f$ is replaced by $f \circ g$. Using Theorem P5.7.12, show that it does not depend on the choice of $f$.
 
 ### Lean
 
