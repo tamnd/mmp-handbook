@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P4 Chapter 9, Grothendieck duality: dualizing complexes over local rings and projective schemes (P4.9.1 to P4.9.10), Serre duality for complexes and duality for morphisms of projective schemes with $f^!$ (P4.9.11 to P4.9.17), and rational singularities with Kempf's criterion, Gorenstein rational equals canonical, and the cone criterion (P4.9.18 to P4.9.27).
 - P4 Chapter 8, Ext sheaves and local duality: local cohomology with its Čech and Ext descriptions and the cone comparison, Grothendieck's depth and dimension theorem with the Cohen-Macaulay criterion for cones, injective hulls, Matlis duality, local duality over a quotient of a regular local ring, and the canonical module.
 
 ## v0.0.5 - 2026-11-27
