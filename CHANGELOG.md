@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- P5 Chapter 10, Cubic surfaces and the plane blown up in nine points: the cubic surface as the plane blown up in six points and its 27 lines (P5.10.1 to P5.10.9), the E6 root system, the Weyl group of order 51840 and the 36 double sixes (P5.10.10 to P5.10.16), and eight and nine points, the rational elliptic surface with its infinitely many (-1)-curves, the E8 lattice of sections and the Hesse pencil (P5.10.17 to P5.10.27).
+
 ## v0.0.8 - 2026-11-27
 
 ### Added
