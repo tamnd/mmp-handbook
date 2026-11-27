@@ -3,7 +3,7 @@ title: The plane blown up in eight and nine points
 nodes: []
 sources: [Har77, Bea96, Laz04, Sil09, Ful93]
 reads_with: [Har77:V.4, Bea96:ch4]
-requires: [P4.2, P5.1, P5.3, P5.5, P5.6, P5.8]
+requires: [P4.2, P5.1, P5.3, P5.5, P5.6, P5.8, P5.9]
 level: prereq
 kind: theorem
 status: drafted
@@ -29,7 +29,7 @@ are pairwise distinct exceptional classes. So $X_9$ has infinitely many exceptio
 
 Lean: not in Lean as stated.
 
-**Proposition P5.10.18 (the del Pezzo surface of degree one).** Let $X = X_8$ and assume that $-K$ is ample, which holds for points in general position by Chapter 9.
+**Proposition P5.10.18 (the del Pezzo surface of degree one).** Let $X = X_8$ and assume that $-K$ is ample, which holds for points in general position by Theorem P5.9.26.
 
 1. Each exceptional class contains exactly one effective divisor, and it is a $(-1)$-curve. So $X$ contains exactly $240$ $(-1)$-curves.
 2. $h^0(-K) = 2$, and every member of $|-K|$ is an integral curve of arithmetic genus $1$.
