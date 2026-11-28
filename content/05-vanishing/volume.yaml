@@ -1,5 +1,6 @@
 number: 5
 title: Vanishing theorems and multiplier ideals
+subtitle: Kawamata-Viehweg vanishing for pairs and over a base, the covering trick, Kollár's injectivity and torsion freeness, multiplier ideals and Nadel vanishing, local properties, extension theorems, and the failure in characteristic p
 level: core
-requires: [1, 4, P7.8, P7.9, P7.10, P8.5]
-spine: ["Lazarsfeld, Positivity in algebraic geometry II, Chapters 9 to 11 (Laz04)", "Kollár-Mori, Birational geometry of algebraic varieties, Chapter 2 (KM98)"]
+requires: [1, 4, P2.4, P3.4, P4.4, P7.8, P7.9, P7.10, P7.11, P8.7, P8.8, P8.9]
+spine: ["Kollár-Mori, Birational geometry of algebraic varieties, Chapter 2 (KM98)", "Lazarsfeld, Positivity in algebraic geometry II, Chapter 9 (Laz04)", "Esnault-Viehweg, Lectures on vanishing theorems (EV92)"]

@@ -6,6 +6,15 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 5, Vanishing theorems and multiplier ideals, a new volume with its plan of 6 chapters, and Chapters 1 to 3: Kawamata-Viehweg for pairs and over a base with the covering trick, Kollár injectivity and torsion freeness, and multiplier ideals of pairs with Nadel vanishing and mixed monomial multiplier ideals.
+
+## v0.0.11 - 2026-11-28
+
+### Added
+
+- P8: the chapter titles and the intro match the drafted chapters.
+- P8 Part A, Chapters 1 to 3: Hom and Hilbert schemes, bend-and-break with Mori's theorem, and uniruled and rationally connected varieties (KMM, Graber-Harris-Starr).
+- P8 Part B, Chapters 4 and 5: resolution of curves and surfaces (Jung's method, minimal log resolutions, lct of plane curves) and Hironaka's theorems with their consequences.
 - P7 Chapters 8 to 11: vanishing theorems (Kodaira, Kawamata-Viehweg, Grauert-Riemenschneider, Kollár), multiplier ideals and Nadel vanishing, and characteristic p.
 - P7 Chapters 5 to 7: big and pseudo-effective divisors, section rings and Iitaka dimension, and volume and base loci, with Zariski decompositions on Bl_p P^2, F_n and the blow-up of P^2 at three points.
 - Volume 4: Section 2.3 points minimal log discrepancies at Chapter 6, and Section 2.4 requires P8.9.
