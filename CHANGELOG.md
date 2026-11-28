@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P7 Chapters 8 to 11: vanishing theorems (Kodaira, Kawamata-Viehweg, Grauert-Riemenschneider, Kollár), multiplier ideals and Nadel vanishing, and characteristic p.
 - P7 Chapters 5 to 7: big and pseudo-effective divisors, section rings and Iitaka dimension, and volume and base loci, with Zariski decompositions on Bl_p P^2, F_n and the blow-up of P^2 at three points.
 - Volume 4: Section 2.3 points minimal log discrepancies at Chapter 6, and Section 2.4 requires P8.9.
 - P8 Part D drafted: quotient singularities (Chapter 9), Du Val singularities (Chapter 10), rational singularities (Chapter 11), cones over varieties (Chapter 12) and first discrepancies (Chapter 13), with the P8 plan of Chapters 9 to 13 matched to the spec.
