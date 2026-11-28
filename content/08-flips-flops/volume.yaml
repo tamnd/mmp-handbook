@@ -1,0 +1,13 @@
+number: 8
+title: Flips, flops and the 3-fold MMP
+subtitle: Flipping contractions and the finite generation of the relative canonical algebra, Mori's flip theorem for terminal 3-folds, Shokurov's 3-fold log flips, termination by difficulty, the 3-fold minimal model program and flops between minimal models, and the semistable minimal model program
+level: core
+requires: [1, 3, 4, 5, 6, 7, P3.6, P7.1, P7.2, P7.6, P8.1]
+spine: ["Kollár-Mori, Birational geometry of algebraic varieties, Chapters 4 to 7 (KM98)", "Kollár and others, Flips and abundance for algebraic threefolds, Astérisque 211 (Kol92)", "Corti (editor), Flips for 3-folds and 4-folds, Chapter 2 (Cor07)"]
+chapters:
+  - "1. Flips and flops: small and flipping contractions, D-flips and flops, the existence of a flip as the finite generation of the relative algebra, the uniqueness of flips, the flip of an extremal ray and its discrepancies, and the Atiyah flop, the weighted blow-up of a 1/2(1,1,1) point and the Francia flip"
+  - "2. Mori's flip theorem: flipping curves of terminal 3-folds, which are trees of rational curves through a point of index at least 2, extremal neighbourhoods, the general elephant and the Kollár-Mori classification (outline), and an account of what is proved here and what is cited"
+  - "3. Shokurov's 3-fold log flips: pl flipping contractions, the restricted algebra and its finite generation, the reduction of klt flips to pl flips, special termination, and complements on surfaces (outline where long)"
+  - "4. Termination: termination of 3-fold terminal flips by Shokurov's difficulty, with full proof, the canonical and klt 3-fold cases, and termination for 4-folds by Kawamata, Matsuda and Matsuki (cited)"
+  - "5. The 3-fold minimal model program: the program assembled, terminal Q-factorial models, flops connect minimal models (Kollár) with a proof sketch, and Reid's pagoda"
+  - "6. The semistable minimal model program: semistable reduction and the semistable program of Kawamata and of Kollár and Mori (outline), a summary of the volume, and pointers to Volumes 9 and 10"

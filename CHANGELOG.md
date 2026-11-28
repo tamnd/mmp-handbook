@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- Volume 8, Chapters 1 to 3: flips and flops, Mori's flip theorem, Shokurov's 3-fold log flips (#111).
+
 ## v0.0.13 - 2026-11-28
 
 ### Added
