@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.11 - 2026-11-28
+
 ### Added
 
 - P8: the chapter titles and the intro match the drafted chapters.
