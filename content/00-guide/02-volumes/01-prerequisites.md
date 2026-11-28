@@ -25,4 +25,4 @@ reviewed_by: []
 
 The page counts are estimates. The volumes depend on each other in a line: P0, P1, P2, P3, P4, P5, P7, P8. P6 can be read in parallel with P5 or P7. P1 needs P0 only for motivation.
 
-Only P0 is drafted in this edition. Its chapters are: how to read the handbook; the MMP in one chapter; affine varieties; projective varieties; rational maps and the quadratic transformation of $\mathbb{P}^2$; dimension, tangent spaces and the Jacobian criterion; plane curves and elliptic curves; cubic surfaces and the 27 lines.
+All nine P volumes, P0 to P8, are drafted in this edition. The chapters of P0 are: how to read the handbook; the MMP in one chapter; affine varieties; projective varieties; rational maps and the quadratic transformation of $\mathbb{P}^2$; dimension, tangent spaces and the Jacobian criterion; plane curves and elliptic curves; cubic surfaces and the 27 lines.
