@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- Volume 5, Vanishing theorems and multiplier ideals, a new volume with its plan of 6 chapters, and Chapters 1 to 3: Kawamata-Viehweg for pairs and over a base with the covering trick, Kollár injectivity and torsion freeness, and multiplier ideals of pairs with Nadel vanishing and mixed monomial multiplier ideals.
+
 ## v0.0.11 - 2026-11-28
 
 ### Added
