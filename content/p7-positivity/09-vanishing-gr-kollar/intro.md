@@ -6,4 +6,4 @@ Section 9.1 defines $f$-nef and $f$-ample divisors, proves that a nef and big cl
 
 Throughout the chapter $k$ is an algebraically closed field of characteristic $0$.
 
-The chapter follows Kollár and Mori, Sections 2.4 and 2.5 (KM98), Lazarsfeld, Section 4.3 (Laz04), Kollár's papers on higher direct images of dualizing sheaves (Kol86, Kol86b), and Esnault and Viehweg, Lecture 5 (EV92).
+The chapter follows Kollár and Mori, Sections 2.4 and 2.5 (KM98), Lazarsfeld, Section 4.3 (Laz04), Kollár's papers on higher direct images of dualizing sheaves (Kol86a, Kol86b), and Esnault and Viehweg, Lecture 5 (EV92).

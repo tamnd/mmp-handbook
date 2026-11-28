@@ -1,8 +1,8 @@
 ---
 title: Kollár's injectivity and torsion-freeness
 nodes: []
-sources: [Kol86, Kol86b, KM98, Laz04, EV92, Fuj11, Har77]
-reads_with: [Kol86:2, Kol86b:3, EV92:5, Laz04:4.3]
+sources: [Kol86a, Kol86b, KM98, Laz04, EV92, Fuj11, Har77]
+reads_with: [Kol86a:2, Kol86b:3, EV92:5, Laz04:4.3]
 requires: [P3.12, P4.4, P4.7, P4.9, P7.3, P7.8]
 level: prereq
 kind: theorem
@@ -58,9 +58,9 @@ and multiplication by $s$ is multiplication by a linear form on $H^0(\mathbb{P}^
 
 ### Proof
 
-*Theorem P7.9.13.* This is Kollár, Theorem 2.1 (Kol86): part (i) is torsion-freeness, part (ii) is the vanishing above $d$, and part (iii) is Kollár vanishing. It is a black box here. Part 2 is also proved below from part 1. For $Z$ smooth and $f$ birational, $f_* \omega_X = \omega_Z$ by Lemma P4.9.19 and $R^j f_* \omega_X = 0$ for $j > 0$ by Theorem P7.9.8, so part 1 holds and part 3 is Kodaira vanishing on $Z$, Theorem P7.8.2.
+*Theorem P7.9.13.* This is Kollár, Theorem 2.1 (Kol86a): part (i) is torsion-freeness, part (ii) is the vanishing above $d$, and part (iii) is Kollár vanishing. It is a black box here. Part 2 is also proved below from part 1. For $Z$ smooth and $f$ birational, $f_* \omega_X = \omega_Z$ by Lemma P4.9.19 and $R^j f_* \omega_X = 0$ for $j > 0$ by Theorem P7.9.8, so part 1 holds and part 3 is Kodaira vanishing on $Z$, Theorem P7.8.2.
 
-*Theorem P7.9.14.* This is Kollár, Theorem 2.2 (Kol86); Fujino gives a proof with a boundary (Fuj11). It is a black box here. When $L$ is ample, both sides vanish for $i > 0$ by Theorem P7.8.2, and for $i = 0$ the map is injective because $X$ is integral.
+*Theorem P7.9.14.* This is Kollár, Theorem 2.2 (Kol86a); Fujino gives a proof with a boundary (Fuj11). It is a black box here. When $L$ is ample, both sides vanish for $i > 0$ by Theorem P7.8.2, and for $i = 0$ the map is injective because $X$ is integral.
 
 *Theorem P7.9.15.* This is Kollár, Theorem 3.1 (Kol86b), a black box. Degeneration at $E_2$ follows from the decomposition, since the Leray spectral sequence is the hypercohomology spectral sequence of $Rf_* \omega_X$ with respect to its cohomology sheaves, and for a direct sum of shifted sheaves its differentials vanish.
 
@@ -77,8 +77,8 @@ and multiplication by $s$ is multiplication by a linear form on $H^0(\mathbb{P}^
 
 ### Lean
 
-`MinimalModel.KollarTorsionFree` in the project library, attached to node MMP0Y69ZRN, is the conjunction of `MinimalModel.KollarInjectivity` and `MinimalModel.KollarTorsionFreeness` in the Lean library, stated without proof, after Kollár, Theorems 2.1(i) and 2.2 (Kol86). Its torsion-freeness has the form of Fujino, Theorem 3.4(i) (Fuj11), with a boundary. Theorem P7.9.15 is not stated there. The handbook adds no `MinimalModel` node here.
+`MinimalModel.KollarTorsionFree` in the project library, attached to node MMP0Y69ZRN, is the conjunction of `MinimalModel.KollarInjectivity` and `MinimalModel.KollarTorsionFreeness` in the Lean library, stated without proof, after Kollár, Theorems 2.1(i) and 2.2 (Kol86a). Its torsion-freeness has the form of Fujino, Theorem 3.4(i) (Fuj11), with a boundary. Theorem P7.9.15 is not stated there. The handbook adds no `MinimalModel` node here.
 
 ### Notes and history
 
-Kollár proved the injectivity, torsion-freeness and vanishing theorems in the first paper on higher direct images of dualizing sheaves (Kol86) and the decomposition in the second (Kol86b). The literature state is theorem. Esnault and Viehweg give algebraic proofs of the injectivity theorem through logarithmic de Rham complexes and the degeneration theorem of Deligne and Illusie (EV92, Lectures 5 and 6), and Lazarsfeld, Section 4.3 (Laz04) treats the case used most often. Fujino extended all four statements to simple normal crossing pairs (Fuj11), which is the form used in the theory of quasi-log schemes. Kollár's vanishing theorem contains the vanishing on the base in Theorem P7.9.3. The theorem numbers for Kol86 are checked against later papers that cite it, not against the paper.
+Kollár proved the injectivity, torsion-freeness and vanishing theorems in the first paper on higher direct images of dualizing sheaves (Kol86a) and the decomposition in the second (Kol86b). The literature state is theorem. Esnault and Viehweg give algebraic proofs of the injectivity theorem through logarithmic de Rham complexes and the degeneration theorem of Deligne and Illusie (EV92, Lectures 5 and 6), and Lazarsfeld, Section 4.3 (Laz04) treats the case used most often. Fujino extended all four statements to simple normal crossing pairs (Fuj11), which is the form used in the theory of quasi-log schemes. Kollár's vanishing theorem contains the vanishing on the base in Theorem P7.9.3. The theorem numbers for Kol86a are checked against later papers that cite it, not against the paper.
