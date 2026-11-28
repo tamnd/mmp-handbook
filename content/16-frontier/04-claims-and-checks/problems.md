@@ -1,0 +1,9 @@
+## Problems
+
+The problems of this chapter are of grade C. Each asks for a piece of a check that the project has not done on 2026-11-28. A solution of one of them is not a check of the claim: by Section 16.4.3 it checks one part, and the record must say which.
+
+1. (C) Carry out the first part of target O-R1-1. For the Fermat cubic $E$ with its automorphism $\omega$ of order 3, find the fixed points of $\omega$ on $E$, show that $\omega$ acting diagonally on $E^4$ has 81 fixed points, and compute the weights of the action on the tangent space at each. Show that the quotient has 81 points of type $\frac13(1,1,1,1)$ and that $3 K_X \sim 0$.
+2. (C) Write the dependency map of claim C10 (Hacon and Wang, arXiv:2611.29683) for its Corollary 1.2, as in step 3 of a claim check: list each cited result, and mark each as refereed, unrefereed or a claim with a record. Spec 01.3 says that the corollary rests on C3; check this.
+3. (C) State the reduction of claim C4 (J. Liu, arXiv:2610.35913) as an implication between named statements: non-vanishing for smooth varieties of dimension $d$, the inputs that the paper cites, and abundance for lc pairs of dimension at most $d$. Say which inputs are refereed theorems, and which are themselves among the claims of Section 16.4.1.
+4. (C) Step A6 of route R2 asks whether the main theorem `n_ne_top_of_isAlgClosed` says that every program terminates or only that one does. Write both readings as statements about a type of programs with a length in $\mathbb{N} \cup \{\infty\}$, show that the first implies the second, and give a model in which the second holds and the first fails.
+5. (C) Read spec 04.3 and list, for each of the sixteen definitions that step A5 reads first, the definition of KM98 or BCHM10 that it is read against. For which of them does KM98 give more than one definition, or a definition that depends on a choice?
