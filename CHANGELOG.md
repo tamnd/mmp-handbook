@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 2 Chapter 3: the minimal resolution of a normal surface. Definition 2.3.7 and Theorem 2.3.8 (existence, factorization of every resolution through it, uniqueness, and minimality as K f-nef), with the later labels of the chapter shifted by two and Volume 2 citing them instead of Volume 4.
 - Volumes 1 and 2: exact cross-references. 34 references to sibling chapters and to P5 now cite the exact label, the requires lists of 28 sections and of both volumes match what they cite, and six notes are worded to match what the cited result proves.
 
 ## v0.0.9 - 2026-11-28
