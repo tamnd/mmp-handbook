@@ -4,6 +4,10 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+### Added
+
+- Volume 4 Chapter 4: terminal 3-fold singularities. The terminal lemma for cyclic quotients, the index one cover and cDV points with Reid's theorem, the index formula for hyperquotients and Mori's list, with the worked examples 1/2(1,1,1), 1/3(1,1,1) and xy+z^2+t^3 (labels 4.4.1 to 4.4.31).
+
 ## v0.0.10 - 2026-11-28
 
 ### Added
