@@ -1,0 +1,14 @@
+## Problems
+
+Each problem computes discrepancies on both sides of an explicit flip or flop, computes a difficulty, or runs a step of the proof of Theorem 8.4.11 by hand.
+
+1. (A) Let $X = \frac15(1, 4, 2) = \frac15(1, -1, 2)$. List the vectors $v_1, \dots, v_4$ of Example 8.4.17 and their discrepancies, and check that the discrepancies are $\{\frac15, \frac25, \frac35, \frac45\}$.
+2. (A) Let $X$ be a 3-fold whose singular points are two points of type $\frac12(1,1,1)$ and one ordinary double point. Compute $d(X)$, and bound the length of a sequence of flips starting at $X$.
+3. (A) Let $X = \{xy = z^2 - t^4\} \subset \mathbb{A}^4$. Show that the singular point is an isolated cDV point, so that $X$ is terminal with $K_X$ Cartier, and conclude from Corollary 8.4.13 that no flipping contraction of a 3-fold with singularities of this kind has a flip.
+4. (A) In Example 8.4.5, compute the discrepancy over $X^-$ and over $X^+$ of the divisor of the ray of $2u_3 + u_4$, and check that it increases.
+5. (B) Let $\varphi \colon X \to Z$ be a toric flipping contraction of a simplicial toric 3-fold given by a circuit relation $\sum_{i \in J_+} q_i u_i = \sum_{j \in J_-} |q_j| u_j$, as in Volume 3, Theorem 3.5.20. Show with Theorem 3.3.34 that every torus-invariant divisor over the flipping locus has a strictly larger discrepancy on the flipped side, and compare with Volume 3, Theorem 3.6.3.
+6. (B) Let $X$ be the cone over a smooth cubic surface, as in Example 4.4.22. Compute the discrepancy of the blow-up of the vertex, show that $X$ is canonical and not terminal, and compute $d(X)$ with Lemma 8.4.9.
+7. (B) Let $X$ be the quotient $\frac12(1,1,1)$ and $\ell$ a line through the origin in $\mathbb{A}^3$, with image $\bar\ell \subset X$. Compute the discrepancy of the divisor obtained by blowing up the strict transform of $\bar\ell$ on the weighted blow-up $Y$ of Example 8.4.14, and confirm that it is at least $1$, as Lemma 8.4.9 requires.
+8. (B) Let $X$ be a terminal 3-fold and $X \dashrightarrow X^+$ a flip with flipped locus $C^+_1 \cup \dots \cup C^+_c$. Show that $d(X^+) \le d(X) - c$ and that equality holds in Example 8.4.16.
+9. (C) Let $X \dashrightarrow X^+$ be a flop of terminal 3-folds over $Z$, with respect to a divisor $D$. Show that $d(X^+) = d(X)$, using Proposition 8.4.3, and that the flop of $X^+ \to Z$ with respect to $-D^+$ is $X$ again. Conclude that the difficulty cannot bound sequences of flops, and that a sequence of flops terminates only for a reason outside the difficulty, such as a fixed divisor that becomes nef.
+10. (C) Let $X^- \dashrightarrow X^+$ be a flip of terminal 3-folds such that the only singular point of $X^-$ is a point of type $\frac12(1,1,1)$. Show that $d(X^+) = 0$, and deduce from Example 8.4.17 that $X^+$ has no point of type $\frac1r(1, -1, a)$ with $r \ge 2$. Compare with Example 8.4.16, where $X^+$ is smooth.

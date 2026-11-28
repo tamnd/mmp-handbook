@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 8, Chapters 4 to 6: termination by difficulty, the 3-fold MMP, the semistable MMP (#110).
 - Volume 8, Chapters 1 to 3: flips and flops, Mori's flip theorem, Shokurov's 3-fold log flips (#111).
 
 ## v0.0.13 - 2026-11-28
