@@ -80,7 +80,7 @@ For dlt implies lc, a divisor with centre in $Z$ has discrepancy above $-1$ by t
 
 $$\Delta_Y = tC_3 + (2t - 1)E_1 + (3t - 2)E_2 + (6t - 4)E_3.$$
 
-By the theorem, $(\mathbb{A}^2, tC)$ is lc if and only if $6t - 4 \le 1$, that is $t \le \frac56$, and klt if and only if $t < \frac56$. The number $\frac56$ is the log canonical threshold of the cusp (Chapter 5).
+By the theorem, $(\mathbb{A}^2, tC)$ is lc if and only if $6t - 4 \le 1$, that is $t \le \frac56$, and klt if and only if $t < \frac56$. The number $\frac56$ is the log canonical threshold of the cusp (Chapter 6).
 
 **Example 4.2.17 (the nodal cubic, on its resolution).** For $C = \{y^2 = x^2(x+1)\}$, one blow-up of the origin is a log resolution of $(\mathbb{A}^2, C)$, with $\Delta_Y = C' + E$, and $C'$ meets $E$ transversally in two points. Every coefficient is 1, so the pair is lc and not klt. Part 2 gives $\operatorname{discrep} = \min\{-1, 1 - 1 - 1\} = -1$, so it is not plt.
 
