@@ -1,0 +1,13 @@
+number: 9
+title: "BCHM: existence of minimal models"
+subtitle: The induction of Birkar, Cascini, Hacon and McKernan, pl flips and the extension theorem, special termination and the program with scaling, finiteness of models and nonvanishing, finite generation, and Mori dream spaces
+level: advanced
+requires: [1, 2, 3, 4, 5, 7, 8, P7, P8]
+spine: ["Birkar, Cascini, Hacon and McKernan, Existence of minimal models for varieties of log general type (BCHM10)", "Corti (editor), Flips for 3-folds and 4-folds (Cor07)", "Corti, Kaloghiros and Lazić, Introduction to the minimal model program and the existence of flips (CKL11)", "Hacon and Kovács, Classification of higher dimensional algebraic varieties (HK10)"]
+chapters:
+  - "1. A map of the induction: the theorems A to F of BCHM and their implications, with the toric program with scaling on a toric 3-fold"
+  - "2. Pl flips: Shokurov's reduction in all dimensions, the restricted algebra, the extension theorem of Hacon and McKernan, and the existence of pl flips"
+  - "3. Special termination and scaling: special termination, the program with scaling, and its termination for a big boundary"
+  - "4. Finiteness of models: Shokurov polytopes, the geography of models, the finiteness of models, and nonvanishing for a big boundary with the Diophantine approximation step"
+  - "5. Finite generation: the finite generation of log canonical and adjoint rings, finite generation for a surface by hand, and the corollaries: log terminal models, flips and Q-factorializations"
+  - "6. Mori dream spaces: the definition of Hu and Keel, the Mori chambers of the Hirzebruch surfaces and of a del Pezzo surface, log Fano varieties are Mori dream spaces, the route of Cascini, Lazić and Corti (outline), and pointers to Volume 10"

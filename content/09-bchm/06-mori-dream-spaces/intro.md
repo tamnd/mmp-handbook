@@ -1,0 +1,9 @@
+# Mori dream spaces
+
+A Mori dream space, in the sense of Hu and Keel, is a variety on which the minimal model program can be run for every divisor and in which every step is visible in advance: the effective cone is cut into finitely many rational polyhedral chambers, and each chamber is the nef cone of a model, pulled back. This chapter defines Mori dream spaces, computes their chambers in the first examples, proves that log Fano varieties are Mori dream spaces as a consequence of the finite generation of adjoint rings, and outlines the route of Cascini, Lazić and Corti, in which finite generation comes first and the minimal model program is derived from it.
+
+The first section gives the definition, the Cox ring and the theorem of Hu and Keel that a variety is a Mori dream space exactly when its Cox ring is finitely generated. The chambers of the Hirzebruch surfaces and of the plane blown up at two points are computed completely; in the second example the effective cone, a triangle, is cut into five chambers, one for each of the five models.
+
+The second section proves that a $\mathbb{Q}$-factorial klt variety with a boundary making $-(K_X + \Delta)$ ample is a Mori dream space, Corollary 1.3.1 of BCHM, from the vanishing theorems of Volume 5 and the finite generation of adjoint rings of Chapter 5. Del Pezzo surfaces and the log del Pezzo structures on Hirzebruch surfaces are examples, and the plane blown up at nine general points is a non-example.
+
+The third section, marked as an outline, describes the approach of Cascini and Lazić to finite generation without the minimal model program, the reconstruction of the program from finite generation by Corti and Lazić, and the questions left for Volume 10. The program with scaling on the plane blown up at two points is followed through its chambers as the worked example.
