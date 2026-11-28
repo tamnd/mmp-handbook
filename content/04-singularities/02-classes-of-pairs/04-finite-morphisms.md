@@ -3,7 +3,7 @@ title: Finite morphisms and quotient singularities
 nodes: []
 sources: [KM98, Kol13, Che55, Rei87]
 reads_with: [KM98:ch5, Kol13:ch2]
-requires: [P8.12, 4.1]
+requires: [P8.9, 4.1]
 level: core
 kind: theorem
 status: drafted
