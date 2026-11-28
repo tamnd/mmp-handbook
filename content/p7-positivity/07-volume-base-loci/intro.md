@@ -1,0 +1,9 @@
+# Volume and base loci
+
+The volume of a line bundle is the leading coefficient of the growth of its sections, normalized so that it equals the top self-intersection for an ample bundle. Unlike the Iitaka dimension, it depends only on the numerical class, it is homogeneous and continuous, and it is positive exactly on the big cone, so it extends to a continuous function on $N^1(X)$ that measures how far a class is from the boundary of the pseudo-effective cone. The base loci of the multiples of a line bundle are measured in the same asymptotic way: the stable base locus is not a numerical invariant, but its perturbations by small ample classes, the augmented and restricted base loci, are.
+
+Section 7.1 defines the volume, proves its homogeneity, its numerical invariance and its continuity on $N^1(X)$, proves that it equals the top self-intersection on the nef cone, and states Fujita's approximation theorem. Section 7.2 defines the stable, augmented and restricted base loci, proves their first properties, and states Nakamaye's theorem that the augmented base locus of a big and nef divisor is its null locus. Section 7.3 computes volumes and base loci on surfaces through the Zariski decomposition of P5 Ch. 8, with worked examples on the blow-up of the plane at a point, the Hirzebruch surfaces and the plane blown up at three points.
+
+The minimal model program uses these notions throughout: the volume of $K_X$ is the birational invariant that bounds varieties of general type, the augmented base locus of a big divisor is the set where a run of the program can modify the variety, and the restricted base locus detects whether a pseudo-effective divisor is nef.
+
+The chapter follows Lazarsfeld, Sections 2.2.C, 10.3 and 11.4 (Laz04), the paper of Ein, Lazarsfeld, Mustaţă, Nakamaye and Popa (ELMNP06), Nakamaye's paper (Nkm00), Fujita's paper (Fuj94), and Nakayama's memoir (Nak04).
