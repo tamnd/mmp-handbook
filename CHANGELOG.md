@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 16, The 2026 frontier, first dated report: generalized pairs with the canonical bundle formula and a generalized pair from an elliptic fibration (16.1), the Kähler MMP for 3-folds and the claims of 2026 (16.2), termination in dimension 4 with a toric 4-fold flip sequence checked by hand (16.3), and the 2026 preprints, the audit of route R2 and the claim checks of route R1 (16.4).
 - Volume 2 Chapter 3: the minimal resolution of a normal surface. Definition 2.3.7 and Theorem 2.3.8 (existence, factorization of every resolution through it, uniqueness, and minimality as K f-nef), with the later labels of the chapter shifted by two and Volume 2 citing them instead of Volume 4.
 - Volumes 1 and 2: exact cross-references. 34 references to sibling chapters and to P5 now cite the exact label, the requires lists of 28 sections and of both volumes match what they cite, and six notes are worded to match what the cited result proves.
 

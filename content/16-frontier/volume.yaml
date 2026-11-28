@@ -1,0 +1,6 @@
+number: 16
+title: "The 2026 frontier: generalized pairs, Kähler spaces, 4-folds"
+subtitle: "A dated report of 2026-11-28: generalized pairs and the generalized program, the Kähler program for 3-folds, termination in dimension 4, the claims of 2026, the audit of route R2 and the claim checks of route R1"
+level: research
+requires: ["9", "10", "12"]
+spine: ["Birkar-Zhang, Effectivity of Iitaka fibrations and pluricanonical systems of polarized pairs (BZ16)", "Moraga, Termination of pseudo-effective 4-fold flips (Mor25)", "The 2026 preprints, as the claim records of tamnd/mmp give them on 2026-11-28"]
