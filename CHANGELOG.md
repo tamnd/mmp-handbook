@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 4 Chapter 5: adjunction and inversion of adjunction. The different and the adjunction formula, the different of cyclic quotient surface germs, adjunction for plt and lc pairs, and inversion of adjunction proved for surfaces and stated in general (Kawakita), with the different on the quadric cone and on 1/n(1,1) (labels 4.5.1 to 4.5.35).
 - P7, Intersection numbers, positivity and vanishing, a new volume with its plan of 11 chapters, and Chapters 1 to 4 drafted: intersection numbers, numerical equivalence and N^1, N_1, the criteria of Nakai-Moishezon, Kleiman and Seshadri, and the nef and ample cones and NE-bar, with the cones of P^1 x P^1, F_n, blow-ups of P^2 and Mumford's example.
 - P8, Tools of birational geometry, a new volume with its plan of 13 chapters, and Part C drafted: cones, fans and toric varieties (Chapter 6), toric divisors (Chapter 7), and toric resolution and the toric cone (Chapter 8), with the fans of P^n, P^1 x P^1, F_n, the quadric cone and 1/n(1,1), the resolution of 1/5(1,2), and the cone of F_n.
 - Volume 4 Chapter 4: terminal 3-fold singularities. The terminal lemma for cyclic quotients, the index one cover and cDV points with Reid's theorem, the index formula for hyperquotients and Mori's list, with the worked examples 1/2(1,1,1), 1/3(1,1,1) and xy+z^2+t^3 (labels 4.4.1 to 4.4.31).
