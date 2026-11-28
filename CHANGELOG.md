@@ -4,6 +4,8 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.10 - 2026-11-28
+
 ### Added
 
 - Volume 16, The 2026 frontier, first dated report: generalized pairs with the canonical bundle formula and a generalized pair from an elliptic fibration (16.1), the Kähler MMP for 3-folds and the claims of 2026 (16.2), termination in dimension 4 with a toric 4-fold flip sequence checked by hand (16.3), and the 2026 preprints, the audit of route R2 and the claim checks of route R1 (16.4).
