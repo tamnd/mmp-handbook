@@ -1,0 +1,9 @@
+# Rational curves: the tools and two examples
+
+Volume P8 proves the results on rational curves that Mori's method needs: the Hom scheme and its dimension estimate (Chapter 1), bend-and-break and the existence of rational curves of bounded degree (Chapter 2), and the basic facts on uniruled and rationally connected varieties (Chapter 3). This chapter collects those results with their labels, adds the three facts on families of rational curves that the rest of the volume uses, and works the two examples that the volume returns to: projective space and the cubic surface.
+
+Section 1 states the conventions of the volume and the list of tools from Volume P8. It proves that every component of a Hom scheme has at least the expected dimension, that a rational curve of anticanonical degree at least $n + 2$ breaks into two rational $1$-cycles of smaller degree, and that a rational curve of minimal anticanonical degree in an extremal ray is unsplit, so that its family has at most one dimension of deformations with two points fixed and its degree is at most $n + 1$.
+
+Section 2 shows that every rational curve on $\mathbb{P}^n$ is very free, computes the space of rational curves of degree $d$, and proves that the restricted tangent bundle of the rational normal curve is $\mathcal{O}(n + 1)^{\oplus n}$. It then defines the minimal rational components of a uniruled variety and their varieties of minimal rational tangents, bounds the dimension of the VMRT at a general point, and computes it for projective space and for quadrics.
+
+Section 3 treats a smooth cubic surface. The $27$ lines are the rational curves of anticanonical degree $1$; they are rigid, unsplit and span the $27$ extremal rays. The conics residual to the lines form $27$ base point free pencils; a conic is free and not very free, and the conics are the minimal rational components, with a single point as VMRT at a general point. The problems compute further examples of both kinds.
