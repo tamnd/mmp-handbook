@@ -1,0 +1,14 @@
+## Problems
+
+Each problem computes an asymptotic multiplier ideal, tests an extension statement, or computes plurigenera in a family. Say which hypothesis of the theorem used is checked, and where it fails if it fails.
+
+1. (A) Let $X = \mathbb{P}^1 \times \mathbb{P}^1$ and $L = \mathcal{O}(a, b)$ with $a, b \geq 0$. Compute $\mathcal{J}(c \cdot \| L \|)$ for all $c > 0$, and explain why Theorem 5.5.5 fails for $a = 0$.
+2. (A) Let $X$ be the blow-up of $\mathbb{P}^2$ at two points $p_1, p_2$, with exceptional curves $E_1, E_2$, and $L = H + E_1 + 2 E_2$. Compute $\mathfrak{b}_m$ and $\mathcal{J}(\| mL \|)$ for all $m$.
+3. (A) Let $S \subset \mathbb{P}^3$ be a smooth quadric surface and $L = \mathcal{O}(d)$. Use Corollary 5.5.12 to show that $H^0(\mathbb{P}^3, \mathcal{O}(d - 2)) \to H^0(S, \mathcal{O}_S(d - 2))$ is surjective for $d \geq 1$, and check it directly.
+4. (B) Let $S \subset X$ be a smooth prime divisor in a smooth projective variety and $A$ ample. Show that for every $m \geq 1$ the map $H^0(X, \mathcal{O}_X(m(K_X + S) + A + S)) \to H^0(S, \mathcal{O}_S(m K_S + A|_S))$ need not be surjective, by an example with $X = \mathbb{P}^1 \times C$, and explain which hypothesis of Theorem 5.5.15 fails.
+5. (B) Let $L$ be a big line bundle on a smooth projective surface with Zariski decomposition $L = P + N$, $P$ nef and $N$ effective with negative definite support. Show that $\mathcal{J}(c \cdot \| L \|) = \mathcal{J}(c N)$ when $P$ is semiample. Compute it for Example 5.5.9.
+6. (B) Let $C$ be a curve of genus $2$ and $\pi \colon X = C \times T \to T$ a trivial family over an affine curve. Check Theorem 5.5.13 directly for all $m$, by the Künneth formula.
+7. (B) Let $X_0 \subset \mathbb{P}^3$ be a quartic surface with an ordinary triple point and $Y$ its blow-up at that point. Compute $K_Y$, $p_g(Y)$ and $P_m(Y)$, and compare with a smooth quartic, a K3 surface. Is $Y$ of general type?
+8. (B) Let $X_0 \subset \mathbb{P}^3$ be a sextic surface with an ordinary triple point. Compute $p_g$ of its blow-up and of a smooth sextic, and find the drop.
+9. (C) Let $\pi \colon X \to T$ be a smooth projective family over an affine curve whose fibres are smooth minimal surfaces of general type. Assuming Theorem 5.5.20, show that $K_{X_t}^2$ is constant, and compare with the constancy of $\chi(\mathcal{O}_{X_t})$ given by flatness. Hint: $P_m = \chi(\mathcal{O}) + \frac{m(m-1)}{2} K^2$ for $m \geq 2$.
+10. (C) Let $L$ be big on $X$ and $x \in X$ a point with $x \notin \mathbf{B}_+(L)$. Show that $x \notin Z(\mathcal{J}(c \cdot \| L \|))$ for every $c > 0$, by writing $L \sim_{\mathbb{Q}} A + E$ with $A$ ample and $E$ effective, $x \notin \operatorname{Supp} E$, by part 2 of Proposition P7.7.15, and comparing $\mathfrak{b}_p$ with $\mathcal{O}_X(-pE)$ for $p$ divisible.
