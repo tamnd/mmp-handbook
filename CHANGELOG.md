@@ -6,6 +6,14 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 8, Chapters 4 to 6: termination by difficulty, the 3-fold MMP, the semistable MMP (#110).
+- Volume 8, Chapters 1 to 3: flips and flops, Mori's flip theorem, Shokurov's 3-fold log flips (#111).
+
+## v0.0.13 - 2026-11-28
+
+### Added
+
+- Volume 7 Chapters 4 to 6: the cone theorem for klt pairs with Kawamata's length bound and the cones of log del Pezzo surfaces, the contraction theorem with divisorial, small and fibre type contractions and two Fano 3-folds of Picard number 2, and the lc versions (Ambro, Fujino) sketched with the comparison of the methods of Volumes 6 and 7.
 - Volume 7, Cone and contraction theorems, a new volume with its plan of 6 chapters, and Chapters 1 to 3: Shokurov's nonvanishing theorem, the base point free theorem and the rationality theorem, with complete proofs from Kawamata-Viehweg vanishing.
 
 ## v0.0.12 - 2026-11-28

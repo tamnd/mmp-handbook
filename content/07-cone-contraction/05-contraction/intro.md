@@ -1,0 +1,9 @@
+# The contraction theorem
+
+This chapter constructs the contraction of every negative extremal face of a projective klt pair $(X, \Delta)$ in characteristic $0$ and describes what it does. The construction uses three things: the supporting divisor $L$ of the face, with $L - (K_X + \Delta)$ ample, from the cone theorem of Chapter 4; the base point free theorem of Chapter 2, applied to $L$; and Stein factorization. No rational curves and no classification are needed, which is the difference from Mori's construction for smooth threefolds in Volume 6.
+
+Section 1 proves the contraction theorem, Theorem 7.5.2. The contraction $\varphi_F \colon X \to Y$ is onto a normal projective variety, it contracts exactly the curves with class in $F$, line bundles that are trivial on $F$ descend to $Y$, and $\varphi_F$ is unique. For a ray the Picard number drops by one, and over a base the contraction factors the given morphism.
+
+Section 2 sorts the contractions of rays into three types: fibre type, divisorial and small. When $X$ is $\mathbb{Q}$-factorial a birational contraction is either small or has an irreducible exceptional divisor that is negative on the ray. A divisorial contraction keeps $Y$ $\mathbb{Q}$-factorial and klt and raises discrepancies, a small contraction destroys the $\mathbb{Q}$-Cartier property of $K_Y + \Delta_Y$, and a fibre type contraction has a $\mathbb{Q}$-factorial base and log Fano general fibres. A smooth fourfold shows that small contractions occur.
+
+Section 3 works out the two contractions of two smooth Fano threefolds with Picard number $2$: the blow-up of $\mathbb{P}^3$ along a line, with a divisorial contraction onto a curve and a $\mathbb{P}^2$-fibration over $\mathbb{P}^1$, and a divisor of bidegree $(1, 2)$ in $\mathbb{P}^2 \times \mathbb{P}^2$, a conic bundle over the plane whose other contraction is a $\mathbb{P}^1$-bundle.
