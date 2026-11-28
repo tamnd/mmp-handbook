@@ -1,0 +1,6 @@
+number: 6
+title: Rational curves and bend-and-break
+subtitle: Families of rational curves and minimal rational curves, the cone theorem for smooth varieties by Mori's method, the length of extremal rays, unsplit families and the Ionescu-Wiśniewski inequality, Mori's extremal contractions of threefolds, rationally connected varieties and the rational connectedness of Fano manifolds
+level: core
+requires: [1, 2, P5.4, P5.10, P5.12, P7.2, P7.3, P7.4, P8.1, P8.2, P8.3]
+spine: ["Debarre, Higher-dimensional algebraic geometry (Deb01)", "Kollár, Rational curves on algebraic varieties (Kol96)", "Kollár-Mori, Birational geometry of algebraic varieties, Chapter 1 (KM98)"]
