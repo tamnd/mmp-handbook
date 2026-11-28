@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- Volume 9, Chapters 1 to 3: the map of the BCHM induction, pl flips and the Hacon-McKernan extension theorem, special termination and the MMP with scaling (#112).
 - Volume 8, Chapters 4 to 6: termination by difficulty, the 3-fold MMP, the semistable MMP (#110).
 - Volume 8, Chapters 1 to 3: flips and flops, Mori's flip theorem, Shokurov's 3-fold log flips (#111).
 
