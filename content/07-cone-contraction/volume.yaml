@@ -1,0 +1,5 @@
+number: 7
+title: Cone and contraction theorems
+level: core
+requires: [4, 5, 6]
+spine: ["Kollár-Mori, Birational geometry of algebraic varieties, Chapter 3 (KM98)", "Matsuki, Introduction to the Mori program, Chapters 6 to 8 (Mat02)", "Fujino, Foundations of the minimal model program (Fuj17d)"]
