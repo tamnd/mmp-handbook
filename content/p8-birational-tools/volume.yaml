@@ -1,0 +1,20 @@
+number: P8
+title: Tools of birational geometry
+subtitle: Rational curves, morphism spaces and bend-and-break, uniruled and rationally connected varieties, resolution of singularities and log resolutions, cones, fans and toric varieties, toric divisors, toric resolution and the toric cone theorem, and the singularities of the minimal model program
+level: prereq
+requires: [P4, P5, P7]
+spine: ["Debarre, Higher-dimensional algebraic geometry (Deb01)", "Kollár and Mori, Birational geometry of algebraic varieties (KM98)", "Kollár, Lectures on resolution of singularities (Kol07)", "Cox, Little and Schenck, Toric varieties (CLS11)", "Reid, Young person's guide to canonical singularities (Rei87)", "Fulton, Introduction to toric varieties (Ful93)"]
+chapters:
+  - "1. Spaces of morphisms: the scheme of morphisms from a curve, its tangent space and dimension estimate, and deformations of a rational curve with fixed points"
+  - "2. Bend-and-break: breaking a family of curves with two fixed points, Mori's theorem on rational curves through a point of a variety with K-negative curves, and the bound on the degree"
+  - "3. Uniruled and rationally connected varieties: free and very free rational curves, uniruledness and the canonical class, rational connectedness and the rationally connected fibration"
+  - "4. Resolution of singularities: Hironaka's theorem in characteristic zero, the resolution of curves and surfaces, and the principalization of ideals"
+  - "5. Log resolutions and normal crossings: simple normal crossing divisors, log resolutions of pairs, Bertini theorems, and the strong factorization problem"
+  - "6. Cones, fans and toric varieties: rational polyhedral cones and duality, Gordan's lemma, affine toric varieties and their gluing along fans, the orbit-cone correspondence, smoothness and completeness"
+  - "7. Toric divisors: torus-invariant prime divisors, the class group and the Picard group, the Cartier criterion, the canonical divisor, support functions and global sections"
+  - "8. Toric resolution and the toric cone: refinements of fans, the resolution of toric surface singularities by continued fractions, wall curves and their intersection numbers, and the toric cone theorem"
+  - "9. Discrepancies: the discrepancy of a divisor over a pair, terminal, canonical, klt and log canonical singularities, and their computation on a log resolution"
+  - "10. Surface singularities: du Val singularities and their resolution graphs, quotient singularities, and the classification of log terminal surface singularities"
+  - "11. Cyclic covers and the index one cover: cyclic covers branched along a divisor, the canonical cover of a Q-Gorenstein singularity, and terminal singularities of threefolds"
+  - "12. Rational singularities: rational and Cohen-Macaulay singularities, the theorem that klt singularities are rational, and Grauert-Riemenschneider vanishing"
+  - "13. Thresholds and multiplier ideals: the log canonical threshold, multiplier ideals, and the toric computation of both"
