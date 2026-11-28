@@ -1,0 +1,13 @@
+number: 9
+title: "BCHM: existence of minimal models"
+subtitle: The induction of Birkar, Cascini, Hacon and McKernan, pl flips and the Hacon-McKernan extension theorem, special termination and the program with scaling, finiteness of models and nonvanishing for a big boundary, finite generation of adjoint rings, and Mori dream spaces
+level: advanced
+requires: [1, 3, 4, 5, 7, 8, P7.5, P7.7]
+spine: ["Birkar, Cascini, Hacon and McKernan, Existence of minimal models for varieties of log general type (BCHM10)", "Corti (editor), Flips for 3-folds and 4-folds (Cor07)", "Corti, Kaloghiros and Lazić, Introduction to the minimal model program and the existence of flips", "Hacon and Kovács, Classification of higher dimensional algebraic varieties"]
+chapters:
+  - "1. The map of the induction: the six statements A to F of BCHM, pl flips, special finiteness, log terminal models, nonvanishing, finiteness of models and finite generation, the implications from dimension n - 1 to dimension n, and the toric program with scaling on a toric 3-fold as the worked example"
+  - "2. Pl flips and the extension theorem: pl flips and Shokurov's reduction in all dimensions, the restricted algebra and adjoint algebras, the Hacon-McKernan extension theorem with an outline of its multiplier ideal proof, and the existence of pl flips from the extension theorem and finite generation in dimension n - 1"
+  - "3. Special termination and the program with scaling: special termination in dimension n from the program in dimension n - 1, the minimal model program with scaling, and its termination for a big boundary assuming the finiteness of models"
+  - "4. Finiteness of models and nonvanishing: the Shokurov polytope, the geography of models, the finiteness of models, and nonvanishing for a big boundary with an outline of its proof and the Diophantine approximation step"
+  - "5. Finite generation: the theorem of BCHM, the finite generation of the canonical ring of a klt pair and of adjoint rings, finite generation for a surface by hand, and the corollaries: log terminal models, flips and Q-factorializations"
+  - "6. Mori dream spaces: the definition of Hu and Keel, the Mori chambers of the Hirzebruch surfaces and of a del Pezzo surface, log Fano varieties are Mori dream spaces, the route of Cascini and Lazić and of Corti and Lazić (outline), and pointers to Volume 10"

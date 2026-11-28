@@ -1,0 +1,9 @@
+# Special termination and the program with scaling
+
+This chapter supplies the termination statements of the induction. A minimal model program needs two things beyond the cone and contraction theorems: flips must exist, which Chapter 2 reduces to finite generation in lower dimension, and the program must stop. BCHM10 do not prove termination of flips in general. They prove that one particular program, the program with scaling, stops when the boundary is big, and they reduce the termination near the reduced boundary, special termination, to statements in lower dimension.
+
+Section 1 is special termination. It proves that after finitely many flips no flipping locus contains a log canonical centre, outlines Fujino's deduction of special termination in dimension $n$ from termination in dimension $n - 1$, and outlines the two arrows of the induction that use it in BCHM10: special finiteness from the finiteness of models in lower dimension, and special termination for the program with scaling from special finiteness. The toric 4-fold flip of Chapter 2 shows what the restriction of a flip to a boundary component looks like.
+
+Section 2 is the program with scaling. It defines the program for a $\mathbb{Q}$-factorial klt pair and a scaling divisor, proves that the extremal ray it asks for exists, that the thresholds decrease, and that each model of the program is a weak log canonical model of a scaled divisor. It then proves the termination of the program with scaling for a big boundary from the finiteness of models, Theorem 9.1.8, in full, and outlines the proof of the existence of log terminal models from pl flips and special finiteness. Surface examples show the thresholds, a tie, and the two possible outcomes.
+
+The problems run programs with scaling on surfaces and toric varieties and test the hypotheses of the termination theorem.
