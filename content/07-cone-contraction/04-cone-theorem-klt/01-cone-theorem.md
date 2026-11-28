@@ -3,7 +3,7 @@ title: The cone theorem for klt pairs
 nodes: [MMDZBZY2BV]
 sources: [KM98, KMM87, Mat02, Kaw91]
 reads_with: [KM98:3.15, Mat02:ch8]
-requires: [P7.3, P7.4, 4.2, 6.2]
+requires: [P7.3, P7.4, 4.2, 6.2, 7.2, 7.3]
 level: core
 kind: theorem
 status: drafted

@@ -3,7 +3,7 @@ title: The contraction theorem
 nodes: [MMQ2K4RSHT]
 sources: [KM98, KMM87, Mat02]
 reads_with: [KM98:3.7, Mat02:ch8, KMM87:3-2]
-requires: [P4.6, P7.1, P7.3, P7.4, 7.4]
+requires: [P4.6, P7.1, P7.3, P7.4, 7.4, 7.2, 7.3]
 level: core
 kind: theorem
 status: drafted
