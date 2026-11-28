@@ -4,8 +4,11 @@ Each release has a section. The newest release is first.
 
 ## Unreleased
 
+## v0.0.12 - 2026-11-28
+
 ### Added
 
+- Volume 0: the guide says that all nine P volumes are drafted.
 - P7 and Volume 5 cite P6 for Kodaira vanishing (P6.6.13, P6.7.17, P6.7.27) in place of the black box.
 - Volume 6, Rational curves and bend-and-break, a new volume of 4 chapters: Hom schemes and rational curves on P^n and the cubic surface, the cone theorem for smooth varieties by Mori's method with the length bound, the Ionescu-Wiśniewski inequality with Mori's 3-fold classification and Fano manifolds of Picard number 2, and rational connectedness of Fano manifolds, the MRC fibration and Mori fibre spaces.
 - P6 Chapters 5 to 8: line bundles and Kähler classes with the Lefschetz (1,1) theorem, Kodaira-Akizuki-Nakano vanishing and the Kodaira embedding theorem with full proofs, Chow, GAGA and the Lefschetz principle, and singular metrics, Lelong numbers and analytic multiplier ideals.
