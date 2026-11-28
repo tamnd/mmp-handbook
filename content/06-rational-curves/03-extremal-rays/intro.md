@@ -1,0 +1,9 @@
+# Extremal rays and their minimal curves
+
+The cone theorem says that every $K_X$-negative extremal ray of a smooth projective variety is spanned by a rational curve of anticanonical degree at most $n + 1$. This chapter studies a ray through the family of its minimal curves, the rational curves of least anticanonical degree $\ell(R)$ in the ray, which are unsplit by Lemma 6.1.6. The dimension count that proved bend-and-break, run for an unsplit family, bounds the size of the loci that the family sweeps out, and through them the dimensions of the exceptional locus and the fibres of the contraction of the ray.
+
+Section 1 proves the Ionescu-Wiśniewski inequality $\dim \operatorname{Locus}(V) + \dim \operatorname{Locus}(V_x) \ge n + (-K_X \cdot V) - 1$ for an unsplit family $V$, and deduces the bound $\dim E + \dim F \ge n + \ell(R) - 1$ for the exceptional locus and the fibres of an extremal contraction. On a smooth threefold this rules out small contractions. The examples of Chapters 1 and 2 are checked against it, and most of them are equalities.
+
+Section 2 states Mori's classification of the extremal contractions of smooth threefolds, cited, in the types E1 to E5, C1 and C2, D1 to D3, and F, computes the length of the ray in each type by adjunction, and checks the inequality of Section 1 type by type. The types E3, E4 and E5 contract a divisor to a singular point, which is where terminal singularities enter the program.
+
+Section 3 treats rays of fibre type. In characteristic $0$ such a ray contains rational curves through a general point, by the theorem of Miyaoka and Mori. Two fibre type rays with dominating minimal families satisfy $\ell(R_1) + \ell(R_2) \le n + 2$, with equality for products of projective spaces, and the section describes the cone and the nef cone of a Fano manifold of Picard number $2$ with the examples $\mathbb{P}^1 \times \mathbb{P}^2$, the blow-ups of $\mathbb{P}^3$ at a point and along a line, and the flag threefold.
