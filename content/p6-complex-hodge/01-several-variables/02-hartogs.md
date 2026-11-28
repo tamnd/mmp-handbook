@@ -1,0 +1,90 @@
+---
+title: Hartogs extension and the Riemann extension theorem
+nodes: []
+sources: [Huy05, Hor90, GH78, Har06]
+reads_with: [Huy05:1.1, Hor90:II.3, GH78:0.1]
+requires: []
+level: prereq
+kind: theorem
+status: drafted
+drafted_by: writer@claude-opus-5-5
+reviewed_by: []
+---
+## Hartogs extension and the Riemann extension theorem
+
+### Statement
+
+In this section $n \geq 2$ unless stated otherwise. For a function $u$ write $\bar\partial u = 0$ for the system $\partial u / \partial \bar z_j = 0$, $1 \leq j \leq n$, and for a family $g = (g_1, \dots, g_n)$ of functions write $\bar\partial u = g$ for the system $\partial u/\partial \bar z_j = g_j$. Since second derivatives commute, a solution can exist only if the *compatibility conditions* $\partial g_j / \partial \bar z_k = \partial g_k / \partial \bar z_j$ hold. The *support* of a family is the union of the supports of its members.
+
+**Lemma P6.1.13 (the dbar-equation with compact support).** Let $n \geq 2$ and let $g_1, \dots, g_n \in C^\infty_c(\mathbb{C}^n)$ satisfy $\partial g_j / \partial \bar z_k = \partial g_k / \partial \bar z_j$ for all $j, k$. There is $u \in C^\infty_c(\mathbb{C}^n)$ with $\partial u / \partial \bar z_j = g_j$ for all $j$. If the supports of the $g_j$ lie in a closed ball $\bar B$, then $u$ vanishes on the unbounded connected component of $\mathbb{C}^n \setminus \operatorname{supp} g$, and in particular outside $\bar B$.
+
+Lean: not yet in Lean.
+
+**Theorem P6.1.14 (Hartogs extension theorem).** Let $n \geq 2$, $U \subseteq \mathbb{C}^n$ open, $K \subset U$ compact, and assume that $U \setminus K$ is connected. Every $f \in \mathcal{O}(U \setminus K)$ extends uniquely to a holomorphic function on $U$.
+
+Lean: not yet in Lean.
+
+**Corollary P6.1.15 (no isolated zeros and no isolated singularities).** Let $n \geq 2$ and $U \subseteq \mathbb{C}^n$ open.
+
+1. If $a \in U$, every holomorphic function on $U \setminus \{a\}$ extends to $U$.
+2. If $f \in \mathcal{O}(U)$ and $f(a) = 0$, then $a$ is not an isolated point of the zero set $Z(f) = \{ z \in U : f(z) = 0 \}$.
+3. Let $L \subset \mathbb{C}^n$ be an affine linear subspace of complex codimension at least $2$. Every holomorphic function on $U \setminus L$ extends uniquely to $U$. In particular every holomorphic function on $\mathbb{C}^n \setminus \{0\}$ is the restriction of an entire function.
+
+Lean: not yet in Lean.
+
+**Theorem P6.1.16 (Riemann extension theorem).** Let $U \subseteq \mathbb{C}^n$ be open, $n \geq 1$, let $g \in \mathcal{O}(U)$ be a function that does not vanish identically on any connected component of $U$, and let $f$ be holomorphic on $U \setminus Z(g)$. Assume that $f$ is locally bounded near $Z(g)$: every point of $Z(g)$ has a neighbourhood $V$ with $f$ bounded on $V \setminus Z(g)$. Then $f$ extends uniquely to a holomorphic function on $U$.
+
+Lean: not yet in Lean.
+
+### Proof in words
+
+In one variable the equation $\partial u / \partial \bar z = g$ with $g$ compactly supported has the solution of Theorem P6.1.8, which in general does not have compact support. In two or more variables one solves the first equation by the Cauchy kernel in $z_1$ alone, with the other variables as parameters. The compatibility conditions and the Cauchy-Pompeiu formula show that the result solves all $n$ equations, so it is holomorphic outside $\operatorname{supp} g$; it vanishes when $|z_2|$ is large, and the identity theorem on the connected unbounded region forces compact support. The Hartogs theorem follows by cutting $f$ off near $K$: the cut-off function $(1 - \chi) f$ fails to be holomorphic only on a compact set, and subtracting the compactly supported correction produces the extension. The Riemann extension theorem has a direct proof: on a slice transverse to $Z(g)$ the singularities are isolated and bounded, hence removable in one variable, and the Cauchy integral over a circle that avoids $Z(g)$ glues the slice extensions into a holomorphic function. The same slice argument extends functions across linear subspaces of codimension at least $2$.
+
+### Examples
+
+**Example P6.1.17 (one variable).** Theorem P6.1.14 fails for $n = 1$. The function $1/z$ on $\mathbb{C} \setminus \{0\}$ is holomorphic, $\mathbb{C} \setminus \{0\}$ is connected and $\{0\}$ is compact, but $1/z$ has no holomorphic extension, since it is unbounded near $0$. Lemma P6.1.13 also fails for $n = 1$. If $u \in C^\infty_c(\mathbb{C})$ and $\partial u / \partial \bar z = g$, then $d(u \, dz) = \frac{\partial u}{\partial \bar z} d\bar z \wedge dz = -g \, dz \wedge d\bar z$, and Stokes' theorem on a large disc gives $\int_{\mathbb{C}} g \, dz \wedge d\bar z = 0$. A function $g \in C^\infty_c(\mathbb{C})$ with $g \geq 0$ and $g \neq 0$ has $\int g \, dz \wedge d\bar z = -2i \int g \, dx\, dy \neq 0$, so its equation has no compactly supported solution. Example P6.1.39 computes the solution of Theorem P6.1.8 for a radial $g$ and shows that it equals $c/z$ outside the support, with $c = \frac{1}{\pi} \int g \, dx \, dy$. Theorem P6.1.16 does hold for $n = 1$: it is Riemann's removable singularity theorem, applied at the isolated points of $Z(g)$.
+
+**Example P6.1.18 (a disconnected complement).** The hypothesis that $U \setminus K$ is connected cannot be dropped. Let $U = \mathbb{C}^2$ and $K = \{ z : |z| = 1 \}$, the unit sphere. The complement $U \setminus K$ has the two components $\{|z| < 1\}$ and $\{|z| > 1\}$, and the function $f$ equal to $0$ on the first and $1$ on the second is holomorphic on $U \setminus K$. An extension $F \in \mathcal{O}(\mathbb{C}^2)$ would vanish on the open ball, hence everywhere by Theorem P6.1.6, contradicting $F = 1$ outside the sphere. The theorem applies to the outer component alone: with $U' = \{ |z| < 2 \}$ and $K' = \{ |z| \leq 1 \}$, the complement $U' \setminus K'$ is a connected shell, and every function holomorphic on it extends to the ball of radius $2$.
+
+**Example P6.1.19 (unbounded functions).** The boundedness hypothesis of Theorem P6.1.16 cannot be dropped. The function $1/z_1$ is holomorphic on $\mathbb{C}^2 \setminus Z(z_1)$ and does not extend, since it is unbounded near every point of $Z(z_1)$. The function $f = z_1 / z_2$ is holomorphic on $\mathbb{C}^2 \setminus Z(z_2)$. Near a point $(c, 0)$ with $c \neq 0$ it is unbounded, and near the origin it is unbounded too, since $f(\varepsilon, \varepsilon^2) = 1/\varepsilon$. It is bounded near no point of $Z(z_2)$, and it does not extend. Its singular set $\{ z_2 = 0 \}$ is a hypersurface, as Corollary P6.1.15 predicts: a function holomorphic on the complement of a point in an open set of $\mathbb{C}^2$ extends across the point, so a singular set of a holomorphic function is never isolated. On the other hand the function $h = (z_1 \bar z_2 + \bar z_1 z_2)/|z|^2$ is bounded on $\mathbb{C}^2 \setminus \{0\}$ and does not extend continuously to $0$, since $h(t, t) = 1$ and $h(t, 0) = 0$ for $t \neq 0$. This does not contradict Corollary P6.1.15 because $h$ is not holomorphic.
+
+### Proof
+
+*Proof of Lemma P6.1.13.* Define
+$$u(z) = \frac{1}{2\pi i} \int_{\mathbb{C}} \frac{g_1(w, z_2, \dots, z_n)}{w - z_1} \, dw \wedge d\bar w.$$
+By part 2 of Theorem P6.1.8, with $(z_2, \dots, z_n)$ as parameters, $u$ is $C^\infty$ and $\partial u / \partial \bar z_1 = g_1$. For $j \geq 2$, differentiation under the integral, the compatibility condition and part 1 of Theorem P6.1.8 applied to the compactly supported function $w \mapsto g_j(w, z_2, \dots, z_n)$ on a disc $D$ containing its support and $z_1$ give
+$$\frac{\partial u}{\partial \bar z_j}(z) = \frac{1}{2\pi i} \int_D \frac{\partial g_1 / \partial \bar z_j (w, z_2, \dots, z_n)}{w - z_1} \, dw \wedge d\bar w = \frac{1}{2\pi i} \int_D \frac{\partial g_j / \partial \bar w (w, z_2, \dots, z_n)}{w - z_1} \, dw \wedge d\bar w = g_j(z).$$
+Let $\operatorname{supp} g \subseteq \bar B = \{ |z| \leq R \}$. On $\mathbb{C}^n \setminus \operatorname{supp} g$ all $\partial u / \partial \bar z_j$ vanish, so $u$ is holomorphic there by Corollary P6.1.5. If $|z_2| > R$, then $g_1(w, z_2, \dots, z_n) = 0$ for all $w$, so $u(z) = 0$; this is where $n \geq 2$ is used. The unbounded component $W$ of $\mathbb{C}^n \setminus \operatorname{supp} g$ contains the connected set $\mathbb{C}^n \setminus \bar B$, and $\mathbb{C}^n \setminus \bar B$ contains the nonempty open set $\{ |z_2| > R \}$, on which $u = 0$. By Theorem P6.1.6, $u = 0$ on $W$, so $u$ has compact support.
+
+*Proof of Theorem P6.1.14.* Uniqueness: every connected component $C$ of $U$ meets $U \setminus K$, since otherwise $C \subseteq K$ would be closed in the compact set $K$ and open in $\mathbb{C}^n$, hence compact and open, hence empty. So two extensions agree on a nonempty open subset of each component and coincide by Theorem P6.1.6.
+
+Existence: assume $K \neq \emptyset$ and choose $\chi \in C^\infty_c(U)$ with $\chi = 1$ on a neighbourhood $N$ of $K$. The function $f_0 = (1 - \chi) f$ on $U \setminus K$, extended by $0$ on $K$, is $C^\infty$ on $U$, because it vanishes on $N$. Let $g_j = \partial f_0 / \partial \bar z_j = - f \, \partial \chi / \partial \bar z_j$ on $U$ (the second expression on $U \setminus K$, and $0$ on $N$). It vanishes outside $\operatorname{supp} \chi$, so extended by $0$ it is in $C^\infty_c(\mathbb{C}^n)$, and the compatibility conditions hold on $U$ because $g_j = \partial f_0 / \partial \bar z_j$, and outside $\operatorname{supp} \chi$ because $g = 0$ there. Lemma P6.1.13 gives $u \in C^\infty_c(\mathbb{C}^n)$ with $\partial u / \partial \bar z_j = g_j$, vanishing on the unbounded component $W$ of $\mathbb{C}^n \setminus \operatorname{supp} \chi$ (as $\operatorname{supp} g \subseteq \operatorname{supp} \chi$). Put $F = f_0 - u$ on $U$. Then $\partial F / \partial \bar z_j = 0$, so $F \in \mathcal{O}(U)$. On $W \cap U$, $\chi = 0$ and $u = 0$, so $F = f$. The set $W \cap U$ is open, and it is nonempty: $W$ is a nonempty open set different from $\mathbb{C}^n$ (it misses $K$), so its boundary is nonempty, and its boundary lies in $\operatorname{supp} \chi \subseteq U$; a neighbourhood of a boundary point inside $U$ meets $W$. Also $W \cap U \subseteq U \setminus K$, since $W$ misses $\operatorname{supp} \chi \supseteq K$. Since $U \setminus K$ is connected and $F$, $f$ agree on the nonempty open subset $W \cap U$, Theorem P6.1.6 gives $F = f$ on $U \setminus K$.
+
+*Proof of Theorem P6.1.16.* Uniqueness: by Theorem P6.1.6, $Z(g)$ contains no nonempty open subset of $U$, so $U \setminus Z(g)$ is dense in $U$ and an extension is determined by continuity. Since extensions are unique, it suffices to extend $f$ near each $p \in Z(g)$, and the local extensions then glue. Fix $p$, and let $V \ni p$ be a connected open neighbourhood on which $f$ is bounded off $Z(g)$, say $|f| \leq M$. As $g$ does not vanish identically near $p$, there is a vector $v$ with $t \mapsto g(p + tv)$ not identically zero near $t = 0$: otherwise $g$ would vanish on every complex line through $p$ near $p$, hence on a ball about $p$. After a complex linear change of coordinates, which preserves all hypotheses by Definition P6.1.9, $p = 0$ and $v = e_n$. Write $z = (z', z_n)$. Choose $\rho > 0$ with $g(0', t) \neq 0$ for $0 < |t| \leq \rho$, and then $\delta > 0$ such that the closed polydisc $\{ |z_j| \leq \delta \text{ for } j < n, |z_n| \leq \rho \}$ lies in $V$ and $g(z', t) \neq 0$ for $|z_j| \leq \delta$ and $|t| = \rho$; the latter is possible because $|g|$ has a positive minimum on the circle $\{0'\} \times \{|t| = \rho\}$ and is uniformly continuous on a compact neighbourhood of it. Let $\Delta'$ be the open polydisc of radius $\delta$ in $\mathbb{C}^{n-1}$ and define, for $z' \in \Delta'$ and $|z_n| < \rho$,
+$$F(z', z_n) = \frac{1}{2 \pi i} \int_{|t| = \rho} \frac{f(z', t)}{t - z_n} \, dt.$$
+The integrand is continuous in $(z', z_n, t)$ and holomorphic in $(z', z_n)$, so $F$ is holomorphic: it is continuous, and holomorphic in each variable by differentiation under the integral sign. Fix $z' \in \Delta'$. The function $t \mapsto g(z', t)$ is holomorphic on a neighbourhood of $\{|t| \leq \rho\}$ and not identically zero, so it has finitely many zeros in $\{|t| \leq \rho\}$, all with $|t| < \rho$. The function $t \mapsto f(z', t)$ is holomorphic on the disc minus these points and bounded by $M$ near them, so by Riemann's theorem in one variable it extends to a holomorphic function $\phi_{z'}$ on a neighbourhood of $\{|t| \leq \rho\}$. By Cauchy's formula $F(z', z_n) = \phi_{z'}(z_n)$, which equals $f(z', z_n)$ whenever $g(z', z_n) \neq 0$. So $F$ extends $f$ on the polydisc $\Delta' \times \{|z_n| < \rho\}$, a neighbourhood of $p$.
+
+*Proof of Corollary P6.1.15.* Part 1: the statement is local at $a$. Let $B$ be a ball about $a$ in $U$. Then $B \setminus \{a\}$ is connected because $n \geq 2$, and Theorem P6.1.14 with $K = \{a\}$ extends $f|_{B \setminus \{a\}}$ to $B$; the extension and $f$ glue to a function on $U$.
+
+Part 2: if $a$ were an isolated zero of $f$, then $1/f$ would be holomorphic on $B \setminus \{a\}$ for a small ball $B$, hence would extend to $h \in \mathcal{O}(B)$ by part 1. Then $f h = 1$ on $B \setminus \{a\}$, hence on $B$ by continuity, contradicting $f(a) = 0$.
+
+Part 3: after an affine change of coordinates, $L \subseteq \{ z_1 = z_2 = 0 \}$, and $L' = \{z_1 = z_2 = 0\}$ satisfies $U \setminus L' \subseteq U \setminus L$, so it suffices to treat $L = L'$; the general case is the restriction. The set $U \setminus L$ is dense in $U$ since $L$ has empty interior, which gives uniqueness, and existence is local. Let $p \in L \cap U$, and choose a polydisc $\Delta = \{ |z_1 - p_1| < r, |z_2 - p_2| < r \} \times \Delta''$ about $p$ with $\bar\Delta \subseteq U$; note $p_1 = p_2 = 0$. For $|z_1| < r$, $z_2$ and $z''$ as in $\Delta$, put
+$$F(z) = \frac{1}{2\pi i} \int_{|\zeta| = r'} \frac{f(\zeta, z_2, z'')}{\zeta - z_1} \, d\zeta, \qquad |z_1| < r' < r,$$
+which is defined because $\zeta \neq 0$ keeps $(\zeta, z_2, z'')$ off $L$, and holomorphic on $\{|z_1| < r'\} \times \{|z_2| < r\} \times \Delta''$ as in the proof of Theorem P6.1.16. If $z_2 \neq 0$, the function $\zeta \mapsto f(\zeta, z_2, z'')$ is holomorphic on the whole disc $\{|\zeta| < r\}$, so $F(z) = f(z)$ by Cauchy's formula. Thus $F = f$ on the dense open subset $\{ z_2 \neq 0 \}$ of $(\{|z_1| < r'\} \times \{|z_2| < r\} \times \Delta'') \setminus L$, hence on all of it by continuity, and $F$ extends $f$ near $p$. For $U = \mathbb{C}^n$ and $L = \{0\}$, which has codimension $n \geq 2$, this is the last claim.
+
+### Exercises
+
+1. (A) (Hartogs' original argument.) Let $f$ be holomorphic on the shell $S = \{ 1 < |z| < 2 \}$ of $\mathbb{C}^2$. Show that $F(z) = \frac{1}{2\pi i} \int_{|\zeta| = 3/2} f(\zeta, z_2) (\zeta - z_1)^{-1} d\zeta$ is defined and holomorphic for $|z_1| < 3/2$ and $|z_2| < 13/10$, and that $F = f$ on the nonempty open set $\{ |z_1| < 3/2, \ 1 < |z_2| < 13/10 \}$. Conclude that $f$ extends to the ball $\{ |z| < 2 \}$ without using Lemma P6.1.13.
+2. (A) Let $U \subseteq \mathbb{C}^n$, $n \geq 2$, be open, $f \in \mathcal{O}(U)$ and $f(a) = 0$. Show that $Z(f)$ meets every sphere $\{ |z - a| = \varepsilon \}$ with $\varepsilon$ small, by applying Theorem P6.1.14 to $1/f$ on a thin shell about such a sphere.
+3. (B) Show that the zero set of a holomorphic function on $\mathbb{C}^n$, $n \geq 2$, is either empty or not compact. (Apply Theorem P6.1.14 to $1/f$ on the unbounded component of the complement of a large ball containing the zero set, together with the bounded part.)
+4. (B) Decide which of the following functions, holomorphic on $\mathbb{C}^2 \setminus Z(z_1 z_2)$, extend holomorphically to $\mathbb{C}^2$: $(e^{z_1 z_2} - 1)/(z_1 z_2)$, $z_1 / z_2$, and $\exp(-1/(z_1 z_2))$. Justify each answer with Theorem P6.1.16 or by restricting to a complex line.
+5. (B) Let $g$ be as in Theorem P6.1.16 and $Z \subseteq Z(g)$ a closed subset of $U$. Show that every $f \in \mathcal{O}(U \setminus Z)$ that is locally bounded near $Z$ extends to $U$. Deduce that a continuous function on $U$ that is holomorphic on $U \setminus Z(g)$ is holomorphic on $U$.
+6. (C) Let $H = \{ |z_1| < 1, \ 1/2 < |z_2| < 1 \} \cup \{ |z_1| < 1/2, \ |z_2| < 1 \}$, a Hartogs figure in $\mathbb{C}^2$. Show that every $f \in \mathcal{O}(H)$ extends to the bidisc $\Delta(0, (1,1))$, by expanding $f(z_1, \cdot)$ in a Laurent series on the annulus $1/2 < |z_2| < 1$ with coefficients $a_k(z_1)$ holomorphic for $|z_1| < 1$ and showing that $a_k = 0$ for $k < 0$. Explain why Theorem P6.1.14 does not apply directly.
+
+### Lean
+
+Mathlib has holomorphic functions of one variable, the removable singularity theorem in one variable and the Cauchy integral formula on circles, but not the Hartogs phenomenon or the $\bar\partial$-equation in several variables. The handbook adds no `MinimalModel` node here.
+
+### Notes and history
+
+Hartogs (Har06) discovered in 1906 that holomorphic functions of several variables extend across compact holes, the first phenomenon with no analogue in one variable; his proof used Laurent series in one variable with parameters. The proof by the $\bar\partial$-equation with compact support is due to Ehrenpreis (1961) and is the one in Hörmander, Theorem 2.3.2 (Hor90), and in Huybrechts, Section 1.1 (Huy05). Its decisive input is that for $n \geq 2$ the equation $\bar\partial u = g$ with compactly supported compatible data has a compactly supported solution, which Example P6.1.17 shows fails in one variable; in the language of Chapter 2 it says $H^1_c(\mathbb{C}^n, \mathcal{O}) = 0$ for $n \geq 2$. The Riemann extension theorem is classical; Grauert and Remmert extended it to normal complex spaces. Corollary P6.1.15 is the reason that the polar set of a meromorphic function of several variables is a hypersurface and that sections of line bundles on projective space are polynomials (Proposition P6.2.17). The proof of part 3 of the corollary by a Cauchy integral in one variable is the classical argument for codimension $2$ (GH78, Section 0.1).
