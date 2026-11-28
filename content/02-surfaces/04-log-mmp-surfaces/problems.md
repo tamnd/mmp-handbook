@@ -1,6 +1,6 @@
 ## Problems
 
-Each problem runs part of the log minimal model program by hand: compute the intersection numbers on the minimal resolution, decide the singularities with one log resolution, and follow the discrepancies through the contractions.
+Each problem runs part of the log minimal model program by hand: compute the intersection numbers on the minimal resolution of Theorem 2.3.8, decide the singularities with one log resolution, and follow the discrepancies through the contractions.
 
 1. (A) Let $p_1, \dots, p_4 \in \mathbb{P}^2$ be four points with no three on a line, and $L_1, \dots, L_6$ the six lines through two of them. Show that each $p_i$ lies on exactly three of the lines and that the lines meet in three further points, each on exactly two lines. For $\Delta = a\sum_j L_j$ with $0 \le a \le 1$, show that $(\mathbb{P}^2, \Delta)$ is klt if and only if $a < \frac23$, lc if and only if $a \le \frac23$, and that $K + \Delta$ is nef if and only if $a \ge \frac12$. Deduce that $(\mathbb{P}^2, \frac12 \sum_j L_j)$ is a klt pair with $K + \Delta \equiv 0$.
 2. (A) Let $L_1, L_2, L_3$ be concurrent lines and $L_4$ a line not through their common point, and $\Delta = a(L_1 + L_2 + L_3) + bL_4$. Show that no klt pair of this form has $K + \Delta \equiv 0$, and find the lc pairs of this form with $K + \Delta \equiv 0$.

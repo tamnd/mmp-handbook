@@ -3,7 +3,7 @@ title: The log minimal model program for surfaces
 nodes: [MMXV8DZWP4]
 sources: [KM98, Mat02, Kol13]
 reads_with: [KM98:ch3, Mat02:ch1]
-requires: [P3.11, P5.12, 2.5, 3.3, 4.1, 4.2, 4.3]
+requires: [P3.11, P5.12, 2.3, 2.5, 3.3, 4.1, 4.2, 4.3]
 level: core
 kind: theorem
 status: drafted
@@ -48,7 +48,7 @@ Termination is a count: each divisorial contraction lowers the Picard number by 
 
 **Example 2.4.20 (two runs from a Hirzebruch surface).** Let $n \ge 2$ and $1 - \frac2n < b < 1$, and let $(X, \Delta) = (F_n, bC_-)$. By Example 2.4.6 both rays of $\overline{NE}(F_n)$ are negative: $(K + \Delta) \cdot C_- = n - 2 - bn < 0$ and $(K + \Delta) \cdot F = b - 2 < 0$. So there are two runs. Choosing the ray of $F$, of square $0$, stops at once with the log Mori fibre space $F_n \to \mathbb{P}^1$, the ruling, with $N = 0$. Choosing the ray of $C_-$, of square $-n$, contracts it by Example 2.4.13 to $(X_1, \Delta_1) = (\mathbb{P}(1,1,n), 0)$, with $\rho(X_1) = 1$. By Example 2.4.21, $-K_{X_1}$ is ample, so the single ray of $X_1$ has positive square and the run stops with the log Mori fibre space $X_1 \to \operatorname{pt}$, after $N = 1 = \rho(F_n) - 1$ contraction. The two runs end at different log Mori fibre spaces, so the output of the program is not unique. For $b \le 1 - \frac2n$ and $n \ge 3$ only the first run exists.
 
-**Example 2.4.21 (the klt del Pezzo surface $\mathbb{P}(1,1,n)$).** Let $n \ge 2$, $\varphi \colon F_n \to X = \mathbb{P}(1,1,n)$ the contraction of $C_-$, which is the minimal resolution of $X$, and $\ell = \varphi_*F$ the image of a fibre, a curve through the singular point $p'$. Then
+**Example 2.4.21 (the klt del Pezzo surface $\mathbb{P}(1,1,n)$).** Let $n \ge 2$, $\varphi \colon F_n \to X = \mathbb{P}(1,1,n)$ the contraction of $C_-$, which is the minimal resolution of $X$ by Definition 2.3.7, since $C_-^2 = -n \ne -1$, and $\ell = \varphi_*F$ the image of a fibre, a curve through the singular point $p'$. Then
 $$\varphi^*\ell = F + \tfrac1n C_-, \qquad \ell^2 = \big(F + \tfrac1n C_-\big) \cdot F = \tfrac1n,$$
 since $(F + tC_-) \cdot C_- = 1 - nt$ vanishes for $t = \frac1n$. The canonical class of $F_n$ is $K = -2C_- - (n+2)F$, and $\varphi_*$ gives $K_X \sim -(n+2)\ell$. By Example 2.4.13, $K = \varphi^*K_X - \frac{n-2}{n}C_-$. Check: $\varphi^*K_X - \frac{n-2}{n}C_- = -(n+2)F - \frac{n+2}{n}C_- - \frac{n-2}{n}C_- = -(n+2)F - 2C_-$. Then
 $$K_X^2 = (n+2)^2 \ell^2 = \frac{(n+2)^2}{n}, \qquad -K_X \cdot \ell = \frac{n+2}{n}.$$
