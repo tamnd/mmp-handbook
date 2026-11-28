@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P7 and Volume 5 cite P6 for Kodaira vanishing (P6.6.13, P6.7.17, P6.7.27) in place of the black box.
 - Volume 6, Rational curves and bend-and-break, a new volume of 4 chapters: Hom schemes and rational curves on P^n and the cubic surface, the cone theorem for smooth varieties by Mori's method with the length bound, the Ionescu-Wiśniewski inequality with Mori's 3-fold classification and Fano manifolds of Picard number 2, and rational connectedness of Fano manifolds, the MRC fibration and Mori fibre spaces.
 - P6 Chapters 5 to 8: line bundles and Kähler classes with the Lefschetz (1,1) theorem, Kodaira-Akizuki-Nakano vanishing and the Kodaira embedding theorem with full proofs, Chow, GAGA and the Lefschetz principle, and singular metrics, Lelong numbers and analytic multiplier ideals.
 - P6, Complex geometry and Hodge theory, a new volume with its plan of 8 chapters, and Chapters 1 to 4: several complex variables with the Dolbeault-Grothendieck lemma, complex manifolds and Dolbeault cohomology, Hermitian bundles and Chern-Weil theory, and Kähler manifolds with the Hodge decomposition, hard Lefschetz and the Hodge-Riemann relations.
