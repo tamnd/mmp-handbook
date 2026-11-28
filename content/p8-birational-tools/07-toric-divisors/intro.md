@@ -1,0 +1,11 @@
+# Toric divisors
+
+On a toric variety $X_\Sigma$ the complement of the torus is a union of finitely many prime divisors $D_\rho$, one for each ray $\rho$ of the fan, and every divisor is linearly equivalent to a combination of them. A character $\chi^m$ is a unit on the torus, so its divisor is a combination of the $D_\rho$, and its coefficients are the values $\langle m, u_\rho \rangle$ of $m$ on the ray generators. This chapter uses this fact to compute class groups, Picard groups, canonical divisors and spaces of global sections from the fan alone.
+
+Section 7.1 computes the order of vanishing of a Laurent polynomial along $D_\rho$, proves that the global sections of $\mathcal{O}(D)$ for $D = \sum a_\rho D_\rho$ are spanned by the characters $\chi^m$ with $\langle m, u_\rho \rangle \geq -a_\rho$ for all $\rho$, and proves the exact sequence $M \to \bigoplus_\rho \mathbb{Z} D_\rho \to \operatorname{Cl}(X_\Sigma) \to 0$. The examples are the projective spaces, the Hirzebruch surfaces, the affine toric surfaces, whose class groups are cyclic, and the cone over a square.
+
+Section 7.2 proves the Cartier criterion: a torus-invariant divisor $\sum a_\rho D_\rho$ is Cartier exactly when on each cone $\sigma$ there is $m_\sigma \in M$ with $\langle m_\sigma, u_\rho \rangle = -a_\rho$ for the rays of $\sigma$. It deduces that the Picard group of an affine toric variety is zero, that a smooth toric variety is locally factorial, and that $X_\Sigma$ is $\mathbb{Q}$-factorial exactly when $\Sigma$ is simplicial. The examples are the cyclic quotient singularities, where the canonical divisor is Cartier only in special cases, the cone over a square, and the weighted projective plane $\mathbb{P}(1, 1, n)$.
+
+Section 7.3 proves that $K_{X_\Sigma} = -\sum_\rho D_\rho$, attaches to a Cartier divisor its support function and its polyhedron $P_D$, and proves that $\mathcal{O}(D)$ is globally generated exactly when the support function is convex, in the sense used in toric geometry. Ampleness corresponds to strict convexity, which is stated with a reference. The examples compute the nef and ample divisors of $\mathbb{P}^n$ and of the Hirzebruch surfaces, and the anticanonical divisors of the Hirzebruch surfaces.
+
+The chapter follows Cox, Little and Schenck, Chapters 4 and 6 (CLS11), and Fulton, Chapter 3 (Ful93).
