@@ -1,0 +1,6 @@
+number: 7
+title: Cone and contraction theorems
+subtitle: Nonvanishing, base point freeness, rationality, and the cone and contraction theorems for klt pairs
+level: core
+requires: [1, 4, 5, 6, P4.2, P4.6, P7.1, P7.3, P7.5, P7.6, P7.8]
+spine: ["Kollár-Mori, Birational geometry of algebraic varieties, Chapter 3 (KM98)", "Matsuki, Introduction to the Mori program, Chapters 6 to 8 (Mat02)", "Fujino, Foundations of the minimal model program (Fuj17d)"]
