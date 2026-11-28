@@ -1,0 +1,11 @@
+# The 3-fold MMP
+
+This chapter assembles the minimal model program for terminal $\mathbb{Q}$-factorial 3-folds from three ingredients: the cone and contraction theorems of Volume 7, the existence of flips (Mori's theorem, Chapter 2, and Shokurov's log flips, Chapter 3) and termination (Chapter 4). It then studies what the program produces: terminal models of canonical 3-folds, and the non-uniqueness of minimal models, which is controlled by flops. The ground field is algebraically closed of characteristic $0$.
+
+Section 1 defines the steps of the program and proves that they preserve the class of $\mathbb{Q}$-factorial terminal 3-folds, that a divisorial step lowers the Picard number by one and that a flip keeps it. With Mori's flip theorem and the termination theorem of Chapter 4 this gives the 3-fold MMP over a base: a finite sequence of steps that ends with a minimal model or a Mori fibre space. The lc version of Kawamata, Shokurov and Kollár is cited. The examples are the blow-ups of $\mathbb{P}^3$ at a point and along a line, each with two different programs, and the weighted blow-up of a point of type $\frac12(1,1,1)$, where the program leaves the smooth category.
+
+Section 2 proves that every canonical 3-fold has a crepant terminal $\mathbb{Q}$-factorial model, by running the program over the 3-fold from a resolution and applying the negativity lemma, and that every terminal 3-fold has a small $\mathbb{Q}$-factorialization. The examples are the ordinary double point, the product of an $A_1$ surface point with a line, the point $\frac13(1,1,1)$ and the cone over a cubic surface.
+
+Section 3 shows that two minimal models are isomorphic in codimension one with the same discrepancies, that a flop of a minimal model is a minimal model, and sketches Kollár's theorem that any two minimal models of a 3-fold are connected by a finite sequence of flops. Kawamata's extension to all dimensions is cited. The worked example is Reid's pagoda: the flop of a curve with normal bundle $\mathcal{O} \oplus \mathcal{O}(-2)$, computed in charts, factored into $n$ blow-ups and $n$ blow-downs.
+
+The sources are KM98, Chapters 3 and 6, Kollár's paper on flops (Kol89), Kawamata (Kaw08) and Reid (Rei83b).

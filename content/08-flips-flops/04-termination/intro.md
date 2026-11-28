@@ -1,0 +1,11 @@
+# Termination of 3-fold flips
+
+This chapter proves that a sequence of flips of a terminal 3-fold is finite, by Shokurov's difficulty, and extends the proof to canonical 3-folds. Chapters 2 and 3 construct flips; this chapter shows that the program cannot flip forever, and Chapter 5 puts the two together. The ground field is algebraically closed of characteristic $0$.
+
+Section 1 compares discrepancies before and after a flip. For every divisor $E$ over $X$, $a(E, X, \Delta) \le a(E, X^+, \Delta^+)$, with strict inequality when the centre of $E$ lies over the flipped locus. The proof uses only the linear systems $|m(K_X + \Delta)|$ and $|m(K_{X^+} + \Delta^+)|$ over an affine base, which have the same sections, the second free and the first with the flipping locus in its base locus. For a flop the discrepancies do not change. The examples are the Francia flip, where the one divisor of discrepancy $\frac12$ over the index two point becomes the blow-up of the flipped curve, of discrepancy $1$, and the Atiyah flop.
+
+Section 2 defines the difficulty $d(X)$, the number of exceptional divisors over $X$ with discrepancy less than $1$, shows that it is finite for canonical $X$, and proves that it drops by at least one at each flip of a terminal or canonical 3-fold: the blow-up of a flipped curve has discrepancy $1$ over $X^+$ and less than $1$ over $X$. So a sequence of flips that starts at $X_0$ has at most $d(X_0)$ steps. A corollary is that every flipping curve of a terminal 3-fold passes through a point of index at least $2$, and that a terminal 3-fold with $K_X$ Cartier has no flips. The examples compute $d$ for the point $\frac12(1,1,1)$, the ordinary double point and the points $\frac1r(1,-1,a)$, and show that $d$ is infinite at a klt point that is not canonical.
+
+Section 3 surveys the cases where the difficulty is not enough: klt and lc pairs in dimension 3, where Kawamata and Shokurov prove termination with special termination and a difficulty on surfaces, and dimension 4, where Kawamata, Matsuda and Matsuki prove termination for terminal 4-folds and Fujino for canonical 4-folds. These proofs are outlined, not given in full.
+
+The sources are KM98, Chapter 6, KMM87, Chapter 5, Shokurov's nonvanishing paper (Sho85) for the difficulty, and Kawamata (Kaw92) for 3-fold log flips.

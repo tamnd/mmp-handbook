@@ -1,0 +1,6 @@
+number: 8
+title: Flips, flops and the 3-fold MMP
+subtitle: Flips and flops, Mori's flip theorem, Shokurov's log flips, termination, the 3-fold minimal model program and the semistable MMP
+level: core
+requires: [3, 4, 7]
+spine: ["Kollár-Mori, Birational geometry of algebraic varieties, Chapters 4 to 7 (KM98)", "Kollár et al., Flips and abundance for algebraic threefolds, Astérisque 211 (Kol92)", "Corti (editor), Flips for 3-folds and 4-folds, Chapter 2"]
