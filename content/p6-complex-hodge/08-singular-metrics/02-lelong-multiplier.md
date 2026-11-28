@@ -1,7 +1,7 @@
 ---
 title: Lelong numbers and analytic multiplier ideals
 nodes: []
-sources: [Dem97a, Dem12a, Laz04, Nad90, Sko72a, Siu74a, Lel57a, GR84a, SGA1, Hor90a]
+sources: [Dem97a, Dem12a, Laz04, Nad90, Sko72a, Siu74a, Lel57a, GR84a, SGA1, Hor90]
 reads_with: [Dem97a:III, Dem12a:2, Dem12a:5, Laz04:9.3]
 requires: [P6.1, P7.10, 4.2]
 level: prereq

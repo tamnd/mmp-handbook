@@ -1,8 +1,8 @@
 ---
 title: The Lefschetz theorem on (1,1)-classes
 nodes: []
-sources: [Huy05, GH78, Voi02a, Lef21a, Mum70a]
-reads_with: [Huy05:3.3, GH78:1.2, Voi02a:7, Mum70a:1]
+sources: [Huy05, GH78, Voi02, Lef21a, Mum70a]
+reads_with: [Huy05:3.3, GH78:1.2, Voi02:7, Mum70a:1]
 requires: [P2.7, P6.4, P7.2]
 level: prereq
 kind: theorem
@@ -14,7 +14,7 @@ reviewed_by: []
 
 ### Statement
 
-Let $X$ be a compact Kähler manifold of dimension $n$. The Hodge decomposition $H^2(X, \mathbb{C}) = H^{2,0}(X) \oplus H^{1,1}(X) \oplus H^{0,2}(X)$ of Chapter 4 is compatible with complex conjugation, which exchanges $H^{2,0}$ and $H^{0,2}$ and preserves $H^{1,1}$. Write $H^{1,1}(X, \mathbb{R}) = H^{1,1}(X) \cap H^2(X, \mathbb{R})$, a real vector space of dimension $h^{1,1}(X)$.
+Let $X$ be a compact Kähler manifold of dimension $n$. The Hodge decomposition $H^2(X, \mathbb{C}) = H^{2,0}(X) \oplus H^{1,1}(X) \oplus H^{0,2}(X)$ of Theorem P6.4.16 is compatible with complex conjugation, which exchanges $H^{2,0}$ and $H^{0,2}$ and preserves $H^{1,1}$. Write $H^{1,1}(X, \mathbb{R}) = H^{1,1}(X) \cap H^2(X, \mathbb{R})$, a real vector space of dimension $h^{1,1}(X)$.
 
 **Definition P6.5.11 (Néron-Severi group, Picard number and integral $(1,1)$-classes).** The *Néron-Severi group* of $X$ is the image $\operatorname{NS}(X) \subseteq H^2(X, \mathbb{Z})$ of $c_1 \colon \operatorname{Pic}(X) \to H^2(X, \mathbb{Z})$, and its rank $\rho(X)$ is the *Picard number*. The group of *integral $(1,1)$-classes* is
 $$H^{1,1}(X, \mathbb{Z}) = \{ c \in H^2(X, \mathbb{Z}) : \text{the image of } c \text{ in } H^2(X, \mathbb{C}) \text{ lies in } H^{1,1}(X) \}.$$
@@ -69,7 +69,7 @@ Here $ad - bc = -\sqrt 5 - \sqrt 6$. The imaginary part of the coefficient is $-
 
 ### Proof
 
-*Lemma P6.5.12.* Let $\alpha$ be the real harmonic representative of $a$ for a Kähler metric (Chapter 4) and $\alpha = \alpha^{2,0} + \alpha^{1,1} + \alpha^{0,2}$ its decomposition by type. The components are harmonic, and since $\alpha$ is real, $\alpha^{2,0} = \overline{\alpha^{0,2}}$. By Lemma P6.5.7, $\iota(a)$ is the Dolbeault class of $\alpha^{0,2}$. A harmonic form whose Dolbeault class is zero vanishes, since harmonic forms map isomorphically onto Dolbeault cohomology (Chapter 4). So $\iota(a) = 0$ if and only if $\alpha^{0,2} = 0$, if and only if $\alpha^{0,2} = \alpha^{2,0} = 0$, if and only if $\alpha$ has type $(1,1)$. Finally $a \in H^{1,1}(X)$ if and only if its harmonic representative has type $(1,1)$, by uniqueness of the harmonic representative and the fact that the Hodge decomposition is the decomposition of harmonic forms by type.
+*Lemma P6.5.12.* Let $\alpha$ be the real harmonic representative of $a$ for a Kähler metric (Corollary P6.4.15) and $\alpha = \alpha^{2,0} + \alpha^{1,1} + \alpha^{0,2}$ its decomposition by type. The components are harmonic, and since $\alpha$ is real, $\alpha^{2,0} = \overline{\alpha^{0,2}}$. By Lemma P6.5.7, $\iota(a)$ is the Dolbeault class of $\alpha^{0,2}$. A harmonic form whose Dolbeault class is zero vanishes, since harmonic forms map isomorphically onto Dolbeault cohomology (Corollary P6.4.15). So $\iota(a) = 0$ if and only if $\alpha^{0,2} = 0$, if and only if $\alpha^{0,2} = \alpha^{2,0} = 0$, if and only if $\alpha$ has type $(1,1)$. Finally $a \in H^{1,1}(X)$ if and only if its harmonic representative has type $(1,1)$, by uniqueness of the harmonic representative and the fact that the Hodge decomposition is the decomposition of harmonic forms by type.
 
 *Theorem P6.5.13.* By Theorem P6.5.8, part 3, a class $c \in H^2(X, \mathbb{Z})$ is in $\operatorname{NS}(X)$ if and only if it maps to zero in $H^2(X, \mathcal{O}_X)$. The inclusion $\mathbb{Z} \to \mathcal{O}_X$ factors through $\mathbb{Z} \to \mathbb{R} \to \mathbb{C} \to \mathcal{O}_X$, so this image is $\iota(c_\mathbb{R})$ with $c_\mathbb{R} \in H^2(X, \mathbb{R})$ the image of $c$. By Lemma P6.5.12 it vanishes if and only if $c_\mathbb{R}$, equivalently the image of $c$ in $H^2(X, \mathbb{C})$, has type $(1,1)$.
 
@@ -92,4 +92,4 @@ Mathlib has no Hodge decomposition and no sheaf cohomology of complex manifolds,
 
 ### Notes and history
 
-Lefschetz proved the theorem for algebraic surfaces in his memoir on numerical invariants (Lef21a), in the form that an integral class on which the periods of all holomorphic $2$-forms vanish is the class of a divisor; Kodaira and Spencer gave the sheaf theoretic proof through the exponential sequence, which is the one given here, following Griffiths and Harris, Chapter 1, Section 2 (GH78), Huybrechts, Section 3.3 (Huy05), and Voisin, Chapter 7 (Voi02a). The Hodge conjecture predicts the same statement for rational classes of type $(p,p)$ and algebraic cycles of codimension $p$; it is open. Theorem P6.5.13 is the reason the Picard number $\rho(X)$, defined algebraically as the rank of $N^1(X)$ in P7, Chapter 2, equals the rank of $\operatorname{NS}(X)$ for a smooth projective variety over $\mathbb{C}$, given the comparison of algebraic and analytic line bundles in Chapter 7. The computations on tori follow Mumford, Section 1 (Mum70a), and the Appell-Humbert theorem described there lists all line bundles on a torus.
+Lefschetz proved the theorem for algebraic surfaces in his memoir on numerical invariants (Lef21a), in the form that an integral class on which the periods of all holomorphic $2$-forms vanish is the class of a divisor; Kodaira and Spencer gave the sheaf theoretic proof through the exponential sequence, which is the one given here, following Griffiths and Harris, Chapter 1, Section 2 (GH78), Huybrechts, Section 3.3 (Huy05), and Voisin, Chapter 7 (Voi02). The Hodge conjecture predicts the same statement for rational classes of type $(p,p)$ and algebraic cycles of codimension $p$; it is open. Theorem P6.5.13 is the reason the Picard number $\rho(X)$, defined algebraically as the rank of $N^1(X)$ in P7, Chapter 2, equals the rank of $\operatorname{NS}(X)$ for a smooth projective variety over $\mathbb{C}$, given the comparison of algebraic and analytic line bundles in Chapter 7. The computations on tori follow Mumford, Section 1 (Mum70a), and the Appell-Humbert theorem described there lists all line bundles on a torus.

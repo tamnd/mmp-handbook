@@ -1,8 +1,8 @@
 ---
 title: Hörmander's estimates and Nadel vanishing
 nodes: []
-sources: [Hor90a, Hor65a, AV65a, Dem12a, Dem97a, Dem92a, Nad90, Laz04, SGA1]
-reads_with: [Hor90a:4.4, Dem12a:5, Dem97a:VIII, Laz04:9.4]
+sources: [Hor90, Hor65a, AV65a, Dem12a, Dem97a, Dem92a, Nad90, Laz04, SGA1]
+reads_with: [Hor90:4.4, Dem12a:5, Dem97a:VIII, Laz04:9.4]
 requires: [P6.4, P6.5, P6.6, P6.7, P7.10]
 level: prereq
 kind: theorem
@@ -56,11 +56,11 @@ The extension lemma is a cut-off argument: the cut-off functions $\chi_\varepsil
 
 **Example P6.8.30 (the cuspidal cubic).** Let $C = \{ y^2 z = x^3 \} \subseteq \mathbb{P}^2$, with its cusp at $p = [0 : 0 : 1]$, and $D = cC$ with $\frac56 \leq c < 1$. At $p$, in the chart $z = 1$, Example P6.8.22 gives $\mathcal{J}(X, D)_p = \mathfrak{m}_p$, and at the smooth points of $C$ the divisor $D$ is $c$ times a smooth curve with $c < 1$, so the ideal is trivial by Example P6.8.21. So $\mathcal{J}(X, D) = \mathfrak{m}_p$, the ideal sheaf of the reduced point $p$. With $L = dH$ for a line $H$, $K_{\mathbb{P}^2} = -3H$ and $L - D \equiv (d - 3c) H$, part 1 of Corollary P6.8.28 applies for $d \geq 3$ and gives $H^q(\mathbb{P}^2, \mathfrak{m}_p(d - 3)) = 0$ for $q \geq 1$. This can be checked directly. The sequence $0 \to \mathfrak{m}_p(k) \to \mathcal{O}(k) \to k(p) \to 0$ and $H^1(\mathbb{P}^2, \mathcal{O}(k)) = 0$ show that $H^1(\mathfrak{m}_p(k))$ is the cokernel of evaluation $H^0(\mathcal{O}(k)) \to k(p) = \mathbb{C}$, which is surjective for $k \geq 0$ and zero for $k < 0$. For $d = 2$, $H^1(\mathbb{P}^2, \mathfrak{m}_p(-1)) = \mathbb{C} \neq 0$: there the class $(2 - 3c) H$ is negative and the vanishing fails, so the positivity hypothesis on $L - D$ cannot be dropped.
 
-**Example P6.8.31 (strict positivity is needed).** Let $X$ be a compact Riemann surface of genus $g \geq 1$, $L = \mathcal{O}_X$ with the trivial metric, so $i\Theta_h = 0 \geq 0$ and $\mathcal{J}(h) = \mathcal{O}_X$. Then $H^1(X, K_X \otimes L) = H^1(X, K_X)$ is dual to $H^0(X, \mathcal{O}_X) = \mathbb{C}$ by Serre duality of Chapter 4, so it is nonzero. Semipositive curvature is not enough in Theorem P6.8.27; the curvature must dominate a Kähler form. For $g = 0$ the same computation gives $H^1(\mathbb{P}^1, K) \neq 0$ as well, so the failure has nothing to do with the genus.
+**Example P6.8.31 (strict positivity is needed).** Let $X$ be a compact Riemann surface of genus $g \geq 1$, $L = \mathcal{O}_X$ with the trivial metric, so $i\Theta_h = 0 \geq 0$ and $\mathcal{J}(h) = \mathcal{O}_X$. Then $H^1(X, K_X \otimes L) = H^1(X, K_X)$ is dual to $H^0(X, \mathcal{O}_X) = \mathbb{C}$ by Serre duality (part 2 of Corollary P6.4.15), so it is nonzero. Semipositive curvature is not enough in Theorem P6.8.27; the curvature must dominate a Kähler form. For $g = 0$ the same computation gives $H^1(\mathbb{P}^1, K) \neq 0$ as well, so the failure has nothing to do with the genus.
 
 ### Proof
 
-*Theorem P6.8.24.* This is Hörmander's theorem (Hor90a, Theorem 4.4.2; Hor65a). Its proof is the case $X = \Omega$ of the argument sketched below for Theorem P6.8.25, applied on the sublevel sets of the exhaustion, for the trivial bundle with the weight $\psi + 2 \log(1 + |z|^2)$, whose Levi form dominates $2(1 + |z|^2)^{-2}$ times the Euclidean one; Hörmander first treats smooth $\psi$ and then decreasing limits of smooth psh functions.
+*Theorem P6.8.24.* This is Hörmander's theorem (Hor90, Theorem 4.4.2; Hor65a). Its proof is the case $X = \Omega$ of the argument sketched below for Theorem P6.8.25, applied on the sublevel sets of the exhaustion, for the trivial bundle with the weight $\psi + 2 \log(1 + |z|^2)$, whose Levi form dominates $2(1 + |z|^2)^{-2}$ times the Euclidean one; Hörmander first treats smooth $\psi$ and then decreasing limits of smooth psh functions.
 
 *Theorem P6.8.25.* This is the theorem of Andreotti-Vesentini and Hörmander in the form of Demailly (AV65a; Hor65a; Dem12a, Section 5; Dem97a, Chapter VIII), and only a sketch is given. First let $h$ be smooth and $\omega$ complete. By Theorem P6.6.4 (Bochner-Kodaira-Nakano identity) and Corollary P6.6.6 (the Bochner-Kodaira-Nakano inequality), for every smooth compactly supported $L$-valued $(n, q)$-form $v$,
 $$\|\bar\partial v\|^2 + \|\bar\partial^* v\|^2 \geq \int_X \langle [i\Theta_h, \Lambda] v, v \rangle \, dV_\omega,$$

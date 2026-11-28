@@ -1,8 +1,8 @@
 ---
 title: Plurisubharmonic functions, currents and singular metrics
 nodes: []
-sources: [Dem97a, Dem12a, Hor90a, Lel57a, GH78, Huy05]
-reads_with: [Dem97a:I, Dem97a:III, Dem12a:1, Hor90a:1.6, GH78:3.2]
+sources: [Dem97a, Dem12a, Hor90, Lel57a, GH78, Huy05]
+reads_with: [Dem97a:I, Dem97a:III, Dem12a:1, Hor90:1.6, GH78:3.2]
 requires: [P3.9, P3.11, P6.1, P6.2, P6.3, P6.5]
 level: prereq
 kind: theorem
@@ -42,7 +42,7 @@ Lean: not in Lean as stated.
 
 **Definition P6.8.5 (singular Hermitian metrics).** Let $L$ be a holomorphic line bundle on $X$. A *singular Hermitian metric* $h$ on $L$ assigns to each local holomorphic frame $e$ of $L$ over an open set $U$ a function $\varphi_U \in L^1_{\mathrm{loc}}(U)$ with values in $[-\infty, \infty]$, its *weight*, so that $|e|_h^2 = e^{-2\varphi_U}$, compatibly with changes of frame: if $e_U = g \, e_V$ on $U \cap V$ with $g$ holomorphic and nowhere zero, then $\varphi_U = \varphi_V - \log|g|$ almost everywhere. The *curvature current* of $h$ is the current of bidegree $(1,1)$ equal to
 $$i \Theta_h = 2 i \partial\bar\partial \varphi_U \quad \text{on } U,$$
-and $c_1(L, h) = \frac{1}{2\pi} i\Theta_h = \frac{i}{\pi} \partial\bar\partial \varphi_U$. The metric is *smooth* if the weights are smooth, and then $i\Theta_h$ is the curvature form of the Chern connection of Chapter 3, since $\Theta_h = -\partial\bar\partial \log |e|_h^2 = 2 \partial\bar\partial \varphi_U$. If $i\Theta_h \geq 0$, the weights are almost everywhere equal to psh functions by part 4 of Proposition P6.8.2, and the weights are then taken psh.
+and $c_1(L, h) = \frac{1}{2\pi} i\Theta_h = \frac{i}{\pi} \partial\bar\partial \varphi_U$. The metric is *smooth* if the weights are smooth, and then $i\Theta_h$ is the curvature form of the Chern connection (Corollary P6.3.17), since $\Theta_h = -\partial\bar\partial \log |e|_h^2 = 2 \partial\bar\partial \varphi_U$. If $i\Theta_h \geq 0$, the weights are almost everywhere equal to psh functions by part 4 of Proposition P6.8.2, and the weights are then taken psh.
 
 **Proposition P6.8.6 (curvature currents and the first Chern class).** Let $h$ be a singular Hermitian metric on $L$.
 

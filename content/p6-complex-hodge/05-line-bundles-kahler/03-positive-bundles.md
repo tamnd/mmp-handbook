@@ -1,7 +1,7 @@
 ---
 title: Positive line bundles
 nodes: []
-sources: [Huy05, GH78, Voi02a, Kod54a, Mum70a]
+sources: [Huy05, GH78, Voi02, Kod54a, Mum70a]
 reads_with: [Huy05:4.3, Huy05:5.3, GH78:1.2, Mum70a:3]
 requires: [P3.6, P3.10, P6.3, P6.4]
 level: prereq
@@ -52,7 +52,7 @@ Lean: not in Lean as stated.
 
 The Fubini-Study metric measures a linear form by its size relative to the length of the homogeneous coordinate vector, and its curvature is $\partial\bar\partial$ of $\log |z|^2$, which is a strictly plurisubharmonic function on each affine chart up to a pluriharmonic term. The Cauchy-Schwarz inequality shows positivity, and a one-variable integral gives the value $1$ on a line.
 
-Positivity of a line bundle depends only on its Chern class on a compact Kähler manifold: two closed real $(1,1)$-forms in the same class differ by $i\partial\bar\partial$ of a real function, by the $\partial\bar\partial$-lemma of Chapter 4, and multiplying a metric by $e^{-2\pi u}$ adds exactly that term to its normalized curvature. So any Kähler form in $c_1(L)_\mathbb{R}$ is the curvature of a metric. Pullbacks preserve semipositivity, and positivity survives pullback by an immersion because a positive Hermitian form restricts to a positive form on a subspace. A very ample line bundle is the pullback of $\mathcal{O}(1)$ by an embedding, so it is positive; Chapter 6 proves the converse, which is the Kodaira embedding theorem. On a curve the degree is the integral of the curvature, which is positive. Finally a rational Kähler class becomes integral after scaling, the Lefschetz $(1,1)$ theorem realizes it as a Chern class, and the previous proposition makes the line bundle positive.
+Positivity of a line bundle depends only on its Chern class on a compact Kähler manifold: two closed real $(1,1)$-forms in the same class differ by $i\partial\bar\partial$ of a real function, by the $\partial\bar\partial$-lemma (Corollary P6.4.18), and multiplying a metric by $e^{-2\pi u}$ adds exactly that term to its normalized curvature. So any Kähler form in $c_1(L)_\mathbb{R}$ is the curvature of a metric. Pullbacks preserve semipositivity, and positivity survives pullback by an immersion because a positive Hermitian form restricts to a positive form on a subspace. A very ample line bundle is the pullback of $\mathcal{O}(1)$ by an embedding, so it is positive; Chapter 6 proves the converse, which is the Kodaira embedding theorem. On a curve the degree is the integral of the curvature, which is positive. Finally a rational Kähler class becomes integral after scaling, the Lefschetz $(1,1)$ theorem realizes it as a Chern class, and the previous proposition makes the line bundle positive.
 
 ### Examples
 
@@ -74,7 +74,7 @@ by the Cauchy-Schwarz inequality $|\sum \bar w_j \xi_j|^2 \leq |w|^2 |\xi|^2$. S
 $$\int_\ell \omega_{\mathrm{FS}} = \frac{1}{2\pi} \int_0^{2\pi} \int_0^\infty \frac{2 r \, dr}{(1 + r^2)^2} d\theta = \int_0^\infty \frac{2r\, dr}{(1+r^2)^2} = 1.$$
 By Proposition P6.5.6, $c_1(\mathcal{O}(1))$ pairs to $1$ with the class of a line, which generates $H_2(\mathbb{P}^n, \mathbb{Z})$, so it generates $H^2(\mathbb{P}^n, \mathbb{Z}) \cong \operatorname{Hom}(H_2(\mathbb{P}^n, \mathbb{Z}), \mathbb{Z})$.
 
-*Proposition P6.5.21.* Part 1: choose any metric $h_0$ on $L$. By Proposition P6.5.6, $\beta = \alpha - \frac{i}{2\pi}\Theta_{h_0}$ is a $d$-exact real $(1,1)$-form. By the $\partial\bar\partial$-lemma of Chapter 4 there is a smooth function $u$ with $\beta = i \partial \bar\partial u$; replacing $u$ by its real part does not change $i \partial\bar\partial u$, because $i\partial\bar\partial$ maps real functions to real forms and $\beta$ is real. Put $h = e^{-2\pi u} h_0$. Locally $\log |e|^2_h = \log |e|^2_{h_0} - 2\pi u$, so
+*Proposition P6.5.21.* Part 1: choose any metric $h_0$ on $L$. By Proposition P6.5.6, $\beta = \alpha - \frac{i}{2\pi}\Theta_{h_0}$ is a $d$-exact real $(1,1)$-form. By the $\partial\bar\partial$-lemma (Corollary P6.4.18) there is a smooth function $u$ with $\beta = i \partial \bar\partial u$; replacing $u$ by its real part does not change $i \partial\bar\partial u$, because $i\partial\bar\partial$ maps real functions to real forms and $\beta$ is real. Put $h = e^{-2\pi u} h_0$. Locally $\log |e|^2_h = \log |e|^2_{h_0} - 2\pi u$, so
 $$\frac{i}{2\pi} \Theta_h = \frac{i}{2\pi} \Theta_{h_0} + \frac{i}{2\pi} \partial\bar\partial(2\pi u) = \frac{i}{2\pi}\Theta_{h_0} + \beta = \alpha.$$
 Part 2: if $L$ is positive with metric $h$, then $\frac{i}{2\pi}\Theta_h$ is a Kähler form in $c_1(L)_\mathbb{R}$ by Proposition P6.5.6. Conversely, apply part 1 to a Kähler form $\alpha$ in the class.
 
@@ -103,4 +103,4 @@ Mathlib has no Hermitian metrics on holomorphic line bundles and no curvature fo
 
 ### Notes and history
 
-Positive line bundles in this sense were introduced by Kodaira (Kod54a), who called a compact Kähler manifold with a rational Kähler class a Hodge manifold after Hodge's use of such metrics on projective varieties; Chapter 6 proves Kodaira's theorem that Hodge manifolds are projective. The term ample is reserved in the handbook for the algebraic notion of Definition P3.6.22, and Chapter 6 shows that the two notions agree for line bundles on compact complex manifolds. The presentation follows Huybrechts, Sections 4.3 and 5.3 (Huy05), and Griffiths and Harris, Chapter 1, Section 2 (GH78); Voisin treats positivity through Kähler classes in Chapter 7 (Voi02a). The Riemann condition of Example P6.5.27 is Mumford, Section 3 (Mum70a), and Exercise 6, with the embedding theorem of Chapter 6, is Kodaira's theorem that a compact Kähler manifold with $h^{2,0} = 0$ is projective (Kod54a).
+Positive line bundles in this sense were introduced by Kodaira (Kod54a), who called a compact Kähler manifold with a rational Kähler class a Hodge manifold after Hodge's use of such metrics on projective varieties; Chapter 6 proves Kodaira's theorem that Hodge manifolds are projective. The term ample is reserved in the handbook for the algebraic notion of Definition P3.6.22, and Chapter 6 shows that the two notions agree for line bundles on compact complex manifolds. The presentation follows Huybrechts, Sections 4.3 and 5.3 (Huy05), and Griffiths and Harris, Chapter 1, Section 2 (GH78); Voisin treats positivity through Kähler classes in Chapter 7 (Voi02). The Riemann condition of Example P6.5.27 is Mumford, Section 3 (Mum70a), and Exercise 6, with the embedding theorem of Chapter 6, is Kodaira's theorem that a compact Kähler manifold with $h^{2,0} = 0$ is projective (Kod54a).
