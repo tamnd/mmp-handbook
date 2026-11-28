@@ -6,6 +6,7 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P8 Part A, Chapters 1 to 3: Hom and Hilbert schemes, bend-and-break with Mori's theorem, and uniruled and rationally connected varieties (KMM, Graber-Harris-Starr).
 - P8 Part B, Chapters 4 and 5: resolution of curves and surfaces (Jung's method, minimal log resolutions, lct of plane curves) and Hironaka's theorems with their consequences.
 - P7 Chapters 8 to 11: vanishing theorems (Kodaira, Kawamata-Viehweg, Grauert-Riemenschneider, Kollár), multiplier ideals and Nadel vanishing, and characteristic p.
 - P7 Chapters 5 to 7: big and pseudo-effective divisors, section rings and Iitaka dimension, and volume and base loci, with Zariski decompositions on Bl_p P^2, F_n and the blow-up of P^2 at three points.
