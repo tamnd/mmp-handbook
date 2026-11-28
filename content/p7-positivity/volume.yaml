@@ -1,0 +1,18 @@
+number: P7
+title: Intersection numbers, positivity and vanishing
+subtitle: Intersection numbers of line bundles on projective schemes, numerical equivalence and the spaces N^1 and N_1, the criteria of Nakai-Moishezon, Kleiman and Seshadri, the nef, ample and pseudo-effective cones and the closed cone of curves, big divisors, section rings and Iitaka dimension, volume and base loci, the vanishing theorems of Kodaira, Kawamata-Viehweg, Grauert-Riemenschneider and Kollár, multiplier ideals, and the failure of vanishing in characteristic p with Raynaud's example, Deligne-Illusie and Frobenius splitting
+level: prereq
+requires: [P4, P5, P6]
+spine: ["Lazarsfeld, Positivity in algebraic geometry I and II (Laz04)", "Debarre, Higher-dimensional algebraic geometry, Chapter 1 (Deb01)", "Kleiman, Toward a numerical theory of ampleness (Kle66)", "Kollár and Mori, Birational geometry of algebraic varieties, Chapters 1 and 2 (KM98)"]
+chapters:
+  - "1. Intersection numbers: Snapper's theorem on Euler characteristics, the intersection number of line bundles with a coherent sheaf, the cycle formula, the projection formula and asymptotic Riemann-Roch, and computations on blow-ups and projective bundles"
+  - "2. Numerical equivalence and N^1, N_1: numerically trivial line bundles, R-divisors, the perfect pairing between N^1(X) and N_1(X), the theorem of the base, and pullback and pushforward of classes"
+  - "3. The criteria of Nakai-Moishezon, Kleiman and Seshadri: the Nakai-Moishezon criterion for projective schemes, nef divisors and Kleiman's theorem, the ample cone as the interior of the nef cone, Kleiman's criterion by curves, Seshadri constants, and Mumford's nef divisor that is positive on curves and not ample"
+  - "4. Nef and ample cones and the closed cone of curves: convex cones and duality, the duality of the nef cone and the closed cone of curves, faces and contractions, and the cones of products, Hirzebruch surfaces, blow-ups of the plane and of projective space"
+  - "5. Big and pseudo-effective divisors: big divisors and Kodaira's lemma, the big cone and the pseudo-effective cone, movable curves and the duality theorem of Boucksom, Demailly, Paun and Peternell"
+  - "6. Section rings and Iitaka dimension: the section ring of a divisor, the Iitaka dimension and the Iitaka fibration, finite generation and Zariski's example, and the Kodaira dimension"
+  - "7. Volume and base loci: the volume of a divisor and its continuity, Fujita approximation, the stable and augmented base loci, and Zariski decompositions in higher dimension"
+  - "8. Vanishing I, Kodaira and Kawamata-Viehweg: Kodaira vanishing, cyclic covers, Kawamata-Viehweg vanishing for nef and big Q-divisors, and Nadel's form"
+  - "9. Vanishing II, Grauert-Riemenschneider and Kollár: relative vanishing, the Grauert-Riemenschneider theorem, Kollár's torsion-freeness and injectivity theorems"
+  - "10. Multiplier ideals: multiplier ideals of divisors and ideals, Nadel vanishing, log canonical thresholds and the connection with singularities of pairs"
+  - "11. Characteristic p: Raynaud's counterexample to Kodaira vanishing, the Deligne-Illusie theorem through lifting to W_2, and Frobenius splitting"
