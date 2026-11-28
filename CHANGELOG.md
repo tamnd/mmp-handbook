@@ -6,6 +6,9 @@ Each release has a section. The newest release is first.
 
 ### Added
 
+- P6 Chapters 5 to 8: line bundles and Kähler classes with the Lefschetz (1,1) theorem, Kodaira-Akizuki-Nakano vanishing and the Kodaira embedding theorem with full proofs, Chow, GAGA and the Lefschetz principle, and singular metrics, Lelong numbers and analytic multiplier ideals.
+- P6, Complex geometry and Hodge theory, a new volume with its plan of 8 chapters, and Chapters 1 to 4: several complex variables with the Dolbeault-Grothendieck lemma, complex manifolds and Dolbeault cohomology, Hermitian bundles and Chern-Weil theory, and Kähler manifolds with the Hodge decomposition, hard Lefschetz and the Hodge-Riemann relations.
+- Volume 5 Chapters 4 to 6: local properties of multiplier ideals (restriction, subadditivity, Skoda and Briançon-Skoda, jumping numbers), extension theorems and invariance of plurigenera (outline), and characteristic p (Raynaud, Frobenius splitting, Fedder's criterion, test ideals, a preview of Volume 11).
 - Volume 5, Vanishing theorems and multiplier ideals, a new volume with its plan of 6 chapters, and Chapters 1 to 3: Kawamata-Viehweg for pairs and over a base with the covering trick, Kollár injectivity and torsion freeness, and multiplier ideals of pairs with Nadel vanishing and mixed monomial multiplier ideals.
 
 ## v0.0.11 - 2026-11-28
